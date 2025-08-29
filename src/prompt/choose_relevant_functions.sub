@@ -1,0 +1,5 @@
+{INDEX}. `{FUNCTION_NAME}`
+    {FUNCTION_PURPOSE} Its signature is:
+    ```{LANGUAGE_TAG}
+    {FUNCTION_SIGNATURE}
+    ```

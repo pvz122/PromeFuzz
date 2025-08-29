@@ -1,0 +1,48 @@
+
+[exiv2]
+
+language = "c++"
+
+
+header_paths = ["database/exiv2/latest/code/include"]
+
+
+compile_commands_path = "database/exiv2/latest/build_asan/compile_commands.json"
+
+
+document_paths = [
+    "database/exiv2/latest/code/exiv2.md",
+    "database/exiv2/latest/bin_asan/share/doc",
+]
+
+
+document_has_api_usage = true
+
+
+output_path = "database/exiv2/latest/out"
+
+# [MODIFY THIS] The compile arguments while building the fuzz driver. The fuzz driver will be built using command like:
+# clang++ path/to/fuzz/driver.cpp -o path/to/output -fsanitize=fuzzer,address,undefined -Ipath/to/headers [configured build args]
+driver_build_args = [
+    "database/exiv2/latest/bin_asan/lib/libexiv2.a",
+    "-Idatabase/exiv2/latest/code/include",
+    "-Idatabase/exiv2/latest/build_asan",
+    "-lfmt -lexpat -lz -lINIReader",
+]
+
+
+exclude_paths = []
+
+
+driver_headers = []
+
+consumer_case_paths = [
+    "database/exiv2/latest/code/unitTests",
+    "database/exiv2/latest/code/samples",
+    "database/exiv2/latest/code/fuzz",
+    "database/exiv2/latest/code/app",
+]
+consumer_build_args = [
+    "-Idatabase/exiv2/latest/code/include", 
+    "-Idatabase/exiv2/latest/build_asan"
+]

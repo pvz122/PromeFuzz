@@ -1,0 +1,40 @@
+# Configuration for fuzzing
+
+[aflpp]
+
+# The path to the AFL++ fuzzer executable
+fuzzer_path = "/usr/local/bin/afl-fuzz"
+
+# The config for a fuzzing session, take ngiflib as an example
+# format as target_name.version.identification_name
+[ngiflib.latest.promefuzz]
+
+# The fuzzer to use, currently only "aflpp" is supported
+fuzzer = "aflpp"
+
+# The path to the fuzz dirver binary
+bin = "../ngiflib/latest/out/fuzz_driver/aflpp_synthesized_driver"
+
+# The path to the ASAN enabled fuzz driver binary
+bin_asan = "../ngiflib/latest/out/fuzz_driver/aflpp_synthesized_driver"
+
+# The path to the GCov enabled fuzz driver binary
+bin_gcov = "../ngiflib/latest/out/fuzz_driver/gcov_synthesized_driver"
+
+# The path to the LLVM-Cov enabled fuzz driver binary
+bin_cov = "../ngiflib/latest/out/fuzz_driver/cov_synthesized_driver"
+
+# The path to the build directory with GCOV enabled
+build_gcov = "../ngiflib/latest/build_gcov"
+
+# The path to the input seed files
+in_path = "../ngiflib/in"
+
+# The base path to the output result
+out_base_path = "../ngiflib/latest/fuzz"
+
+# The command arguments to run the fuzz driver, default is "@@", which means the input file will be passed
+cmd = "@@"
+
+# The extra arguments to pass to the AFL++ fuzzer
+aflpp_args = ""

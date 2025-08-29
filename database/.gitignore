@@ -1,0 +1,5 @@
+fuzz.toml
+dummy_file
+
+asan/
+gcov/

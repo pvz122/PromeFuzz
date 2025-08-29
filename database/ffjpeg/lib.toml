@@ -1,0 +1,34 @@
+
+
+
+[ffjpeg]
+
+language = "c"
+
+
+header_paths = ["database/ffjpeg/latest/code/src"]
+
+
+compile_commands_path = "database/ffjpeg/latest/build_asan/compile_commands.json"
+
+
+document_paths = ["database/ffjpeg/latest/code/README"]
+
+
+output_path = "database/ffjpeg/latest/out"
+
+
+driver_build_args = ["database/ffjpeg/latest/bin_asan/lib/libffjpeg.a"]
+
+
+exclude_paths = []
+
+
+driver_headers = []
+
+consumer_case_paths = [
+    "database/ffjpeg/latest/code/src/ffjpeg.c",
+    "database/ffjpeg/latest/code/src/huffman.c",
+    "database/ffjpeg/latest/code/src/bmp.c"
+]
+consumer_build_args = ["-D_TEST_HUFFMAN_", "-D_TEST_BMP_"]

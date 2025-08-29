@@ -1,0 +1,57 @@
+
+[libvpx]
+
+language = "c"
+
+compile_commands_path = "database/libvpx/latest/build_asan/compile_commands.json"
+
+
+# XXX: THIS IS NOT COMPLETE...
+header_paths = ["database/libvpx/latest/code/vpx"]
+
+
+document_paths = ["database/libvpx/latest/code/README"]
+
+
+document_has_api_usage = false
+
+
+output_path = "database/libvpx/latest/out"
+
+
+driver_build_args = [
+    "database/libvpx/latest/bin_asan/lib/libvpx.a",
+    "-Idatabase/libvpx/latest/code",
+]
+
+
+consumer_case_paths = [
+    "database/libvpx/latest/code/examples",
+    "database/libvpx/latest/code/test",
+]
+
+
+consumer_build_args = [
+    "-Idatabase/libvpx/latest/code",
+    "-Idatabase/libvpx/latest/code/third_party/googletest/src/include",
+    "-Idatabase/libvpx/latest/build_asan",
+]
+
+
+source_paths = []
+
+
+exclude_paths = ["database/libvpx/latest/code/vpx/internal"]
+
+
+driver_headers = [
+    "database/libvpx/latest/code/vpx/vp8cx.h",
+    "database/libvpx/latest/code/vpx/vp8dx.h",
+]
+
+# The json file path storing API ban list. All APIs in the ban list will be excluded from generation.
+# The format of the json file should be: `["function_location", ...]`.
+api_ban_list_path = "database/libvpx/api_ban_list.json"
+
+
+api_hints_path = ""

@@ -1,0 +1,17 @@
+[ngiflib]
+language = "c"
+header_paths = ["./database/ngiflib/latest/build_asan"]
+compile_commands_path = "./database/ngiflib/latest/build_asan/compile_commands.json"
+document_paths = [
+    # "./database/ngiflib/latest/build_asan/readme.txt",
+    "https://github.com/miniupnp/ngiflib",
+]
+output_path = "./database/ngiflib/latest/out"
+driver_build_args = [
+    "./database/ngiflib/latest/bin_asan/lib/libngiflib.a",
+    "-lSDL",
+    "-I/usr/include/SDL",
+]
+exclude_paths = []
+driver_headers = []
+consumer_case_paths = ["database/ngiflib/latest/code/gif2tga.c", "database/ngiflib/latest/code/gif2tga.c"]

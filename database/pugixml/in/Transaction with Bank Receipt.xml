@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Company>
+  <Transactions>
+    <Transaction>
+      <Id>239</Id>
+      <CustomerId>1</CustomerId>
+      <TransactionType>BankReceipt</TransactionType>
+      <AccountReference>1200</AccountReference>
+      <TransactionDate>2011-01-01T11:11:11</TransactionDate>
+      <NominalCode>4000</NominalCode>
+      <Reference>239</Reference>
+      <PaymentReference></PaymentReference>
+      <Details>Sale of goods on website</Details>
+      <NetAmount>100</NetAmount>
+      <TaxRate>20</TaxRate>
+      <TaxCode>1</TaxCode>
+      <TaxAmount>20</TaxAmount>
+    </Transaction>
+  </Transactions>
+</Company>

@@ -1,0 +1,45 @@
+
+[libmagic]
+
+language = "c"
+
+compile_commands_path = "database/libmagic/latest/build_asan/compile_commands.json"
+
+
+header_paths = ["database/libmagic/latest/build_asan/src/magic.h"]
+
+
+document_paths = ["database/libmagic/latest/build_asan/mandoc.txt"]
+
+
+document_has_api_usage = true
+
+
+output_path = "database/libmagic/latest/out"
+
+
+driver_build_args = [
+    "database/libmagic/latest/bin_asan/lib/libmagic.a",
+    "-llzma",
+    "-lzstd",
+    "-lz"
+]
+
+
+consumer_case_paths = ["database/libmagic/latest/code/src/file.c", "database/libmagic/latest/code/tests/test.c", "database/libmagic/latest/code/fuzz/magic_fuzzer.c"]
+
+
+consumer_build_args = []
+
+
+source_paths = []
+
+
+exclude_paths = []
+
+
+driver_headers = []
+
+
+api_hints_path = "database/libmagic/api_hints.json"
+

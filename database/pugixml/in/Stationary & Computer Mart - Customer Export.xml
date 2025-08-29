@@ -1,0 +1,3503 @@
+<?xml version="1.0"?>
+<Company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Products />
+  <Styles />
+  <Inventories />
+  <Customers>
+    <Customer>
+      <Id />
+      <AccountReference>A1D001</AccountReference>
+      <CompanyName>A1 Design Services</CompanyName>
+      <Balance>0</Balance>
+      <VatNumber>GB238 3839 38</VatNumber>
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Jim</Forename>
+        <Surname>Thomas</Surname>
+        <Company>A1 Design Services</Company>
+        <Address1>67a Station Road</Address1>
+        <Address2 />
+        <Town>Blackpool</Town>
+        <Postcode>BP12 7HT</Postcode>
+        <County>Lancashire</County>
+        <Country>GB</Country>
+        <Telephone>01742 876 234</Telephone>
+        <Fax>01742 876 236</Fax>
+        <Mobile>01742 876 235</Mobile>
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Malcolm Leverret</TradeContact>
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Jim</Forename>
+        <Surname>Thomas</Surname>
+        <Company>A1 Design Services</Company>
+        <Address1>67a Station Road</Address1>
+        <Address2 />
+        <Town>Blackpool</Town>
+        <Postcode>BP12 7HT</Postcode>
+        <County>Lancashire</County>
+        <Country>GB</Country>
+        <Telephone>01742 876 234</Telephone>
+        <Fax>01742 876 235</Fax>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>George</Analysis2>
+      <Analysis3>Lancashire</Analysis3>
+      <NominalCode>4000</NominalCode>
+      <Department>0</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>0</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>TRADEA</PriceListReference>
+      <DiscountType>NoDiscount</DiscountType>
+      <DiscountTable />
+      <CreditLimit>1000</CreditLimit>
+      <SettlementDays>15</SettlementDays>
+      <SettlementDiscount>2.5</SettlementDiscount>
+      <PaymentDays>30</PaymentDays>
+      <Terms>30 days nett</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2006-01-02T00:00:00</AccountOpened>
+      <LastCreditReview>2006-12-04T00:00:00</LastCreditReview>
+      <NextCreditReview>2007-02-01T00:00:00</NextCreditReview>
+      <ApplicationDate>2006-01-02T00:00:00</ApplicationDate>
+      <DateReceived>2006-01-02T00:00:00</DateReceived>
+      <LastInvoiceDate>2006-03-15T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2006-04-27T00:00:00</LastPaymentDate>
+      <TurnoverMTD>5220.54</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+    <Customer>
+      <Id />
+      <AccountReference>ABS001</AccountReference>
+      <CompanyName>ABS Garages Ltd</CompanyName>
+      <Balance>2533.31</Balance>
+      <VatNumber>GB745 4584 68</VatNumber>
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Mike</Forename>
+        <Surname>Hall</Surname>
+        <Company>ABS Garages Ltd</Company>
+        <Address1>Unit 34</Address1>
+        <Address2>Holystone Ind Estate</Address2>
+        <Town>Hebburn</Town>
+        <Postcode>NE31 1VB</Postcode>
+        <County>Tyne &amp; Wear</County>
+        <Country>GB</Country>
+        <Telephone>0191 254 5909</Telephone>
+        <Fax>0191 254 5907</Fax>
+        <Mobile>0191 254 5908</Mobile>
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Peter Yates</TradeContact>
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Mike</Forename>
+        <Surname>Hall</Surname>
+        <Company>ABS Garages Ltd</Company>
+        <Address1>Swanson Industries</Address1>
+        <Address2>Dukes Industrial Estate</Address2>
+        <Town>Whitley Bay</Town>
+        <Postcode>NE56 4ER</Postcode>
+        <County>North Tyneside</County>
+        <Country>GB</Country>
+        <Telephone>0191 232 2345</Telephone>
+        <Fax>0191 245 3464</Fax>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>George</Analysis2>
+      <Analysis3>Tyne &amp; Wear</Analysis3>
+      <NominalCode>4000</NominalCode>
+      <Department>1</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>0</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>TRADEB</PriceListReference>
+      <DiscountType>InvoiceValue</DiscountType>
+      <DiscountTable />
+      <CreditLimit>4000</CreditLimit>
+      <SettlementDays>30</SettlementDays>
+      <SettlementDiscount>2.5</SettlementDiscount>
+      <PaymentDays>30</PaymentDays>
+      <Terms>30 Days</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2000-12-13T00:00:00</AccountOpened>
+      <LastCreditReview>2006-09-09T00:00:00</LastCreditReview>
+      <NextCreditReview>2007-03-09T00:00:00</NextCreditReview>
+      <ApplicationDate>2000-12-10T00:00:00</ApplicationDate>
+      <DateReceived>2000-12-11T00:00:00</DateReceived>
+      <LastInvoiceDate>2006-04-24T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2006-04-27T00:00:00</LastPaymentDate>
+      <TurnoverMTD>5603.76</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+    <Customer>
+      <Id />
+      <AccountReference>BBS001</AccountReference>
+      <CompanyName>Bobs Building Supplies</CompanyName>
+      <Balance>4309.77</Balance>
+      <VatNumber>GB454 3459 48</VatNumber>
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Susan</Forename>
+        <Surname>Livingstone</Surname>
+        <Company>Bobs Building Supplies</Company>
+        <Address1>Timber Yard</Address1>
+        <Address2>123 Prescot Way</Address2>
+        <Town>Alnwick</Town>
+        <Postcode>AL12 6GH</Postcode>
+        <County>Northumberland</County>
+        <Country>GB</Country>
+        <Telephone>01983 567 123</Telephone>
+        <Fax>01983 234 567</Fax>
+        <Mobile>01983 567 124</Mobile>
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Bob Livingstone</TradeContact>
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Susan</Forename>
+        <Surname>Livingstone</Surname>
+        <Company>Bobs Building Supplies</Company>
+        <Address1>Timber Yard</Address1>
+        <Address2>123 Prescot Way</Address2>
+        <Town>Alnwick</Town>
+        <Postcode>AL12 6GH</Postcode>
+        <County>Northumberland</County>
+        <Country>GB</Country>
+        <Telephone>01983 567 123</Telephone>
+        <Fax>01983 234 567</Fax>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>George</Analysis2>
+      <Analysis3>Northumberland</Analysis3>
+      <NominalCode>4000</NominalCode>
+      <Department>0</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>0</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>TRADEA</PriceListReference>
+      <DiscountType>NoDiscount</DiscountType>
+      <DiscountTable />
+      <CreditLimit>2000</CreditLimit>
+      <SettlementDays>15</SettlementDays>
+      <SettlementDiscount>2.5</SettlementDiscount>
+      <PaymentDays>30</PaymentDays>
+      <Terms>30 days</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2005-03-01T00:00:00</AccountOpened>
+      <LastCreditReview>2006-04-01T00:00:00</LastCreditReview>
+      <NextCreditReview>2007-04-01T00:00:00</NextCreditReview>
+      <ApplicationDate>2005-02-28T00:00:00</ApplicationDate>
+      <DateReceived>2005-03-01T00:00:00</DateReceived>
+      <LastInvoiceDate>2006-04-27T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2006-01-29T00:00:00</LastPaymentDate>
+      <TurnoverMTD>10284.01</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+    <Customer>
+      <Id />
+      <AccountReference>BRI001</AccountReference>
+      <CompanyName>Fred Briant</CompanyName>
+      <Balance>0</Balance>
+      <VatNumber />
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Fred</Forename>
+        <Surname>Briant</Surname>
+        <Company>Fred Briant</Company>
+        <Address1>4 Oakfield Drive</Address1>
+        <Address2>Melkton Park</Address2>
+        <Town>Milton Keynes</Town>
+        <Postcode>MK4 3TG</Postcode>
+        <County>Bucks</County>
+        <Country>GB</Country>
+        <Telephone>01908 78787878</Telephone>
+        <Fax />
+        <Mobile>08980 88645556</Mobile>
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Fred Briant</TradeContact>
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Fred</Forename>
+        <Surname>Briant</Surname>
+        <Company>Fred Briant</Company>
+        <Address1>4 Oakfield Drive</Address1>
+        <Address2>Melkton Park</Address2>
+        <Town>Milton Keynes</Town>
+        <Postcode>MK4 3TG</Postcode>
+        <County>Bucks</County>
+        <Country>GB</Country>
+        <Telephone>01908 78787878</Telephone>
+        <Fax />
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Public</Analysis1>
+      <Analysis2>Malcolm</Analysis2>
+      <Analysis3>Bucks</Analysis3>
+      <NominalCode>4002</NominalCode>
+      <Department>1</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>0</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>PUBLIC</PriceListReference>
+      <DiscountType>NoDiscount</DiscountType>
+      <DiscountTable />
+      <CreditLimit>0</CreditLimit>
+      <SettlementDays>30</SettlementDays>
+      <SettlementDiscount>2.5</SettlementDiscount>
+      <PaymentDays>30</PaymentDays>
+      <Terms>30 Days Strictly Net</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2005-09-08T00:00:00</AccountOpened>
+      <LastCreditReview>0001-01-01T00:00:00</LastCreditReview>
+      <NextCreditReview>0001-01-01T00:00:00</NextCreditReview>
+      <ApplicationDate>0001-01-01T00:00:00</ApplicationDate>
+      <DateReceived>0001-01-01T00:00:00</DateReceived>
+      <LastInvoiceDate>2006-01-15T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2006-01-29T00:00:00</LastPaymentDate>
+      <TurnoverMTD>1029</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>true</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+    <Customer>
+      <Id />
+      <AccountReference>BRO001</AccountReference>
+      <CompanyName>Bronson Inc</CompanyName>
+      <Balance>0</Balance>
+      <VatNumber />
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Paul</Forename>
+        <Surname>Guy</Surname>
+        <Company>Bronson Inc</Company>
+        <Address1>18989 Royster Road</Address1>
+        <Address2>Suite 343</Address2>
+        <Town>Dallas Texas 769544</Town>
+        <Postcode />
+        <County>USA</County>
+        <Country>GB</Country>
+        <Telephone>001 214 248 8924</Telephone>
+        <Fax>001 214 248 8945</Fax>
+        <Mobile>001 214 248 8926</Mobile>
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Amanda Form</TradeContact>
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Paul</Forename>
+        <Surname>Guy</Surname>
+        <Company>Bronson Inc</Company>
+        <Address1>18989 Royster Road</Address1>
+        <Address2>Suite 343</Address2>
+        <Town>Dallas Texas 769544</Town>
+        <Postcode />
+        <County>USA</County>
+        <Country>GB</Country>
+        <Telephone>001 214 248 8924</Telephone>
+        <Fax>001 214 248 8926</Fax>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>Malcolm</Analysis2>
+      <Analysis3>International</Analysis3>
+      <NominalCode>4100</NominalCode>
+      <Department>6</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>0</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>0</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>TRADEA</PriceListReference>
+      <DiscountType>DiscountTable</DiscountType>
+      <DiscountTable>A</DiscountTable>
+      <CreditLimit>4000</CreditLimit>
+      <SettlementDays>45</SettlementDays>
+      <SettlementDiscount>2.5</SettlementDiscount>
+      <PaymentDays>45</PaymentDays>
+      <Terms>45 Days</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2002-12-31T00:00:00</AccountOpened>
+      <LastCreditReview>2006-03-01T00:00:00</LastCreditReview>
+      <NextCreditReview>2006-03-01T00:00:00</NextCreditReview>
+      <ApplicationDate>2002-12-01T00:00:00</ApplicationDate>
+      <DateReceived>2002-12-15T00:00:00</DateReceived>
+      <LastInvoiceDate>2006-03-10T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2006-04-27T00:00:00</LastPaymentDate>
+      <TurnoverMTD>14742.39</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+    <Customer>
+      <Id />
+      <AccountReference>BUS001</AccountReference>
+      <CompanyName>Business Exhibitions</CompanyName>
+      <Balance>2066.62</Balance>
+      <VatNumber>GB474 1291 28</VatNumber>
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Stephen</Forename>
+        <Surname>Kiszow</Surname>
+        <Company>Business Exhibitions</Company>
+        <Address1>44 Keswick Way</Address1>
+        <Address2 />
+        <Town>Penrith</Town>
+        <Postcode>CA97 9RT</Postcode>
+        <County>Cumbria</County>
+        <Country>GB</Country>
+        <Telephone>017684 30707</Telephone>
+        <Fax>017684 30708</Fax>
+        <Mobile>017684 30709</Mobile>
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Louise Whitehouse</TradeContact>
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Stephen</Forename>
+        <Surname>Kiszow</Surname>
+        <Company>Business Exhibitions</Company>
+        <Address1>89 High Street</Address1>
+        <Address2 />
+        <Town>Keswick</Town>
+        <Postcode>CA12 5TY</Postcode>
+        <County>Cumbria</County>
+        <Country>GB</Country>
+        <Telephone>01768 67689</Telephone>
+        <Fax>01768 67690</Fax>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>George</Analysis2>
+      <Analysis3>Cumbria</Analysis3>
+      <NominalCode>4000</NominalCode>
+      <Department>1</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>2.5</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>TRADEB</PriceListReference>
+      <DiscountType>NoDiscount</DiscountType>
+      <DiscountTable />
+      <CreditLimit>4000</CreditLimit>
+      <SettlementDays>0</SettlementDays>
+      <SettlementDiscount>0</SettlementDiscount>
+      <PaymentDays>0</PaymentDays>
+      <Terms>Proforma</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>9</AccountStatus>
+      <AccountStatusText>Cash only</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2000-11-26T00:00:00</AccountOpened>
+      <LastCreditReview>2006-02-01T00:00:00</LastCreditReview>
+      <NextCreditReview>2007-02-01T00:00:00</NextCreditReview>
+      <ApplicationDate>2000-11-01T00:00:00</ApplicationDate>
+      <DateReceived>2000-11-15T00:00:00</DateReceived>
+      <LastInvoiceDate>2006-03-30T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2006-03-30T00:00:00</LastPaymentDate>
+      <TurnoverMTD>7126.43</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+    <Customer>
+      <Id />
+      <AccountReference>CASH001</AccountReference>
+      <CompanyName>Cash and Credit Card Sales</CompanyName>
+      <Balance>0</Balance>
+      <VatNumber />
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename />
+        <Surname />
+        <Company>Cash and Credit Card Sales</Company>
+        <Address1 />
+        <Address2 />
+        <Town />
+        <Postcode />
+        <County />
+        <Country>GB</Country>
+        <Telephone />
+        <Fax />
+        <Mobile />
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename />
+        <Surname />
+        <Company />
+        <Address1 />
+        <Address2 />
+        <Town />
+        <Postcode />
+        <County />
+        <Country>GB</Country>
+        <Telephone />
+        <Fax />
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Cash</Analysis1>
+      <Analysis2>Malcolm</Analysis2>
+      <Analysis3 />
+      <NominalCode>4002</NominalCode>
+      <Department>1</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>0</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>TRADEB</PriceListReference>
+      <DiscountType>NoDiscount</DiscountType>
+      <DiscountTable />
+      <CreditLimit>0</CreditLimit>
+      <SettlementDays>30</SettlementDays>
+      <SettlementDiscount>2.5</SettlementDiscount>
+      <PaymentDays>30</PaymentDays>
+      <Terms>30 Days Strictly Net</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>0001-01-01T00:00:00</AccountOpened>
+      <LastCreditReview>0001-01-01T00:00:00</LastCreditReview>
+      <NextCreditReview>0001-01-01T00:00:00</NextCreditReview>
+      <ApplicationDate>0001-01-01T00:00:00</ApplicationDate>
+      <DateReceived>0001-01-01T00:00:00</DateReceived>
+      <LastInvoiceDate>2006-04-14T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2006-04-27T00:00:00</LastPaymentDate>
+      <TurnoverMTD>30561.3</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+    <Customer>
+      <Id />
+      <AccountReference>CGS001</AccountReference>
+      <CompanyName>County Golf Supplies</CompanyName>
+      <Balance>2028.03</Balance>
+      <VatNumber>GB937 3839 57</VatNumber>
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Jeff</Forename>
+        <Surname>Walker</Surname>
+        <Company>County Golf Supplies</Company>
+        <Address1>18a Sunderland Road</Address1>
+        <Address2 />
+        <Town>Gilesgate</Town>
+        <Postcode>DH14 3HT</Postcode>
+        <County>Durham</County>
+        <Country>GB</Country>
+        <Telephone>0191 385 6432</Telephone>
+        <Fax>0191 385 6434</Fax>
+        <Mobile>0191 385 6433</Mobile>
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Kathy Walker</TradeContact>
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Jeff</Forename>
+        <Surname>Walker</Surname>
+        <Company>County Golf Supplies</Company>
+        <Address1>18a Sunderland Road</Address1>
+        <Address2 />
+        <Town>Gilesgate</Town>
+        <Postcode>DH14 3HT</Postcode>
+        <County>Durham</County>
+        <Country>GB</Country>
+        <Telephone>0191 385 6432</Telephone>
+        <Fax>0191 385 6434</Fax>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>George</Analysis2>
+      <Analysis3>County Durham</Analysis3>
+      <NominalCode>4000</NominalCode>
+      <Department>0</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>0</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>TRADEA</PriceListReference>
+      <DiscountType>NoDiscount</DiscountType>
+      <DiscountTable />
+      <CreditLimit>3000</CreditLimit>
+      <SettlementDays>15</SettlementDays>
+      <SettlementDiscount>2.5</SettlementDiscount>
+      <PaymentDays>30</PaymentDays>
+      <Terms>30 days</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2005-03-01T00:00:00</AccountOpened>
+      <LastCreditReview>2006-02-02T00:00:00</LastCreditReview>
+      <NextCreditReview>2006-08-02T00:00:00</NextCreditReview>
+      <ApplicationDate>2005-02-28T00:00:00</ApplicationDate>
+      <DateReceived>2005-03-01T00:00:00</DateReceived>
+      <LastInvoiceDate>2006-03-07T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2006-04-27T00:00:00</LastPaymentDate>
+      <TurnoverMTD>5950.47</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>true</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+    <Customer>
+      <Id />
+      <AccountReference>COM001</AccountReference>
+      <CompanyName>Compton Packaging</CompanyName>
+      <Balance>2807.04</Balance>
+      <VatNumber>GB987 1234 45</VatNumber>
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Sean</Forename>
+        <Surname>Morris</Surname>
+        <Company>Compton Packaging</Company>
+        <Address1>Longway</Address1>
+        <Address2>Bede Industrial Estate</Address2>
+        <Town>Jarrow</Town>
+        <Postcode>NE43 5UY</Postcode>
+        <County>Tyne &amp; Wear</County>
+        <Country>GB</Country>
+        <Telephone>0191 121 9876</Telephone>
+        <Fax>0191 121 9877</Fax>
+        <Mobile>0191 121 9878</Mobile>
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Daniel McNamee</TradeContact>
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Sean</Forename>
+        <Surname>Morris</Surname>
+        <Company>Compton Packaging</Company>
+        <Address1>1040 Howe Street</Address1>
+        <Address2>Nr Sunderland Road</Address2>
+        <Town>Birtley</Town>
+        <Postcode>NE44 7PF</Postcode>
+        <County>Tyne and Wear</County>
+        <Country>GB</Country>
+        <Telephone>0191 122 8578</Telephone>
+        <Fax>0191 122 8579</Fax>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>George</Analysis2>
+      <Analysis3>Tyne &amp; Wear</Analysis3>
+      <NominalCode>4000</NominalCode>
+      <Department>1</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>2</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>TRADEB</PriceListReference>
+      <DiscountType>DiscountTable</DiscountType>
+      <DiscountTable>A</DiscountTable>
+      <CreditLimit>4000</CreditLimit>
+      <SettlementDays>30</SettlementDays>
+      <SettlementDiscount>2.5</SettlementDiscount>
+      <PaymentDays>45</PaymentDays>
+      <Terms>45 Days</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2000-09-10T00:00:00</AccountOpened>
+      <LastCreditReview>2006-02-02T00:00:00</LastCreditReview>
+      <NextCreditReview>2006-08-02T00:00:00</NextCreditReview>
+      <ApplicationDate>2000-09-01T00:00:00</ApplicationDate>
+      <DateReceived>2001-09-01T00:00:00</DateReceived>
+      <LastInvoiceDate>2009-08-12T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2006-04-15T00:00:00</LastPaymentDate>
+      <TurnoverMTD>5795.72</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+    <Customer>
+      <Id />
+      <AccountReference>DST001</AccountReference>
+      <CompanyName>Johnson Design &amp; Build Partners</CompanyName>
+      <Balance>0</Balance>
+      <VatNumber>GB393 6042 32</VatNumber>
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Peter</Forename>
+        <Surname>Quigley</Surname>
+        <Company>Johnson Design &amp; Build Partners</Company>
+        <Address1>Unit 12</Address1>
+        <Address2>Corporation Buildings</Address2>
+        <Town>North Shields</Town>
+        <Postcode>NE12 6GH</Postcode>
+        <County>North Tyneside</County>
+        <Country>GB</Country>
+        <Telephone>0191 234 567</Telephone>
+        <Fax>0191 234 569</Fax>
+        <Mobile>0191 234 568</Mobile>
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Kevin Jefferson</TradeContact>
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Peter</Forename>
+        <Surname>Quigley</Surname>
+        <Company>Johnson Design &amp; Build Partners</Company>
+        <Address1>Unit 12</Address1>
+        <Address2>Corporation Buildings</Address2>
+        <Town>North Shields</Town>
+        <Postcode>NE12 6GH</Postcode>
+        <County>North Tyneside</County>
+        <Country>GB</Country>
+        <Telephone>0191 234 567</Telephone>
+        <Fax>0191 234 569</Fax>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>George</Analysis2>
+      <Analysis3>Tyne &amp; Wear</Analysis3>
+      <NominalCode>4000</NominalCode>
+      <Department>0</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>0</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>TRADEA</PriceListReference>
+      <DiscountType>NoDiscount</DiscountType>
+      <DiscountTable />
+      <CreditLimit>2000</CreditLimit>
+      <SettlementDays>15</SettlementDays>
+      <SettlementDiscount>2.5</SettlementDiscount>
+      <PaymentDays>30</PaymentDays>
+      <Terms>30 days</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2005-03-03T00:00:00</AccountOpened>
+      <LastCreditReview>2006-02-02T00:00:00</LastCreditReview>
+      <NextCreditReview>2006-08-02T00:00:00</NextCreditReview>
+      <ApplicationDate>2005-03-02T00:00:00</ApplicationDate>
+      <DateReceived>2005-03-03T00:00:00</DateReceived>
+      <LastInvoiceDate>2006-02-07T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2006-04-17T00:00:00</LastPaymentDate>
+      <TurnoverMTD>3947.99</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+    <Customer>
+      <Id />
+      <AccountReference>FGL001</AccountReference>
+      <CompanyName>F G Landscape &amp; Design</CompanyName>
+      <Balance>11260.26</Balance>
+      <VatNumber>GB347 3423 34</VatNumber>
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>David</Forename>
+        <Surname>Bradford</Surname>
+        <Company>F G Landscape &amp; Design</Company>
+        <Address1>189 Kings Street</Address1>
+        <Address2 />
+        <Town>Norwich</Town>
+        <Postcode>N78 8GI</Postcode>
+        <County>Norfolk</County>
+        <Country>GB</Country>
+        <Telephone>01603 354564</Telephone>
+        <Fax>01603 354783</Fax>
+        <Mobile>01603 354565</Mobile>
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Jan Dixon</TradeContact>
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>David</Forename>
+        <Surname>Bradford</Surname>
+        <Company>F G Landscape &amp; Design</Company>
+        <Address1>189 Kings Street</Address1>
+        <Address2 />
+        <Town>Norwich</Town>
+        <Postcode>N78 8GI</Postcode>
+        <County>Norfolk</County>
+        <Country>GB</Country>
+        <Telephone>01603 354564</Telephone>
+        <Fax>01603 354783</Fax>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>Malcolm</Analysis2>
+      <Analysis3>Norfolk</Analysis3>
+      <NominalCode>4001</NominalCode>
+      <Department>1</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>0</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>TRADEB</PriceListReference>
+      <DiscountType>InvoiceValue</DiscountType>
+      <DiscountTable />
+      <CreditLimit>1000</CreditLimit>
+      <SettlementDays>0</SettlementDays>
+      <SettlementDiscount>0</SettlementDiscount>
+      <PaymentDays>0</PaymentDays>
+      <Terms>Proforma</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2000-10-28T00:00:00</AccountOpened>
+      <LastCreditReview>2005-01-01T00:00:00</LastCreditReview>
+      <NextCreditReview>2007-01-30T00:00:00</NextCreditReview>
+      <ApplicationDate>2000-10-01T00:00:00</ApplicationDate>
+      <DateReceived>2000-10-04T00:00:00</DateReceived>
+      <LastInvoiceDate>2006-04-14T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2006-04-21T00:00:00</LastPaymentDate>
+      <TurnoverMTD>22127.86</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+    <Customer>
+      <Id />
+      <AccountReference>GRA001</AccountReference>
+      <CompanyName>Graham Electonics</CompanyName>
+      <Balance>4149.09</Balance>
+      <VatNumber>GB563 5673 34</VatNumber>
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Clint</Forename>
+        <Surname>Peddie</Surname>
+        <Company>Graham Electonics</Company>
+        <Address1>150 New Road</Address1>
+        <Address2 />
+        <Town>Glasgow</Town>
+        <Postcode>G12 3FS</Postcode>
+        <County>Scotland</County>
+        <Country>GB</Country>
+        <Telephone>0141 373 2828</Telephone>
+        <Fax>0141 383 2772</Fax>
+        <Mobile>0141 373 2829</Mobile>
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Darlene Holdsworth</TradeContact>
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Clint</Forename>
+        <Surname>Peddie</Surname>
+        <Company>Graham Electonics</Company>
+        <Address1>150 New Road</Address1>
+        <Address2 />
+        <Town>Glasgow</Town>
+        <Postcode>G12 3FS</Postcode>
+        <County>Scotland</County>
+        <Country>GB</Country>
+        <Telephone>0141 373 2828</Telephone>
+        <Fax>0141 3832772</Fax>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>George</Analysis2>
+      <Analysis3>Scotland</Analysis3>
+      <NominalCode>4002</NominalCode>
+      <Department>1</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>0</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>TRADEA</PriceListReference>
+      <DiscountType>InvoiceValue</DiscountType>
+      <DiscountTable />
+      <CreditLimit>4000</CreditLimit>
+      <SettlementDays>45</SettlementDays>
+      <SettlementDiscount>2.5</SettlementDiscount>
+      <PaymentDays>45</PaymentDays>
+      <Terms>45 Days</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2001-12-12T00:00:00</AccountOpened>
+      <LastCreditReview>2006-03-03T00:00:00</LastCreditReview>
+      <NextCreditReview>2006-06-03T00:00:00</NextCreditReview>
+      <ApplicationDate>2001-11-11T00:00:00</ApplicationDate>
+      <DateReceived>2001-11-14T00:00:00</DateReceived>
+      <LastInvoiceDate>2006-04-27T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2006-04-21T00:00:00</LastPaymentDate>
+      <TurnoverMTD>8995.1</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+    <Customer>
+      <Id />
+      <AccountReference>HAU001</AccountReference>
+      <CompanyName>Hausser GMBH</CompanyName>
+      <Balance>1975.16</Balance>
+      <VatNumber>DE23467341 9</VatNumber>
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Alistair</Forename>
+        <Surname>Leadbetter</Surname>
+        <Company>Hausser GMBH</Company>
+        <Address1>Nordring Str 98</Address1>
+        <Address2>5270 Braunschweig</Address2>
+        <Town>Germany</Town>
+        <Postcode />
+        <County />
+        <Country>GB</Country>
+        <Telephone>00 49 531 3443334</Telephone>
+        <Fax>00 49 531 3443336</Fax>
+        <Mobile>00 49 531 3443335</Mobile>
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Anthony Stobart</TradeContact>
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Alistair</Forename>
+        <Surname>Leadbetter</Surname>
+        <Company>Hausser GMBH</Company>
+        <Address1>Nordring Str 98</Address1>
+        <Address2>5270 Braunshweig</Address2>
+        <Town>Germany</Town>
+        <Postcode />
+        <County />
+        <Country>GB</Country>
+        <Telephone>00 49 531 3443334</Telephone>
+        <Fax>00 49 531 3443336</Fax>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>Malcolm</Analysis2>
+      <Analysis3>International</Analysis3>
+      <NominalCode>4100</NominalCode>
+      <Department>6</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>4</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>2</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>TRADEB</PriceListReference>
+      <DiscountType>DiscountTable</DiscountType>
+      <DiscountTable>A</DiscountTable>
+      <CreditLimit>4000</CreditLimit>
+      <SettlementDays>45</SettlementDays>
+      <SettlementDiscount>2.5</SettlementDiscount>
+      <PaymentDays>45</PaymentDays>
+      <Terms>45 Days</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2001-01-31T00:00:00</AccountOpened>
+      <LastCreditReview>2006-03-03T00:00:00</LastCreditReview>
+      <NextCreditReview>2007-09-03T00:00:00</NextCreditReview>
+      <ApplicationDate>2001-01-25T00:00:00</ApplicationDate>
+      <DateReceived>2001-01-27T00:00:00</DateReceived>
+      <LastInvoiceDate>2006-04-14T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2006-04-23T00:00:00</LastPaymentDate>
+      <TurnoverMTD>4271.01</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+    <Customer>
+      <Id />
+      <AccountReference>JSS001</AccountReference>
+      <CompanyName>John Smith Studios</CompanyName>
+      <Balance>972.07</Balance>
+      <VatNumber>GB934 3930 95</VatNumber>
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>John</Forename>
+        <Surname>Smith</Surname>
+        <Company>John Smith Studios</Company>
+        <Address1>1192 Chaveny Road</Address1>
+        <Address2 />
+        <Town>East Herrington</Town>
+        <Postcode>HU12 7HJ</Postcode>
+        <County>Humberside</County>
+        <Country>GB</Country>
+        <Telephone>01327 617 542</Telephone>
+        <Fax>01327 617 544</Fax>
+        <Mobile>01327 617 543</Mobile>
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Joanne Smith</TradeContact>
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>John</Forename>
+        <Surname>Smith</Surname>
+        <Company>John Smith Studios</Company>
+        <Address1>1192 Chaveny Road</Address1>
+        <Address2 />
+        <Town>East Herrington</Town>
+        <Postcode>HU12 7HJ</Postcode>
+        <County>Humberside</County>
+        <Country>GB</Country>
+        <Telephone>01327 617 542</Telephone>
+        <Fax>01327 617 544</Fax>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>George</Analysis2>
+      <Analysis3>Humberside</Analysis3>
+      <NominalCode>4000</NominalCode>
+      <Department>0</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>0</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>TRADEA</PriceListReference>
+      <DiscountType>NoDiscount</DiscountType>
+      <DiscountTable />
+      <CreditLimit>1000</CreditLimit>
+      <SettlementDays>0</SettlementDays>
+      <SettlementDiscount>0</SettlementDiscount>
+      <PaymentDays>0</PaymentDays>
+      <Terms>Proforma</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2003-01-01T00:00:00</AccountOpened>
+      <LastCreditReview>2006-03-03T00:00:00</LastCreditReview>
+      <NextCreditReview>2007-03-03T00:00:00</NextCreditReview>
+      <ApplicationDate>2002-12-12T00:00:00</ApplicationDate>
+      <DateReceived>2002-12-14T00:00:00</DateReceived>
+      <LastInvoiceDate>2006-03-17T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2006-03-30T00:00:00</LastPaymentDate>
+      <TurnoverMTD>3973.27</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+    <Customer>
+      <Id />
+      <AccountReference>KIN001</AccountReference>
+      <CompanyName>Kinghorn &amp; French</CompanyName>
+      <Balance>7398.35</Balance>
+      <VatNumber>GB958 5455 12</VatNumber>
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>John</Forename>
+        <Surname>Bell</Surname>
+        <Company>Kinghorn &amp; French</Company>
+        <Address1>98 Cathedral Gardens</Address1>
+        <Address2>Benfield Rd</Address2>
+        <Town>Newcastle upon Tyne</Town>
+        <Postcode>NE19 1GH</Postcode>
+        <County>Tyne &amp; Wear</County>
+        <Country>GB</Country>
+        <Telephone>0191 676 5656</Telephone>
+        <Fax>0191 676 5657</Fax>
+        <Mobile>0191 676 5658</Mobile>
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Alison Hodgson</TradeContact>
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>John</Forename>
+        <Surname>Bell</Surname>
+        <Company>Kinghorn &amp; French</Company>
+        <Address1>98 Cathedral Gardens</Address1>
+        <Address2>Benfied Rd</Address2>
+        <Town>Newcastle upon Tyne</Town>
+        <Postcode>NE19 1GH</Postcode>
+        <County>Tyne &amp; Wear</County>
+        <Country>GB</Country>
+        <Telephone>0191 676 5656</Telephone>
+        <Fax>0191 676 5657</Fax>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>George</Analysis2>
+      <Analysis3>Tyne &amp; Wear</Analysis3>
+      <NominalCode>4002</NominalCode>
+      <Department>1</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>0</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>TRADEB</PriceListReference>
+      <DiscountType>InvoiceValue</DiscountType>
+      <DiscountTable />
+      <CreditLimit>6000</CreditLimit>
+      <SettlementDays>30</SettlementDays>
+      <SettlementDiscount>2.5</SettlementDiscount>
+      <PaymentDays>30</PaymentDays>
+      <Terms>30 Days</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2000-10-12T00:00:00</AccountOpened>
+      <LastCreditReview>2006-03-03T00:00:00</LastCreditReview>
+      <NextCreditReview>2007-03-03T00:00:00</NextCreditReview>
+      <ApplicationDate>2000-10-10T00:00:00</ApplicationDate>
+      <DateReceived>2000-10-12T00:00:00</DateReceived>
+      <LastInvoiceDate>2009-05-05T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2006-04-24T00:00:00</LastPaymentDate>
+      <TurnoverMTD>23510.93</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+    <Customer>
+      <Id />
+      <AccountReference>MAC001</AccountReference>
+      <CompanyName>Macolm Hall Associates</CompanyName>
+      <Balance>6927.16</Balance>
+      <VatNumber>GB484 4403 43</VatNumber>
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Siobhan</Forename>
+        <Surname>Winter</Surname>
+        <Company>Macolm Hall Associates</Company>
+        <Address1>172 Edison Street</Address1>
+        <Address2 />
+        <Town>Chester</Town>
+        <Postcode>CH1 4PL</Postcode>
+        <County>Cheshire</County>
+        <Country>GB</Country>
+        <Telephone>01244 343433</Telephone>
+        <Fax>01244 343435</Fax>
+        <Mobile>01244 343434</Mobile>
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Gavin Maxwell</TradeContact>
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Siobhan</Forename>
+        <Surname>Winter</Surname>
+        <Company>Malcolm Hall Associates</Company>
+        <Address1>172 Edison Street</Address1>
+        <Address2 />
+        <Town>Chester</Town>
+        <Postcode>CH1 4PL</Postcode>
+        <County>Cheshire</County>
+        <Country>GB</Country>
+        <Telephone>01244 343433</Telephone>
+        <Fax>01244 343435</Fax>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>George</Analysis2>
+      <Analysis3>Cheshire</Analysis3>
+      <NominalCode>4000</NominalCode>
+      <Department>1</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>2</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>TRADEA</PriceListReference>
+      <DiscountType>DiscountTable</DiscountType>
+      <DiscountTable>A</DiscountTable>
+      <CreditLimit>4000</CreditLimit>
+      <SettlementDays>30</SettlementDays>
+      <SettlementDiscount>2.5</SettlementDiscount>
+      <PaymentDays>30</PaymentDays>
+      <Terms>30 Days</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2000-12-31T00:00:00</AccountOpened>
+      <LastCreditReview>2006-03-03T00:00:00</LastCreditReview>
+      <NextCreditReview>2007-03-03T00:00:00</NextCreditReview>
+      <ApplicationDate>2000-12-14T00:00:00</ApplicationDate>
+      <DateReceived>2000-12-17T00:00:00</DateReceived>
+      <LastInvoiceDate>2006-04-14T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2006-03-30T00:00:00</LastPaymentDate>
+      <TurnoverMTD>17519.3</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+    <Customer>
+      <Id />
+      <AccountReference>MIB001</AccountReference>
+      <CompanyName>Mikes Insurance Services</CompanyName>
+      <Balance>3597.16</Balance>
+      <VatNumber>GB493 0987 93</VatNumber>
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Mike</Forename>
+        <Surname>Bradford</Surname>
+        <Company>Mikes Insurance Services</Company>
+        <Address1>Upper Floor</Address1>
+        <Address2>Co-operative Buildings</Address2>
+        <Town>Bradford</Town>
+        <Postcode>WS13 5NM</Postcode>
+        <County>West Yorkshire</County>
+        <Country>GB</Country>
+        <Telephone>01754 234 895</Telephone>
+        <Fax>01754 234 897</Fax>
+        <Mobile>01754 234 896</Mobile>
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Jordan Hall</TradeContact>
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Mike</Forename>
+        <Surname>Bradford</Surname>
+        <Company>Mikes Insurance Services</Company>
+        <Address1>Upper Floor</Address1>
+        <Address2>Co-operative Buildings</Address2>
+        <Town>Bradford</Town>
+        <Postcode>WS13 5NM</Postcode>
+        <County>West Yorkshire</County>
+        <Country>GB</Country>
+        <Telephone>01754 234 895</Telephone>
+        <Fax>01754 234 897</Fax>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>George</Analysis2>
+      <Analysis3>Yorkshire</Analysis3>
+      <NominalCode>4000</NominalCode>
+      <Department>0</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>0</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>TRADEB</PriceListReference>
+      <DiscountType>NoDiscount</DiscountType>
+      <DiscountTable />
+      <CreditLimit>1000</CreditLimit>
+      <SettlementDays>0</SettlementDays>
+      <SettlementDiscount>0</SettlementDiscount>
+      <PaymentDays>0</PaymentDays>
+      <Terms>Proforma</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2006-01-13T00:00:00</AccountOpened>
+      <LastCreditReview>2006-04-04T00:00:00</LastCreditReview>
+      <NextCreditReview>2007-04-04T00:00:00</NextCreditReview>
+      <ApplicationDate>2006-01-10T00:00:00</ApplicationDate>
+      <DateReceived>2006-01-11T00:00:00</DateReceived>
+      <LastInvoiceDate>2006-04-11T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>0001-01-01T00:00:00</LastPaymentDate>
+      <TurnoverMTD>6656.76</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+    <Customer>
+      <Id />
+      <AccountReference>MIL001</AccountReference>
+      <CompanyName>Mile Road Health Centre</CompanyName>
+      <Balance>2307.84</Balance>
+      <VatNumber>GB938 4843 82</VatNumber>
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Tracy</Forename>
+        <Surname>Smithson</Surname>
+        <Company>Mile Road Health Centre</Company>
+        <Address1>Mile End Road</Address1>
+        <Address2 />
+        <Town>Whitley Bay</Town>
+        <Postcode>NE65 8PL</Postcode>
+        <County>North Tyneside</County>
+        <Country>GB</Country>
+        <Telephone>01981 674 234</Telephone>
+        <Fax>01981 674 236</Fax>
+        <Mobile>01981 674 235</Mobile>
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Jordan Singh</TradeContact>
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Tracy</Forename>
+        <Surname>Smithson</Surname>
+        <Company>Mile Road Health Centre</Company>
+        <Address1>Mile End Road</Address1>
+        <Address2 />
+        <Town>Whitley Bay</Town>
+        <Postcode>NE65 8PL</Postcode>
+        <County>North Tyneside</County>
+        <Country>GB</Country>
+        <Telephone>01981 674 234</Telephone>
+        <Fax>01981 674 236</Fax>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>George</Analysis2>
+      <Analysis3>Tyne &amp; Wear</Analysis3>
+      <NominalCode>4000</NominalCode>
+      <Department>0</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>0</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>TRADEA</PriceListReference>
+      <DiscountType>NoDiscount</DiscountType>
+      <DiscountTable />
+      <CreditLimit>2000</CreditLimit>
+      <SettlementDays>15</SettlementDays>
+      <SettlementDiscount>2.5</SettlementDiscount>
+      <PaymentDays>30</PaymentDays>
+      <Terms>30 days</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2005-05-01T00:00:00</AccountOpened>
+      <LastCreditReview>2006-05-05T00:00:00</LastCreditReview>
+      <NextCreditReview>2007-05-05T00:00:00</NextCreditReview>
+      <ApplicationDate>2005-04-13T00:00:00</ApplicationDate>
+      <DateReceived>2005-04-19T00:00:00</DateReceived>
+      <LastInvoiceDate>2009-05-16T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2006-04-03T00:00:00</LastPaymentDate>
+      <TurnoverMTD>13870.36</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+    <Customer>
+      <Id />
+      <AccountReference>MOR001</AccountReference>
+      <CompanyName>Morley Solicitors</CompanyName>
+      <Balance>392.67</Balance>
+      <VatNumber>GB382 3234 12</VatNumber>
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>John</Forename>
+        <Surname>Bampton</Surname>
+        <Company>Morley Solicitors</Company>
+        <Address1>23 High Street</Address1>
+        <Address2 />
+        <Town>Evesham</Town>
+        <Postcode>WR34 3CD</Postcode>
+        <County>Worcestershire</County>
+        <Country>GB</Country>
+        <Telephone>01789 656 556</Telephone>
+        <Fax>01789 656 557</Fax>
+        <Mobile>01789 656 558</Mobile>
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Heather Bell</TradeContact>
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>John</Forename>
+        <Surname>Bampton</Surname>
+        <Company>Morley Solicitors</Company>
+        <Address1>23 High Street</Address1>
+        <Address2 />
+        <Town>Evesham</Town>
+        <Postcode>WR34 3CD</Postcode>
+        <County>Worcestershire</County>
+        <Country>GB</Country>
+        <Telephone>01789 656 556</Telephone>
+        <Fax>01789 656 557</Fax>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>Malcolm</Analysis2>
+      <Analysis3>Worcestershire</Analysis3>
+      <NominalCode>4001</NominalCode>
+      <Department>1</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>3</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>TRADEB</PriceListReference>
+      <DiscountType>DiscountTable</DiscountType>
+      <DiscountTable>A</DiscountTable>
+      <CreditLimit>4000</CreditLimit>
+      <SettlementDays>30</SettlementDays>
+      <SettlementDiscount>2.5</SettlementDiscount>
+      <PaymentDays>30</PaymentDays>
+      <Terms>30 Days</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2000-09-09T00:00:00</AccountOpened>
+      <LastCreditReview>2006-02-19T00:00:00</LastCreditReview>
+      <NextCreditReview>2007-02-19T00:00:00</NextCreditReview>
+      <ApplicationDate>2000-09-02T00:00:00</ApplicationDate>
+      <DateReceived>2000-09-03T00:00:00</DateReceived>
+      <LastInvoiceDate>2006-02-28T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2006-04-26T00:00:00</LastPaymentDate>
+      <TurnoverMTD>3258.55</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+    <Customer>
+      <Id />
+      <AccountReference>PAT001</AccountReference>
+      <CompanyName>Patterson &amp; Graham Garages</CompanyName>
+      <Balance>915.24</Balance>
+      <VatNumber>GB340 4843 84</VatNumber>
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Simon</Forename>
+        <Surname>Billington</Surname>
+        <Company>Patterson &amp; Graham Garages</Company>
+        <Address1>The Showroom</Address1>
+        <Address2>112, 116 James Street</Address2>
+        <Town>West Denton</Town>
+        <Postcode>EK1 7HY</Postcode>
+        <County>East Kilbride</County>
+        <Country>GB</Country>
+        <Telephone>0987 678 234</Telephone>
+        <Fax>0987 678 236</Fax>
+        <Mobile>0987 678 235</Mobile>
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Joseph Patterson</TradeContact>
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Simon</Forename>
+        <Surname>Billington</Surname>
+        <Company>Patterson &amp; Graham Garages</Company>
+        <Address1>The Showroom</Address1>
+        <Address2>112, 116 James Street</Address2>
+        <Town>West Denton</Town>
+        <Postcode>EK1 7HY</Postcode>
+        <County>East Kilbride</County>
+        <Country>GB</Country>
+        <Telephone>0987 678 234</Telephone>
+        <Fax>0987 678 236</Fax>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>George</Analysis2>
+      <Analysis3>Scotland</Analysis3>
+      <NominalCode>4000</NominalCode>
+      <Department>0</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>0</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>TRADEA</PriceListReference>
+      <DiscountType>NoDiscount</DiscountType>
+      <DiscountTable />
+      <CreditLimit>1000</CreditLimit>
+      <SettlementDays>15</SettlementDays>
+      <SettlementDiscount>2.5</SettlementDiscount>
+      <PaymentDays>30</PaymentDays>
+      <Terms>30 days</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2005-02-28T00:00:00</AccountOpened>
+      <LastCreditReview>2006-03-15T00:00:00</LastCreditReview>
+      <NextCreditReview>2007-03-15T00:00:00</NextCreditReview>
+      <ApplicationDate>2005-02-22T00:00:00</ApplicationDate>
+      <DateReceived>2005-02-23T00:00:00</DateReceived>
+      <LastInvoiceDate>2006-03-20T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2006-03-10T00:00:00</LastPaymentDate>
+      <TurnoverMTD>3327.75</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+    <Customer>
+      <Id />
+      <AccountReference>PIC001</AccountReference>
+      <CompanyName>Picture Frame Ltd</CompanyName>
+      <Balance>311.56</Balance>
+      <VatNumber>GB936 3492 38</VatNumber>
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Ahmed</Forename>
+        <Surname>Roumani</Surname>
+        <Company>Picture Frame Ltd</Company>
+        <Address1>12 Kiln Close</Address1>
+        <Address2>Westmeadows</Address2>
+        <Town>Devizes</Town>
+        <Postcode>SN12 4RE</Postcode>
+        <County>Wiltshire</County>
+        <Country>GB</Country>
+        <Telephone>01249 265 9874</Telephone>
+        <Fax>01249 265 9875</Fax>
+        <Mobile>01249 265 9876</Mobile>
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Nicolla Hall</TradeContact>
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Ahmed</Forename>
+        <Surname>Roumani</Surname>
+        <Company>Ahmed Roumani</Company>
+        <Address1>AS INVOICED</Address1>
+        <Address2 />
+        <Town />
+        <Postcode />
+        <County />
+        <Country>GB</Country>
+        <Telephone />
+        <Fax />
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>Malcolm</Analysis2>
+      <Analysis3>Wiltshire</Analysis3>
+      <NominalCode>4002</NominalCode>
+      <Department>1</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>0</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>TRADEB</PriceListReference>
+      <DiscountType>InvoiceValue</DiscountType>
+      <DiscountTable />
+      <CreditLimit>9000</CreditLimit>
+      <SettlementDays>30</SettlementDays>
+      <SettlementDiscount>2.5</SettlementDiscount>
+      <PaymentDays>60</PaymentDays>
+      <Terms>60 Days</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2000-10-29T00:00:00</AccountOpened>
+      <LastCreditReview>2006-01-17T00:00:00</LastCreditReview>
+      <NextCreditReview>2007-01-17T00:00:00</NextCreditReview>
+      <ApplicationDate>2000-10-28T00:00:00</ApplicationDate>
+      <DateReceived>2000-10-28T00:00:00</DateReceived>
+      <LastInvoiceDate>2006-03-16T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2006-04-27T00:00:00</LastPaymentDate>
+      <TurnoverMTD>2241.29</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+    <Customer>
+      <Id />
+      <AccountReference>ROB001</AccountReference>
+      <CompanyName>Robertson Joinery</CompanyName>
+      <Balance>4550.2</Balance>
+      <VatNumber>GB311 1284 34</VatNumber>
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Stephen</Forename>
+        <Surname>Baker</Surname>
+        <Company>Robertson Joinery</Company>
+        <Address1>599 Church Road</Address1>
+        <Address2 />
+        <Town>Hounslow</Town>
+        <Postcode>TW8 7TY</Postcode>
+        <County>Middlesex</County>
+        <Country>GB</Country>
+        <Telephone>0181 789 2323</Telephone>
+        <Fax>0181 789 3434</Fax>
+        <Mobile>0181 789 2324</Mobile>
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Linda Watson</TradeContact>
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Stephen</Forename>
+        <Surname>Baker</Surname>
+        <Company>Stephen Baker</Company>
+        <Address1>AS INVOICED</Address1>
+        <Address2 />
+        <Town />
+        <Postcode />
+        <County />
+        <Country>GB</Country>
+        <Telephone />
+        <Fax />
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>Malcolm</Analysis2>
+      <Analysis3>Middlesex</Analysis3>
+      <NominalCode>4001</NominalCode>
+      <Department>1</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>0</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>TRADEA</PriceListReference>
+      <DiscountType>InvoiceValue</DiscountType>
+      <DiscountTable />
+      <CreditLimit>8000</CreditLimit>
+      <SettlementDays>30</SettlementDays>
+      <SettlementDiscount>0</SettlementDiscount>
+      <PaymentDays>30</PaymentDays>
+      <Terms>30 Days</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2000-09-19T00:00:00</AccountOpened>
+      <LastCreditReview>2006-01-01T00:00:00</LastCreditReview>
+      <NextCreditReview>2007-01-01T00:00:00</NextCreditReview>
+      <ApplicationDate>2000-09-10T00:00:00</ApplicationDate>
+      <DateReceived>2000-09-11T00:00:00</DateReceived>
+      <LastInvoiceDate>2006-04-19T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>0001-01-01T00:00:00</LastPaymentDate>
+      <TurnoverMTD>8406.33</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+    <Customer>
+      <Id>2</Id>
+      <AccountReference>SDE001</AccountReference>
+      <CompanyName>S D Enterprises</CompanyName>
+      <Balance>15339.68</Balance>
+      <VatNumber>GB654 1652 98</VatNumber>
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Jane</Forename>
+        <Surname>Scott</Surname>
+        <Company>S D Enterprises</Company>
+        <Address1>6 Portland Way</Address1>
+        <Address2>St Michael Estate</Address2>
+        <Town>Heaton</Town>
+        <Postcode>NE5 3TR</Postcode>
+        <County>Tyne &amp; Wear</County>
+        <Country>GB</Country>
+        <Telephone>0191 937 9836</Telephone>
+        <Fax>0191 937 9838</Fax>
+        <Mobile>0191 937 9837</Mobile>
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>John Salter</TradeContact>
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Jane</Forename>
+        <Surname>Scott</Surname>
+        <Company>S D Enterprises</Company>
+        <Address1>6 Portland Way</Address1>
+        <Address2>St Michael Estate</Address2>
+        <Town>Heaton</Town>
+        <Postcode>NE5 3TR</Postcode>
+        <County>Tyne &amp; Wear</County>
+        <Country>GB</Country>
+        <Telephone>0191 937 9836</Telephone>
+        <Fax>0191 937 9838</Fax>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>George</Analysis2>
+      <Analysis3>Tyne &amp; Wear</Analysis3>
+      <NominalCode>4000</NominalCode>
+      <Department>1</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>0</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>TRADEB</PriceListReference>
+      <DiscountType>NoDiscount</DiscountType>
+      <DiscountTable />
+      <CreditLimit>5000</CreditLimit>
+      <SettlementDays>30</SettlementDays>
+      <SettlementDiscount>0</SettlementDiscount>
+      <PaymentDays>30</PaymentDays>
+      <Terms>30 Days Strictly Net</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2003-02-28T00:00:00</AccountOpened>
+      <LastCreditReview>2006-09-09T00:00:00</LastCreditReview>
+      <NextCreditReview>2007-01-03T00:00:00</NextCreditReview>
+      <ApplicationDate>2003-02-20T00:00:00</ApplicationDate>
+      <DateReceived>2003-02-22T00:00:00</DateReceived>
+      <LastInvoiceDate>2009-08-11T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2006-04-27T00:00:00</LastPaymentDate>
+      <TurnoverMTD>22006.66</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+    <Customer>
+      <Id />
+      <AccountReference>SHO001</AccountReference>
+      <CompanyName>The Show Lodge</CompanyName>
+      <Balance>7148.07</Balance>
+      <VatNumber>GB 676 3493 12</VatNumber>
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Lesley</Forename>
+        <Surname>Walton</Surname>
+        <Company>The Show Lodge</Company>
+        <Address1>45 Bromsgrove Mews</Address1>
+        <Address2>Moseley</Address2>
+        <Town>Birmingham</Town>
+        <Postcode>B12 4UI</Postcode>
+        <County>West Midlands</County>
+        <Country>GB</Country>
+        <Telephone>0121 383 0345</Telephone>
+        <Fax>0121 383 0346</Fax>
+        <Mobile>0121 383 0347</Mobile>
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Tracy Harrison</TradeContact>
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Lesley</Forename>
+        <Surname>Walton</Surname>
+        <Company>The Show Lodge</Company>
+        <Address1>12 Westfield Road</Address1>
+        <Address2>Moseley</Address2>
+        <Town>Birmingham</Town>
+        <Postcode>B13 9RF</Postcode>
+        <County>West Midlands</County>
+        <Country>GB</Country>
+        <Telephone>0121 343 3422</Telephone>
+        <Fax>0121 343 3223</Fax>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>Malcolm</Analysis2>
+      <Analysis3>Midlands</Analysis3>
+      <NominalCode>4000</NominalCode>
+      <Department>1</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>0</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>TRADEA</PriceListReference>
+      <DiscountType>DiscountTable</DiscountType>
+      <DiscountTable>A</DiscountTable>
+      <CreditLimit>2500</CreditLimit>
+      <SettlementDays>30</SettlementDays>
+      <SettlementDiscount>2.5</SettlementDiscount>
+      <PaymentDays>30</PaymentDays>
+      <Terms>30 Days</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2001-01-31T00:00:00</AccountOpened>
+      <LastCreditReview>2006-09-09T00:00:00</LastCreditReview>
+      <NextCreditReview>2007-02-01T00:00:00</NextCreditReview>
+      <ApplicationDate>2001-01-03T00:00:00</ApplicationDate>
+      <DateReceived>2001-01-04T00:00:00</DateReceived>
+      <LastInvoiceDate>2006-03-10T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>0001-01-01T00:00:00</LastPaymentDate>
+      <TurnoverMTD>13691</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+    <Customer>
+      <Id />
+      <AccountReference>STE001</AccountReference>
+      <CompanyName>Stevenson &amp; Smith</CompanyName>
+      <Balance>1562.75</Balance>
+      <VatNumber>GB784 7645 95</VatNumber>
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Jonathon</Forename>
+        <Surname>Sayers</Surname>
+        <Company>Stevenson &amp; Smith</Company>
+        <Address1>Acorn Close</Address1>
+        <Address2>Hale</Address2>
+        <Town>Altrincham</Town>
+        <Postcode>C39 3TD</Postcode>
+        <County>Cheshire</County>
+        <Country>GB</Country>
+        <Telephone>01244 453 232</Telephone>
+        <Fax>01244 453 233</Fax>
+        <Mobile>01244 453 234</Mobile>
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Chris Milnthorp</TradeContact>
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Jonathon</Forename>
+        <Surname>Sayers</Surname>
+        <Company>Jonathon Sayers</Company>
+        <Address1>AS INVOICED</Address1>
+        <Address2 />
+        <Town />
+        <Postcode />
+        <County />
+        <Country>GB</Country>
+        <Telephone />
+        <Fax />
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>George</Analysis2>
+      <Analysis3>Cheshire</Analysis3>
+      <NominalCode>4001</NominalCode>
+      <Department>1</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>0</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>TRADEB</PriceListReference>
+      <DiscountType>NoDiscount</DiscountType>
+      <DiscountTable />
+      <CreditLimit>4000</CreditLimit>
+      <SettlementDays>0</SettlementDays>
+      <SettlementDiscount>0</SettlementDiscount>
+      <PaymentDays>0</PaymentDays>
+      <Terms>Proforma</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2000-11-13T00:00:00</AccountOpened>
+      <LastCreditReview>2006-04-04T00:00:00</LastCreditReview>
+      <NextCreditReview>2006-04-04T00:00:00</NextCreditReview>
+      <ApplicationDate>2000-11-10T00:00:00</ApplicationDate>
+      <DateReceived>2000-11-11T00:00:00</DateReceived>
+      <LastInvoiceDate>2006-04-14T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2006-03-30T00:00:00</LastPaymentDate>
+      <TurnoverMTD>3622.89</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+    <Customer>
+      <Id />
+      <AccountReference>STE002</AccountReference>
+      <CompanyName>Steven Stephenson</CompanyName>
+      <Balance>0</Balance>
+      <VatNumber />
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Steven</Forename>
+        <Surname>Young</Surname>
+        <Company>Steven Stephenson</Company>
+        <Address1>128 Jullian Road</Address1>
+        <Address2>Garmston</Address2>
+        <Town>Manchester</Town>
+        <Postcode>M23 3TH</Postcode>
+        <County />
+        <Country>GB</Country>
+        <Telephone>0151 977 8876</Telephone>
+        <Fax />
+        <Mobile />
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Steven Young</TradeContact>
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Steven</Forename>
+        <Surname>Young</Surname>
+        <Company>Steven Young</Company>
+        <Address1 />
+        <Address2 />
+        <Town />
+        <Postcode />
+        <County />
+        <Country>GB</Country>
+        <Telephone />
+        <Fax />
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Public</Analysis1>
+      <Analysis2>Malcolm</Analysis2>
+      <Analysis3>Manchester</Analysis3>
+      <NominalCode>4002</NominalCode>
+      <Department>1</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>0</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>PUBLIC</PriceListReference>
+      <DiscountType>NoDiscount</DiscountType>
+      <DiscountTable />
+      <CreditLimit>0</CreditLimit>
+      <SettlementDays>30</SettlementDays>
+      <SettlementDiscount>2.5</SettlementDiscount>
+      <PaymentDays>30</PaymentDays>
+      <Terms>30 Days Strictly Net</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2006-09-08T00:00:00</AccountOpened>
+      <LastCreditReview>0001-01-01T00:00:00</LastCreditReview>
+      <NextCreditReview>0001-01-01T00:00:00</NextCreditReview>
+      <ApplicationDate>0001-01-01T00:00:00</ApplicationDate>
+      <DateReceived>0001-01-01T00:00:00</DateReceived>
+      <LastInvoiceDate>2006-02-16T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2006-04-28T00:00:00</LastPaymentDate>
+      <TurnoverMTD>3583.52</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+    <Customer>
+      <Id />
+      <AccountReference>STU001</AccountReference>
+      <CompanyName>Edward Stuart</CompanyName>
+      <Balance>2341.25</Balance>
+      <VatNumber />
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Edward</Forename>
+        <Surname>Stuart</Surname>
+        <Company>Edward Stuart</Company>
+        <Address1>45 Howe Street West</Address1>
+        <Address2>Felling</Address2>
+        <Town>Gateshead</Town>
+        <Postcode>NE4 4MN</Postcode>
+        <County>Tyne and Wear</County>
+        <Country>GB</Country>
+        <Telephone>0191 839 3940</Telephone>
+        <Fax />
+        <Mobile />
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Edward Stuart</TradeContact>
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Edward</Forename>
+        <Surname>Stuart</Surname>
+        <Company>Edward Stuart</Company>
+        <Address1>45 Howe Street</Address1>
+        <Address2>Felling</Address2>
+        <Town>Gateshead</Town>
+        <Postcode>NE4 4MN</Postcode>
+        <County>Tyne and Wear</County>
+        <Country>GB</Country>
+        <Telephone>0191 839 3940</Telephone>
+        <Fax />
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Public</Analysis1>
+      <Analysis2>Malcolm</Analysis2>
+      <Analysis3>North East</Analysis3>
+      <NominalCode>4002</NominalCode>
+      <Department>1</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>0</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>PUBLIC</PriceListReference>
+      <DiscountType>NoDiscount</DiscountType>
+      <DiscountTable />
+      <CreditLimit>0</CreditLimit>
+      <SettlementDays>30</SettlementDays>
+      <SettlementDiscount>2.5</SettlementDiscount>
+      <PaymentDays>30</PaymentDays>
+      <Terms>30 Days Strictly Net</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2006-09-08T00:00:00</AccountOpened>
+      <LastCreditReview>0001-01-01T00:00:00</LastCreditReview>
+      <NextCreditReview>0001-01-01T00:00:00</NextCreditReview>
+      <ApplicationDate>0001-01-01T00:00:00</ApplicationDate>
+      <DateReceived>0001-01-01T00:00:00</DateReceived>
+      <LastInvoiceDate>2009-05-01T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2006-03-25T00:00:00</LastPaymentDate>
+      <TurnoverMTD>5853.39</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+    <Customer>
+      <Id />
+      <AccountReference>SWA001</AccountReference>
+      <CompanyName>Swan Leisure Centre</CompanyName>
+      <Balance>1598.83</Balance>
+      <VatNumber>GB348 3498 38</VatNumber>
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>John</Forename>
+        <Surname>Blair</Surname>
+        <Company>Swan Leisure Centre</Company>
+        <Address1>30 Blair Road</Address1>
+        <Address2 />
+        <Town>Sunderland</Town>
+        <Postcode>SU16 8UP</Postcode>
+        <County>Tyne &amp; Wear</County>
+        <Country>GB</Country>
+        <Telephone>0191 567 2345</Telephone>
+        <Fax>0191 567 2347</Fax>
+        <Mobile>0191 567 2346</Mobile>
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Edna Blair</TradeContact>
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>John</Forename>
+        <Surname>Blair</Surname>
+        <Company>Swan Leisure Centre</Company>
+        <Address1>30 Blair Road</Address1>
+        <Address2 />
+        <Town>Sunderland</Town>
+        <Postcode>SU16 8UP</Postcode>
+        <County>Tyne &amp; Wear</County>
+        <Country>GB</Country>
+        <Telephone>0191 567 2345</Telephone>
+        <Fax>0191 567 2347</Fax>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>George</Analysis2>
+      <Analysis3>Tyne &amp; Wear</Analysis3>
+      <NominalCode>4000</NominalCode>
+      <Department>0</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>0</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>TRADEA</PriceListReference>
+      <DiscountType>NoDiscount</DiscountType>
+      <DiscountTable />
+      <CreditLimit>4000</CreditLimit>
+      <SettlementDays>15</SettlementDays>
+      <SettlementDiscount>2.5</SettlementDiscount>
+      <PaymentDays>30</PaymentDays>
+      <Terms>30 days</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2006-01-02T00:00:00</AccountOpened>
+      <LastCreditReview>2006-06-06T00:00:00</LastCreditReview>
+      <NextCreditReview>2007-01-02T00:00:00</NextCreditReview>
+      <ApplicationDate>2006-01-02T00:00:00</ApplicationDate>
+      <DateReceived>2006-01-02T00:00:00</DateReceived>
+      <LastInvoiceDate>2006-04-01T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2006-04-28T00:00:00</LastPaymentDate>
+      <TurnoverMTD>4604.9</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo>John is on holiday from th 15th December till the new year.&#x0;</Memo>
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+    <Customer>
+      <Id />
+      <AccountReference>VID001</AccountReference>
+      <CompanyName>The Video Rental Company</CompanyName>
+      <Balance>2041.66</Balance>
+      <VatNumber />
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>June</Forename>
+        <Surname>Whitehouse</Surname>
+        <Company>The Video Rental Company</Company>
+        <Address1>128 Park Drive</Address1>
+        <Address2 />
+        <Town>Skipton</Town>
+        <Postcode>WY18 4FH</Postcode>
+        <County>West Yorkshire</County>
+        <Country>GB</Country>
+        <Telephone>0678 234 5678</Telephone>
+        <Fax>0678 234 5679</Fax>
+        <Mobile>0678 234 5677</Mobile>
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Simon Whitehouse</TradeContact>
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>June</Forename>
+        <Surname>Whitehouse</Surname>
+        <Company>The Video Rental Company</Company>
+        <Address1>128 Park Drive</Address1>
+        <Address2 />
+        <Town>Skipton</Town>
+        <Postcode>WY18 4FH</Postcode>
+        <County>West Yorkshire</County>
+        <Country>GB</Country>
+        <Telephone>0678 234 5678</Telephone>
+        <Fax>0678 235 5679</Fax>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>George</Analysis2>
+      <Analysis3>Yorkshire</Analysis3>
+      <NominalCode>4000</NominalCode>
+      <Department>0</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>0</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>TRADEB</PriceListReference>
+      <DiscountType>NoDiscount</DiscountType>
+      <DiscountTable />
+      <CreditLimit>2000</CreditLimit>
+      <SettlementDays>15</SettlementDays>
+      <SettlementDiscount>2.5</SettlementDiscount>
+      <PaymentDays>30</PaymentDays>
+      <Terms>30 days</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2006-01-03T00:00:00</AccountOpened>
+      <LastCreditReview>2006-09-09T00:00:00</LastCreditReview>
+      <NextCreditReview>2007-09-09T00:00:00</NextCreditReview>
+      <ApplicationDate>2006-01-02T00:00:00</ApplicationDate>
+      <DateReceived>2006-01-03T00:00:00</DateReceived>
+      <LastInvoiceDate>2006-04-14T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2006-03-27T00:00:00</LastPaymentDate>
+      <TurnoverMTD>4662.08</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+    <Customer>
+      <Id />
+      <AccountReference>YOU001</AccountReference>
+      <CompanyName>Peter Young</CompanyName>
+      <Balance>2106.84</Balance>
+      <VatNumber />
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter>false</SendElectronicLetter>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Peter</Forename>
+        <Surname>Young</Surname>
+        <Company>Peter Young</Company>
+        <Address1>78 Turnberry Road</Address1>
+        <Address2>Welburry</Address2>
+        <Town>Cardiff</Town>
+        <Postcode>C34 3TY</Postcode>
+        <County />
+        <Country>GB</Country>
+        <Telephone>08976 656 878</Telephone>
+        <Fax />
+        <Mobile />
+        <Email>newbusinessadvice@sage.com</Email>
+        <Website>www.sage.co.uk</Website>
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Peter Young</TradeContact>
+        <Activities />
+        <AnalysisCodes />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Peter</Forename>
+        <Surname>Young</Surname>
+        <Company>Peter Young</Company>
+        <Address1>78 Turnburry Road</Address1>
+        <Address2>Welburry</Address2>
+        <Town>Cardiff</Town>
+        <Postcode>C34 3TY</Postcode>
+        <County />
+        <Country>GB</Country>
+        <Telephone>08976 656 878</Telephone>
+        <Fax />
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <Activities />
+        <AnalysisCodes />
+      </CustomerDeliveryAddress>
+      <Analysis1>Public</Analysis1>
+      <Analysis2>Malcolm</Analysis2>
+      <Analysis3>Wales</Analysis3>
+      <NominalCode>4002</NominalCode>
+      <Department>1</Department>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode xsi:nil="true" />
+      <Currency>GBP</Currency>
+      <FixedDiscount>0</FixedDiscount>
+      <LineDiscount xsi:nil="true" />
+      <PriceListReference>PUBLIC</PriceListReference>
+      <DiscountType>NoDiscount</DiscountType>
+      <DiscountTable />
+      <CreditLimit>0</CreditLimit>
+      <SettlementDays>30</SettlementDays>
+      <SettlementDiscount>2.5</SettlementDiscount>
+      <PaymentDays>30</PaymentDays>
+      <Terms>30 Days Strictly Net</Terms>
+      <CreditPosition>Good</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2006-09-08T00:00:00</AccountOpened>
+      <LastCreditReview>0001-01-01T00:00:00</LastCreditReview>
+      <NextCreditReview>0001-01-01T00:00:00</NextCreditReview>
+      <ApplicationDate>0001-01-01T00:00:00</ApplicationDate>
+      <DateReceived>0001-01-01T00:00:00</DateReceived>
+      <LastInvoiceDate>2009-10-28T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2006-04-27T00:00:00</LastPaymentDate>
+      <TurnoverMTD>6537.96</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+      <Activities />
+    </Customer>
+  </Customers>
+  <Suppliers />
+  <SalesOrders />
+  <PurchaseOrders />
+  <Invoices />
+  <ProductGroups />
+  <Transactions />
+  <TaxRates />
+  <Currencies />
+  <PriceLists />
+  <StockTransactions />
+  <PaymentAllocations />
+  <AllocationSessions />
+  <Statements />
+  <GoodsNotes />
+  <DespatchNotes />
+</Company>

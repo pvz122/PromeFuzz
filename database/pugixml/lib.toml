@@ -1,0 +1,10 @@
+[pugixml]
+language = "c++"
+compile_commands_path = "database/pugixml/latest/build_asan/compile_commands.json"
+document_paths = ["https://pugixml.org/docs/manual.html"]
+document_has_api_usage = true
+output_path = "database/pugixml/latest/out"
+header_paths = ["database/pugixml/latest/code/src/pugixml.hpp"]
+driver_build_args = ["database/pugixml/latest/bin_asan/lib/libpugixml.a", "-DPUGIXML_NO_EXCEPTIONS"]
+consumer_case_paths = ["database/pugixml/latest/code/tests"]
+api_hints_path = "database/pugixml/api_hints.json"

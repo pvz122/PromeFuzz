@@ -1,0 +1,7 @@
+TASK: You will be provided with the fuzz driver and its crash report. The crash involves the API function(s) {RELATED_API_FUNCTIONS} within the {LIBRARY_NAME} library. Please assess whether the crash resulted from the misuse of the mentioned API function(s). If it is a misuse, provide suggestions for invoking the API(s) to prevent future crashes.
+
+OUTPUT FORMAT: If suggestions are provided, format them in JSON as follows: `{{"api_function_a": "suggestion_to_invoke_function_a", "api_function_b": "suggestion_to_invoke_function_b"}}`. Otherwise, simply respond with "null". Do not include any additional information.
+
+CRASH INFORMATION:
+
+{CRASH_REPORT}

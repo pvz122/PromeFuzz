@@ -1,0 +1,3 @@
+Below are the fuzz driver that triggers the crash and its crash report, please meticulously analyze them and offer a concise explanation of the crash. Start your response with "The crash is a Misuse in fuzz driver, below is the explanation." or "The crash is a Bug in library, below is the explanation."
+
+{CRASH_REPORT}

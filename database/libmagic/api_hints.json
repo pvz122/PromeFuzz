@@ -1,0 +1,4 @@
+{
+    "magic_check": "This function requires a NEW `magic_set` structure as its parameter which can not be shared with other functions. To use it, first create a SEPARATE magic_set by calling `struct magic_set *magic_open(int flags)`, and clean up afterward by calling `void magic_close(struct magic_set *)`.",
+    "magic_list": "This function requires a NEW `magic_set` structure as its parameter which can not be shared with other functions. To use it, first create a SEPARATE magic_set by calling `struct magic_set *magic_open(int flags)`, and clean up afterward by calling `void magic_close(struct magic_set *)`."
+}

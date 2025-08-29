@@ -1,0 +1,17 @@
+[libpng]
+language = "c++"
+compile_commands_path = "database/libpng/latest/build_asan/compile_commands.json"
+document_paths = ["database/libpng/latest/code/README"]
+document_has_api_usage = false
+output_path = "database/libpng/latest/out"
+header_paths = [
+    "database/libpng/latest/code/png.h",
+    "database/libpng/latest/code/pngconf.h",
+    "database/libpng/latest/build_asan/pnglibconf.h",
+]
+driver_build_args = [
+    "database/libpng/latest/bin_asan/lib/libpng16.a",
+    "-Idatabase/libpng/latest/bin_asan/include",
+    "-lz",
+]
+consumer_case_paths = ["database/libpng/latest/code/contrib/oss-fuzz"]

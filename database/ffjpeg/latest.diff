@@ -1,0 +1,17 @@
+diff --git a/src/Makefile b/src/Makefile
+index 0fb5d51..9e54481 100644
+--- a/src/Makefile
++++ b/src/Makefile
+@@ -1,9 +1,9 @@
+ # makefile for ffjpeg project
+ # written by rockcarry
+ 
+-CC      = gcc
+-AR      = ar
+-CCFLAGS = -Wall
++CC      ?= gcc
++AR      ?= ar
++CFLAGS ?= -Wall
+ 
+ OBJS = \
+     color.o   \

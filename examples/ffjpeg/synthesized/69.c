@@ -1,0 +1,56 @@
+// This fuzz driver is generated for library ffjpeg, aiming to fuzz the following functions:
+// init_dct_module at dct.c:19:6 in dct.h
+// init_fdct_ftab at dct.c:49:6 in dct.h
+// init_idct_ftab at dct.c:63:6 in dct.h
+// fdct2d8x8 at dct.c:78:6 in dct.h
+// idct2d8x8 at dct.c:188:6 in dct.h
+// quant_encode at quant.c:29:6 in quant.h
+#include <stdint.h>
+#include <stddef.h>
+#include <string.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "dct.h"
+#include "quant.h"
+
+int LLVMFuzzerTestOneInput_69(const uint8_t *Data, size_t Size) {
+    if (Size < 192) return 0; // Ensure enough data for initialization (64 * 3 = 192)
+
+    int ftab[64];
+    int qtab[64];
+    int du[64];
+
+    // Initialize tables with fuzzed data
+    for (int i = 0; i < 64; i++) {
+        ftab[i] = (int)Data[i];
+        qtab[i] = (int)Data[i + 64];
+        du[i] = (int)Data[i + 128];
+    }
+
+    // Ensure no division by zero in quantization table
+    for (int i = 0; i < 64; i++) {
+        if (qtab[i] == 0) qtab[i] = 1; // Avoid division by zero
+    }
+
+    // Initialize DCT module
+    init_dct_module();
+
+    // Initialize IDCT frequency table
+    init_idct_ftab(ftab, qtab);
+
+    // Initialize FDCT frequency table
+    init_fdct_ftab(ftab, qtab);
+
+    // Perform quantization encoding
+    quant_encode(du, qtab);
+
+    // Perform 2D IDCT on 8x8 block
+    idct2d8x8(du, ftab);
+
+    // Perform 2D FDCT on 8x8 block
+    fdct2d8x8(du, ftab);
+
+    return 0;
+}

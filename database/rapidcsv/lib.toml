@@ -1,0 +1,13 @@
+[rapidcsv]
+language = "c++"
+header_paths = ["database/rapidcsv/latest/code/src/rapidcsv.h"]
+compile_commands_path = "database/rapidcsv/latest/build_asan/compile_commands.json"
+document_paths = ["database/rapidcsv/latest/code/README.md"]
+document_has_api_usage = true
+output_path = "database/rapidcsv/latest/out"
+driver_build_args = []
+source_paths = []
+exclude_paths = []
+driver_headers = []
+api_hints_path = "database/rapidcsv/hints.json"
+consumer_case_paths = ["database/rapidcsv/latest/code/tests"]

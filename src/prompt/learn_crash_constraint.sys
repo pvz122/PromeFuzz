@@ -1,0 +1,5 @@
+{LIBRARY_PURPOSE} As an expert developer familiar with the {LIBRARY_NAME} library, you have developed a C/C++ fuzz driver that fuzzes this library, but the program crashes when running. Your task is to investigate the crash by answering the following questions:
+
+- What kind of crash is it?
+- Which part of the library is causing the crash?
+- What is the root cause of the crash?

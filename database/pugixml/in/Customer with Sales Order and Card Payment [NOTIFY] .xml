@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Products />
+  <Styles />
+  <Inventories />
+  <Customers>
+    <Customer>
+      <Id>123</Id>
+      <UniqueId>INTE001</UniqueId>
+      <AccountReference>INTE001</AccountReference>
+      <CompanyName />
+      <Balance xsi:nil="true" />
+      <SendElectronicInvoice xsi:nil="true" />
+      <SendElectronicLetter xsi:nil="true" />
+      <CustomerInvoiceAddress>
+        <Company />
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Company />
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+      </CustomerDeliveryAddress>
+      <OverrideNominalCode xsi:nil="true" />
+      <TaxCode xsi:nil="true" />
+      <OverrideTaxCode xsi:nil="true" />
+      <Department xsi:nil="true" />
+      <FixedDiscount xsi:nil="true" />
+      <DiscountType>NoDiscount</DiscountType>
+      <CreditLimit xsi:nil="true" />
+      <SettlementDays xsi:nil="true" />
+      <SettlementDiscount xsi:nil="true" />
+      <PaymentDays xsi:nil="true" />
+      <AccountStatus xsi:nil="true" />
+      <DUNSNumber xsi:nil="true" />
+      <TermsAgreed xsi:nil="true" />
+      <AccountOnHold xsi:nil="true" />
+      <AccountOpened xsi:nil="true" />
+      <LastCreditReview xsi:nil="true" />
+      <NextCreditReview xsi:nil="true" />
+      <ApplicationaDate xsi:nil="true" />
+      <DateReceived xsi:nil="true" />
+      <LastInvoiceDate xsi:nil="true" />
+      <LastPaymentDate xsi:nil="true" />
+      <TurnoverMTD xsi:nil="true" />
+      <TurnoverYTD xsi:nil="true" />
+      <PriorYear xsi:nil="true" />
+      <Banks />
+      <Attachments />
+      <CreateOnly xsi:nil="true" />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+    </Customer>
+  </Customers>
+  <Suppliers />
+  <SalesOrders>
+    <SalesOrder>
+      <Id>456</Id>
+      <SalesOrderNumber>90130</SalesOrderNumber>
+      <ForeignRate xsi:nil="true" />
+      <CurrencyUsed>false</CurrencyUsed>
+      <VatInclusive>false</VatInclusive>
+      <SalesOrderDate xsi:nil="true" />
+      <DespatchDate xsi:nil="true" />
+      <PromisedDeliveryDate xsi:nil="true" />
+      <RequestedDeliveryDate xsi:nil="true" />
+      <SalesOrderAddress>
+        <Company />
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+      </SalesOrderAddress>
+      <SalesOrderDeliveryAddress>
+        <Company />
+        <Birthdate xsi:nil="true" />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+      </SalesOrderDeliveryAddress>
+      <SalesOrderItems />
+      <Carriage>
+        <QtyOrdered>0</QtyOrdered>
+        <UnitPrice>0</UnitPrice>
+        <UnitDiscountAmount xsi:nil="true" />
+        <UnitDiscountPercentage xsi:nil="true" />
+        <TaxRate>0</TaxRate>
+        <CustomFields />
+        <TotalNet>0</TotalNet>
+        <TotalTax>0</TotalTax>
+        <TaxCode xsi:nil="true" />
+        <Type>Stock</Type>
+        <QtyAllocated xsi:nil="true" />
+        <QtyDespatched xsi:nil="true" />
+      </Carriage>
+      <Courier xsi:nil="true" />
+      <SettlementDays xsi:nil="true" />
+      <SettlementDiscount xsi:nil="true" />
+      <GlobalTaxCode xsi:nil="true" />
+      <PaymentAmount>0</PaymentAmount>
+      <TaxNumber />
+      <NetValueDiscount xsi:nil="true" />
+      <NetValueDiscountPercent xsi:nil="true" />
+      <DiscountType xsi:nil="true" />
+      <CustomFields />
+      <AnalysisCodes />
+    </SalesOrder>
+  </SalesOrders>
+  <PurchaseOrders />
+  <Invoices />
+  <ProductGroups />
+  <Transactions />
+  <TaxRates />
+  <Currencies />
+  <PriceLists />
+  <StockTransactions />
+  <PaymentAllocations />
+</Company>

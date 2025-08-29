@@ -1,0 +1,79 @@
+// This fuzz driver is generated for library libpng, aiming to fuzz the following functions:
+// png_create_read_struct at pngread.c:24:1 in png.h
+// png_create_info_struct at png.c:361:1 in png.h
+// png_destroy_read_struct at pngread.c:825:1 in png.h
+// png_set_longjmp_fn at pngerror.c:597:1 in png.h
+// png_destroy_read_struct at pngread.c:825:1 in png.h
+// png_init_io at png.c:703:1 in png.h
+// png_read_info at pngread.c:91:1 in png.h
+// png_get_hIST at pngget.c:922:1 in png.h
+// png_get_y_pixels_per_inch at pngget.c:369:1 in png.h
+// png_get_eXIf_1 at pngget.c:903:1 in png.h
+// png_get_valid at pngget.c:19:1 in png.h
+// png_get_image_width at pngget.c:62:1 in png.h
+// png_destroy_read_struct at pngread.c:825:1 in png.h
+#include <iostream>
+#include <sstream>
+#include <string>
+#include <vector>
+#include <cstring>
+#include <cstdlib>
+#include <cstdio>
+#include <cstdint>
+#include <cstddef>
+#include <png.h>
+#include <cstdint>
+#include <cstdlib>
+#include <cstring>
+
+extern "C" int LLVMFuzzerTestOneInput_106(const uint8_t *Data, size_t Size) {
+    if (Size < 8) return 0; // PNG files start with an 8-byte header
+
+    FILE *file = fopen("./dummy_file", "wb");
+    if (!file) return 0;
+    fwrite(Data, 1, Size, file);
+    fclose(file);
+
+    file = fopen("./dummy_file", "rb");
+    if (!file) return 0;
+
+    png_structp png_ptr = png_create_read_struct(PNG_LIBPNG_VER_STRING, nullptr, nullptr, nullptr);
+    if (!png_ptr) {
+        fclose(file);
+        return 0;
+    }
+
+    png_infop info_ptr = png_create_info_struct(png_ptr);
+    if (!info_ptr) {
+        png_destroy_read_struct(&png_ptr, nullptr, nullptr);
+        fclose(file);
+        return 0;
+    }
+
+    if (setjmp(png_jmpbuf(png_ptr))) {
+        png_destroy_read_struct(&png_ptr, &info_ptr, nullptr);
+        fclose(file);
+        return 0;
+    }
+
+    png_init_io(png_ptr, file);
+    png_read_info(png_ptr, info_ptr);
+
+    png_uint_16p hist;
+    png_get_hIST(png_ptr, info_ptr, &hist);
+
+    png_uint_32 y_pixels_per_inch = png_get_y_pixels_per_inch(png_ptr, info_ptr);
+
+    png_uint_32 num_exif;
+    png_bytep exif;
+    png_get_eXIf_1(png_ptr, info_ptr, &num_exif, &exif);
+
+    png_uint_32 valid = png_get_valid(png_ptr, info_ptr, PNG_INFO_hIST);
+
+    png_uint_32 width = png_get_image_width(png_ptr, info_ptr);
+
+    png_destroy_read_struct(&png_ptr, &info_ptr, nullptr);
+    fclose(file);
+
+    return 0;
+}

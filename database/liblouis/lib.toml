@@ -1,0 +1,41 @@
+
+
+
+[liblouis]
+
+language = "c"
+
+
+header_paths = ["database/liblouis/latest/build_asan/liblouis/liblouis.h"]
+
+
+compile_commands_path = "database/liblouis/latest/build_asan/compile_commands.json"
+
+
+document_paths = [
+    "database/liblouis/latest/code/README",
+    "https://liblouis.io/documentation/liblouis.html",
+]
+
+
+document_has_api_usage = true
+
+
+output_path = "database/liblouis/latest/out"
+
+
+driver_build_args = [
+    "database/liblouis/latest/bin_asan/lib/liblouis.a",
+    "-lyaml",
+]
+
+
+exclude_paths = []
+
+
+driver_headers = []
+
+
+api_hints_path = "database/liblouis/api_hints.json"
+
+consumer_case_paths = ["database/liblouis/latest/code/tests"]

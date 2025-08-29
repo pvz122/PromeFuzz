@@ -1,0 +1,6 @@
+{LIBRARY_PURPOSE} As an expert testing engineer, you need to evaluate the relevance of certain API functions in the {LIBRARY_NAME} library to a target function. Given the target function's signature and a list of other function signatures from the library, consider the following questions for each function:
+
+- Is the function designed to be used alongside the target function in certain scenarios?
+- Do the function and the target function influence each other in a way that could modify their behavior?
+
+If a function meets one or both of these criteria, it is considered relevant to the target function.

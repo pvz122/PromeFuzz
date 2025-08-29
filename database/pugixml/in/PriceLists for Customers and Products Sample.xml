@@ -1,0 +1,3207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Company>
+  <Products>
+    <Product>
+      <Id />
+      <Sku>BOARD001</Sku>
+      <Name>Whiteboard - Drywipe (900 x 1200)</Name>
+      <Description>Whiteboard - Drywipe (900 x 1200)</Description>
+      <LongDescription>Magnetic steel drywipe whiteboard.
+
+Complete with marker tray.
+
+Compatible with most rail systems
+
+Dimensions: 900 x 1200</LongDescription>
+      <ImageUrl>board001.jpg</ImageUrl>
+      <Custom1>Office Equipment</Custom1>
+      <Custom2>Presentation Supplies</Custom2>
+      <Custom3>Whiteboards</Custom3>
+      <SalePrice>20</SalePrice>
+      <UnitWeight>0</UnitWeight>
+      <QtyInStock>5</QtyInStock>
+      <QtyOnOrder>-0</QtyOnOrder>
+      <ReorderQty>2</ReorderQty>
+      <TaxCode>1</TaxCode>
+      <GroupCode>6</GroupCode>
+      <Department>1</Department>
+      <UnitOfSale>Each</UnitOfSale>
+      <NominalCode>4000</NominalCode>
+      <Publish>true</Publish>
+      <SpecialOffer>false</SpecialOffer>
+      <QtyAllocated>0</QtyAllocated>
+      <ImageName>board001.jpg</ImageName>
+      <LastCostPrice>15</LastCostPrice>
+      <QtyLastOrder>8</QtyLastOrder>
+      <AverageCostPrice />
+      <RRPPrice />
+      <Attachments />
+      <DateModified />
+      <Dimensions />
+      <ProductBoms />
+      <RelatedProducts />
+      <AlternativeProducts />
+      <SupplierNominalCode>UNI001</SupplierNominalCode>
+      <SupplierDepartment>1</SupplierDepartment>
+      <ProductQtyBreaks>
+        <ProductQtyBreak>
+          <Reference>A</Reference>
+          <Quantity>10</Quantity>
+          <DiscountPercentage>1</DiscountPercentage>
+        </ProductQtyBreak>
+        <ProductQtyBreak>
+          <Reference>A</Reference>
+          <Quantity>20</Quantity>
+          <DiscountPercentage>2</DiscountPercentage>
+        </ProductQtyBreak>
+        <ProductQtyBreak>
+          <Reference>A</Reference>
+          <Quantity>30</Quantity>
+          <DiscountPercentage>3</DiscountPercentage>
+        </ProductQtyBreak>
+        <ProductQtyBreak>
+          <Reference>A</Reference>
+          <Quantity>40</Quantity>
+          <DiscountPercentage>4</DiscountPercentage>
+        </ProductQtyBreak>
+        <ProductQtyBreak>
+          <Reference>A</Reference>
+          <Quantity>50</Quantity>
+          <DiscountPercentage>5</DiscountPercentage>
+        </ProductQtyBreak>
+        <ProductQtyBreak>
+          <Reference>A</Reference>
+          <Quantity>60</Quantity>
+          <DiscountPercentage>6</DiscountPercentage>
+        </ProductQtyBreak>
+        <ProductQtyBreak>
+          <Reference>A</Reference>
+          <Quantity>70</Quantity>
+          <DiscountPercentage>7</DiscountPercentage>
+        </ProductQtyBreak>
+        <ProductQtyBreak>
+          <Reference>A</Reference>
+          <Quantity>80</Quantity>
+          <DiscountPercentage>8</DiscountPercentage>
+        </ProductQtyBreak>
+        <ProductQtyBreak>
+          <Reference>A</Reference>
+          <Quantity>90</Quantity>
+          <DiscountPercentage>9</DiscountPercentage>
+        </ProductQtyBreak>
+        <ProductQtyBreak>
+          <Reference>A</Reference>
+          <Quantity>100</Quantity>
+          <DiscountPercentage>10</DiscountPercentage>
+        </ProductQtyBreak>
+      </ProductQtyBreaks>
+      <CommodityCode />
+      <Memo />
+      <SupplierPartNo>U143</SupplierPartNo>
+      <Location>Warehouse</Location>
+      <AllowSalesOrder />
+      <Attributes />
+    </Product>
+    <Product>
+      <Id />
+      <Sku>BOOKS001</Sku>
+      <Name>A4 Ledger Book - 5 Column</Name>
+      <Description>A4 Ledger Book - 5 Column</Description>
+      <LongDescription>Bound Accounts ledger book. 100 pages of quality bond paper.
+
+Each page contains 5 colums and 38 lines.
+
+Available with blue or red cover.</LongDescription>
+      <ImageUrl>books001.jpg</ImageUrl>
+      <Custom1>Office Supplies</Custom1>
+      <Custom2>Books</Custom2>
+      <Custom3>Ledger Books</Custom3>
+      <SalePrice>7.99</SalePrice>
+      <UnitWeight>0</UnitWeight>
+      <QtyInStock>53</QtyInStock>
+      <QtyOnOrder>-0</QtyOnOrder>
+      <ReorderQty>40</ReorderQty>
+      <TaxCode>1</TaxCode>
+      <GroupCode>2</GroupCode>
+      <Department>1</Department>
+      <UnitOfSale>Each</UnitOfSale>
+      <NominalCode>4000</NominalCode>
+      <Publish>true</Publish>
+      <SpecialOffer>false</SpecialOffer>
+      <QtyAllocated>0</QtyAllocated>
+      <ImageName>books001.jpg</ImageName>
+      <LastCostPrice>4.5</LastCostPrice>
+      <QtyLastOrder>40</QtyLastOrder>
+      <AverageCostPrice />
+      <RRPPrice />
+      <Attachments />
+      <DateModified />
+      <Dimensions />
+      <ProductBoms />
+      <RelatedProducts />
+      <AlternativeProducts />
+      <SupplierNominalCode>CON001</SupplierNominalCode>
+      <SupplierDepartment>1</SupplierDepartment>
+      <ProductQtyBreaks>
+        <ProductQtyBreak>
+          <Reference>A</Reference>
+          <Quantity>5</Quantity>
+          <DiscountPercentage>10</DiscountPercentage>
+        </ProductQtyBreak>
+        <ProductQtyBreak>
+          <Reference>A</Reference>
+          <Quantity>10</Quantity>
+          <DiscountPercentage>15</DiscountPercentage>
+        </ProductQtyBreak>
+        <ProductQtyBreak>
+          <Reference>A</Reference>
+          <Quantity>30</Quantity>
+          <DiscountPercentage>20</DiscountPercentage>
+        </ProductQtyBreak>
+        <ProductQtyBreak>
+          <Reference>A</Reference>
+          <Quantity>100</Quantity>
+          <DiscountPercentage>25</DiscountPercentage>
+        </ProductQtyBreak>
+      </ProductQtyBreaks>
+      <CommodityCode />
+      <Memo />
+      <SupplierPartNo>C10009</SupplierPartNo>
+      <Location>Warehouse</Location>
+      <AllowSalesOrder />
+      <Attributes />
+    </Product>
+  </Products>
+  <Customers>
+    <Customer>
+      <AccountReference>A1D001</AccountReference>
+      <CompanyName>A1 Design Services</CompanyName>
+      <Balance>0</Balance>
+      <VatNumber>GB238 3839 38</VatNumber>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Jim</Forename>
+        <Surname>Thomas</Surname>
+        <Company>A1 Design Services</Company>
+        <Address1>67a Station Road</Address1>
+        <Address2 />
+        <Town>Blackpool</Town>
+        <Postcode>BP12 7HT</Postcode>
+        <County>Lancashire</County>
+        <Country>GB</Country>
+        <Telephone>01742 876 234</Telephone>
+        <Fax>01742 876 236</Fax>
+        <Mobile>01742 876 235</Mobile>
+        <Email />
+        <Website>http://www.a1designservices.co.uk</Website>
+        <Birthdate />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Malcolm Leverret</TradeContact>
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Jim</Forename>
+        <Surname>Thomas</Surname>
+        <Company>A1 Design Services</Company>
+        <Address1>67a Station Road</Address1>
+        <Address2 />
+        <Town>Blackpool</Town>
+        <Postcode>BP12 7HT</Postcode>
+        <County>Lancashire</County>
+        <Country>GB</Country>
+        <Telephone>01742 876 234</Telephone>
+        <Fax>01742 876 235</Fax>
+        <Birthdate />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>George</Analysis2>
+      <Analysis3>Lancashire</Analysis3>
+      <NominalCode>4000</NominalCode>
+      <OverrideNominalCode>false</OverrideNominalCode>
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode>false</OverrideTaxCode>
+      <Currency>GBP</Currency>
+      <Department>0</Department>
+      <FixedDiscount>0</FixedDiscount>
+      <PriceListReference>TRADEA</PriceListReference>
+      <DiscountType>NoDiscount</DiscountType>
+      <DiscountTable />
+      <CreditLimit>1000</CreditLimit>
+      <SettlementDays>15</SettlementDays>
+      <SettlementDiscount>2.5</SettlementDiscount>
+      <PaymentDays>30</PaymentDays>
+      <Terms>30 days nett</Terms>
+      <CreditPosition>0</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2004-01-02T00:00:00</AccountOpened>
+      <LastCreditReview>2004-12-04T00:00:00</LastCreditReview>
+      <NextCreditReview>2005-02-01T00:00:00</NextCreditReview>
+      <ApplicationaDate>2004-01-02T00:00:00</ApplicationaDate>
+      <DateReceived>2004-01-02T00:00:00</DateReceived>
+      <CreditMemo>A/C open date: 
+Trade references checked out ok. 
+Passed credit check review account 3-12 months
+
+First Review
+Satisfactory account</CreditMemo>
+      <LastInvoiceDate>2004-03-15T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2004-04-27T00:00:00</LastPaymentDate>
+      <TurnoverMTD>5220.54</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+    </Customer>
+    <Customer>
+      <AccountReference>ABS001</AccountReference>
+      <CompanyName>ABS Garages Ltd</CompanyName>
+      <Balance>2533.31</Balance>
+      <VatNumber>GB745 4584 68</VatNumber>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Mike</Forename>
+        <Surname>Hall</Surname>
+        <Company>ABS Garages Ltd</Company>
+        <Address1>Unit 34</Address1>
+        <Address2>Holystone Ind Estate</Address2>
+        <Town>Hebburn</Town>
+        <Postcode>NE31 1VB</Postcode>
+        <County>Tyne &amp; Wear</County>
+        <Country>GB</Country>
+        <Telephone>0191 254 5909</Telephone>
+        <Fax>0191 254 5907</Fax>
+        <Mobile>0191 254 5908</Mobile>
+        <Email />
+        <Website>http://www.absgarages.co.uk</Website>
+        <Birthdate />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Peter Yates</TradeContact>
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Brian</Forename>
+        <Surname>Lumsdon</Surname>
+        <Company>ABS Garages Ltd</Company>
+        <Address1>Swanson Industries</Address1>
+        <Address2>Dukes Industrial Estate</Address2>
+        <Town>Whitley Bay</Town>
+        <Postcode>NE56 4ER</Postcode>
+        <County>North Tyneside</County>
+        <Country>GB</Country>
+        <Telephone>0191 232 2345</Telephone>
+        <Fax>0191 245 3464</Fax>
+        <Birthdate />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>George</Analysis2>
+      <Analysis3>Tyne &amp; Wear</Analysis3>
+      <NominalCode>4000</NominalCode>
+      <OverrideNominalCode>false</OverrideNominalCode>
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode>true</OverrideTaxCode>
+      <Currency>GBP</Currency>
+      <Department>1</Department>
+      <FixedDiscount>0</FixedDiscount>
+      <PriceListReference>TRADEB</PriceListReference>
+      <DiscountType>InvoiceValue</DiscountType>
+      <DiscountTable />
+      <CreditLimit>4000</CreditLimit>
+      <SettlementDays>30</SettlementDays>
+      <SettlementDiscount>2.5</SettlementDiscount>
+      <PaymentDays>30</PaymentDays>
+      <Terms>30 Days</Terms>
+      <CreditPosition>0</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>1998-12-13T00:00:00</AccountOpened>
+      <LastCreditReview>2004-09-09T00:00:00</LastCreditReview>
+      <NextCreditReview>2005-03-09T00:00:00</NextCreditReview>
+      <ApplicationaDate>1998-12-10T00:00:00</ApplicationaDate>
+      <DateReceived>1998-12-11T00:00:00</DateReceived>
+      <CreditMemo>A/C open date: 
+Trade references checked out ok. 
+Passed credit check review account 3-12 months
+
+First Review
+Satisfactory account</CreditMemo>
+      <LastInvoiceDate>2004-04-24T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2004-04-27T00:00:00</LastPaymentDate>
+      <TurnoverMTD>5603.76</TurnoverMTD>
+      <TurnoverYTD>2533.31</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+    </Customer>
+    <Customer>
+      <AccountReference>BRI001</AccountReference>
+      <CompanyName>Fred Briant</CompanyName>
+      <Balance>0</Balance>
+      <VatNumber />
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Fred</Forename>
+        <Surname>Briant</Surname>
+        <Company>Fred Briant</Company>
+        <Address1>4 Oakfield Drive</Address1>
+        <Address2>Melkton Park</Address2>
+        <Town>Milton Keynes</Town>
+        <Postcode>MK4 3TG</Postcode>
+        <County>Bucks</County>
+        <Country>GB</Country>
+        <Telephone>01908 78787878</Telephone>
+        <Fax />
+        <Mobile>08980 88645556</Mobile>
+        <Email />
+        <Website />
+        <Birthdate />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Fred Briant</TradeContact>
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Fred</Forename>
+        <Surname>Briant</Surname>
+        <Company>Fred Briant</Company>
+        <Address1>4 Oakfield Drive</Address1>
+        <Address2>Melkton Park</Address2>
+        <Town>Milton Keynes</Town>
+        <Postcode>MK4 3TG</Postcode>
+        <County>Bucks</County>
+        <Country>GB</Country>
+        <Telephone>01908 78787878</Telephone>
+        <Fax />
+        <Birthdate />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+      </CustomerDeliveryAddress>
+      <Analysis1>Public</Analysis1>
+      <Analysis2>Malcolm</Analysis2>
+      <Analysis3>Bucks</Analysis3>
+      <NominalCode>4002</NominalCode>
+      <OverrideNominalCode>false</OverrideNominalCode>
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode>false</OverrideTaxCode>
+      <Currency>GBP</Currency>
+      <Department>1</Department>
+      <FixedDiscount>0</FixedDiscount>
+      <PriceListReference>PUBLIC</PriceListReference>
+      <DiscountType>NoDiscount</DiscountType>
+      <DiscountTable />
+      <CreditLimit>-0</CreditLimit>
+      <SettlementDays>30</SettlementDays>
+      <SettlementDiscount>2.5</SettlementDiscount>
+      <PaymentDays>30</PaymentDays>
+      <Terms>30 Days Strictly Net</Terms>
+      <CreditPosition>0</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>false</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2003-09-08T00:00:00</AccountOpened>
+      <LastCreditReview>0001-01-01T00:00:00</LastCreditReview>
+      <NextCreditReview>0001-01-01T00:00:00</NextCreditReview>
+      <ApplicationaDate>0001-01-01T00:00:00</ApplicationaDate>
+      <DateReceived>0001-01-01T00:00:00</DateReceived>
+      <CreditMemo>08 September 2000</CreditMemo>
+      <LastInvoiceDate>2004-01-15T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2004-01-29T00:00:00</LastPaymentDate>
+      <TurnoverMTD>1029</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+    </Customer>
+    <Customer>
+      <AccountReference>BRO001</AccountReference>
+      <CompanyName>Bronson Inc</CompanyName>
+      <Balance>0</Balance>
+      <VatNumber />
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Paul</Forename>
+        <Surname>Guy</Surname>
+        <Company>Bronson Inc</Company>
+        <Address1>18989 Royster Road</Address1>
+        <Address2>Suite 343</Address2>
+        <Town>Dallas Texas 769544</Town>
+        <Postcode />
+        <County>USA</County>
+        <Country>GB</Country>
+        <Telephone>001 214 248 8924</Telephone>
+        <Fax>001 214 248 8945</Fax>
+        <Mobile>001 214 248 8926</Mobile>
+        <Email />
+        <Website>http://www.bronsoninc.com</Website>
+        <Birthdate />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Amanda Form</TradeContact>
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Paul</Forename>
+        <Surname>Guy</Surname>
+        <Company>Bronson Inc</Company>
+        <Address1>18989 Royster Road</Address1>
+        <Address2>Suite 343</Address2>
+        <Town>Dallas Texas 769544</Town>
+        <Postcode />
+        <County>USA</County>
+        <Country>GB</Country>
+        <Telephone>001 214 248 8924</Telephone>
+        <Fax>001 214 248 8926</Fax>
+        <Birthdate />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>Malcolm</Analysis2>
+      <Analysis3>International</Analysis3>
+      <NominalCode>4100</NominalCode>
+      <OverrideNominalCode>false</OverrideNominalCode>
+      <TaxCode>0</TaxCode>
+      <OverrideTaxCode>true</OverrideTaxCode>
+      <Currency>GBP</Currency>
+      <Department>6</Department>
+      <FixedDiscount>0</FixedDiscount>
+      <PriceListReference>TRADEA</PriceListReference>
+      <DiscountType>DiscountTable</DiscountType>
+      <DiscountTable>A</DiscountTable>
+      <CreditLimit>4000</CreditLimit>
+      <SettlementDays>45</SettlementDays>
+      <SettlementDiscount>2.5</SettlementDiscount>
+      <PaymentDays>45</PaymentDays>
+      <Terms>45 Days</Terms>
+      <CreditPosition>0</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>2000-12-31T00:00:00</AccountOpened>
+      <LastCreditReview>2004-03-01T00:00:00</LastCreditReview>
+      <NextCreditReview>2004-03-01T00:00:00</NextCreditReview>
+      <ApplicationaDate>2000-12-01T00:00:00</ApplicationaDate>
+      <DateReceived>2000-12-15T00:00:00</DateReceived>
+      <CreditMemo>A/C open date: 
+Trade references checked out ok. 
+Passed credit check review account 3-12 months
+
+First Review
+Satisfactory account</CreditMemo>
+      <LastInvoiceDate>2004-03-10T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2004-04-27T00:00:00</LastPaymentDate>
+      <TurnoverMTD>14742.39</TurnoverMTD>
+      <TurnoverYTD>0</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+    </Customer>
+    <Customer>
+      <AccountReference>COM001</AccountReference>
+      <CompanyName>Compton Packaging</CompanyName>
+      <Balance>1343.6399999999999</Balance>
+      <VatNumber>GB987 1234 45</VatNumber>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Sean</Forename>
+        <Surname>Morris</Surname>
+        <Company>Compton Packaging</Company>
+        <Address1>Longway</Address1>
+        <Address2>Bede Industrial Estate</Address2>
+        <Town>Jarrow</Town>
+        <Postcode>NE43 5UY</Postcode>
+        <County>Tyne &amp; Wear</County>
+        <Country>GB</Country>
+        <Telephone>0191 121 9876</Telephone>
+        <Fax>0191 121 9877</Fax>
+        <Mobile>0191 121 9878</Mobile>
+        <Email />
+        <Website>http://www.comptonpackaging.co.uk</Website>
+        <Birthdate />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Daniel McNamee</TradeContact>
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Jamie</Forename>
+        <Surname>Watson</Surname>
+        <Company>Compton Packaging</Company>
+        <Address1>1040 Howe Street</Address1>
+        <Address2>Nr Sunderland Road</Address2>
+        <Town>Birtley</Town>
+        <Postcode>NE44 7PF</Postcode>
+        <County>Tyne and Wear</County>
+        <Country>GB</Country>
+        <Telephone>0191 122 8578</Telephone>
+        <Fax>0191 122 8579</Fax>
+        <Birthdate />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>George</Analysis2>
+      <Analysis3>Tyne &amp; Wear</Analysis3>
+      <NominalCode>4000</NominalCode>
+      <OverrideNominalCode>false</OverrideNominalCode>
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode>true</OverrideTaxCode>
+      <Currency>GBP</Currency>
+      <Department>1</Department>
+      <FixedDiscount>2</FixedDiscount>
+      <PriceListReference>TRADEB</PriceListReference>
+      <DiscountType>DiscountTable</DiscountType>
+      <DiscountTable>A</DiscountTable>
+      <CreditLimit>4000</CreditLimit>
+      <SettlementDays>30</SettlementDays>
+      <SettlementDiscount>2.5</SettlementDiscount>
+      <PaymentDays>45</PaymentDays>
+      <Terms>45 Days</Terms>
+      <CreditPosition>0</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>1998-09-10T00:00:00</AccountOpened>
+      <LastCreditReview>2004-02-02T00:00:00</LastCreditReview>
+      <NextCreditReview>2004-08-02T00:00:00</NextCreditReview>
+      <ApplicationaDate>1998-09-01T00:00:00</ApplicationaDate>
+      <DateReceived>1999-09-01T00:00:00</DateReceived>
+      <CreditMemo>A/C open date: 
+Trade references checked out ok. 
+Passed credit check review account 3-12 months
+
+First Review
+Satisfactory account</CreditMemo>
+      <LastInvoiceDate>2004-04-09T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2004-04-15T00:00:00</LastPaymentDate>
+      <TurnoverMTD>4545.62</TurnoverMTD>
+      <TurnoverYTD>1343.6399999999999</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+    </Customer>
+    <Customer>
+      <AccountReference>FGL001</AccountReference>
+      <CompanyName>F G Landscape &amp; Design</CompanyName>
+      <Balance>11260.26</Balance>
+      <VatNumber>GB347 3423 34</VatNumber>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>David</Forename>
+        <Surname>Bradford</Surname>
+        <Company>F G Landscape &amp; Design</Company>
+        <Address1>189 Kings Street</Address1>
+        <Address2 />
+        <Town>Norwich</Town>
+        <Postcode>N78 8GI</Postcode>
+        <County>Norfolk</County>
+        <Country>GB</Country>
+        <Telephone>01603 354564</Telephone>
+        <Fax>01603 354783</Fax>
+        <Mobile>01603 354565</Mobile>
+        <Email />
+        <Website>http://www.fglandscapedesign.co.uk</Website>
+        <Birthdate />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Jan Dixon</TradeContact>
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>David</Forename>
+        <Surname>Bradford</Surname>
+        <Company>F G Landscape &amp; Design</Company>
+        <Address1>189 Kings Street</Address1>
+        <Address2 />
+        <Town>Norwich</Town>
+        <Postcode>N78 8GI</Postcode>
+        <County>Norfolk</County>
+        <Country>GB</Country>
+        <Telephone>01603 354564</Telephone>
+        <Fax>01603 354783</Fax>
+        <Birthdate />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>Malcolm</Analysis2>
+      <Analysis3>Norfolk</Analysis3>
+      <NominalCode>4001</NominalCode>
+      <OverrideNominalCode>false</OverrideNominalCode>
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode>false</OverrideTaxCode>
+      <Currency>GBP</Currency>
+      <Department>1</Department>
+      <FixedDiscount>0</FixedDiscount>
+      <PriceListReference>TRADEB</PriceListReference>
+      <DiscountType>InvoiceValue</DiscountType>
+      <DiscountTable />
+      <CreditLimit>1000</CreditLimit>
+      <SettlementDays>0</SettlementDays>
+      <SettlementDiscount>-0</SettlementDiscount>
+      <PaymentDays>0</PaymentDays>
+      <Terms>Proforma</Terms>
+      <CreditPosition>0</CreditPosition>
+      <AccountStatus>2</AccountStatus>
+      <AccountStatusText>Closed</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>true</AccountOnHold>
+      <AccountOpened>1998-10-28T00:00:00</AccountOpened>
+      <LastCreditReview>2003-01-01T00:00:00</LastCreditReview>
+      <NextCreditReview>2005-01-30T00:00:00</NextCreditReview>
+      <ApplicationaDate>1998-10-01T00:00:00</ApplicationaDate>
+      <DateReceived>1998-10-04T00:00:00</DateReceived>
+      <CreditMemo>A/C open date: 
+Trade references checked out ok. 
+Passed credit check review account 3-12 months
+
+First Review
+Satisfactory account</CreditMemo>
+      <LastInvoiceDate>2004-04-14T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2004-04-21T00:00:00</LastPaymentDate>
+      <TurnoverMTD>22127.86</TurnoverMTD>
+      <TurnoverYTD>11260.26</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+    </Customer>
+    <Customer>
+      <AccountReference>GRA001</AccountReference>
+      <CompanyName>Graham Electonics</CompanyName>
+      <Balance>4149.09</Balance>
+      <VatNumber>GB563 5673 34</VatNumber>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Clint</Forename>
+        <Surname>Peddie</Surname>
+        <Company>Graham Electonics</Company>
+        <Address1>150 New Road</Address1>
+        <Address2 />
+        <Town>Glasgow</Town>
+        <Postcode>G12 3FS</Postcode>
+        <County>Scotland</County>
+        <Country>GB</Country>
+        <Telephone>0141 373 2828</Telephone>
+        <Fax>0141 383 2772</Fax>
+        <Mobile>0141 373 2829</Mobile>
+        <Email />
+        <Website>http://www.grahamelectonics.co.uk</Website>
+        <Birthdate />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+        <TradeContact>Darlene Holdsworth</TradeContact>
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Clint</Forename>
+        <Surname>Peddie</Surname>
+        <Company>Graham Electonics</Company>
+        <Address1>150 New Road</Address1>
+        <Address2 />
+        <Town>Glasgow</Town>
+        <Postcode>G12 3FS</Postcode>
+        <County>Scotland</County>
+        <Country>GB</Country>
+        <Telephone>0141 373 2828</Telephone>
+        <Fax>0141 3832772</Fax>
+        <Birthdate />
+        <Notes />
+        <TaxCode>1</TaxCode>
+        <CustomFields />
+      </CustomerDeliveryAddress>
+      <Analysis1>Trade</Analysis1>
+      <Analysis2>George</Analysis2>
+      <Analysis3>Scotland</Analysis3>
+      <NominalCode>4002</NominalCode>
+      <OverrideNominalCode>false</OverrideNominalCode>
+      <TaxCode>1</TaxCode>
+      <OverrideTaxCode>false</OverrideTaxCode>
+      <Currency>GBP</Currency>
+      <Department>1</Department>
+      <FixedDiscount>0</FixedDiscount>
+      <PriceListReference>TRADEA</PriceListReference>
+      <DiscountType>InvoiceValue</DiscountType>
+      <DiscountTable />
+      <CreditLimit>4000</CreditLimit>
+      <SettlementDays>45</SettlementDays>
+      <SettlementDiscount>2.5</SettlementDiscount>
+      <PaymentDays>45</PaymentDays>
+      <Terms>45 Days</Terms>
+      <CreditPosition>0</CreditPosition>
+      <AccountStatus>0</AccountStatus>
+      <AccountStatusText>Open</AccountStatusText>
+      <DUNSNumber>0</DUNSNumber>
+      <TermsAgreed>true</TermsAgreed>
+      <AccountOnHold>false</AccountOnHold>
+      <AccountOpened>1999-12-12T00:00:00</AccountOpened>
+      <LastCreditReview>2004-03-03T00:00:00</LastCreditReview>
+      <NextCreditReview>2004-06-03T00:00:00</NextCreditReview>
+      <ApplicationaDate>1999-11-11T00:00:00</ApplicationaDate>
+      <DateReceived>1999-11-14T00:00:00</DateReceived>
+      <CreditMemo>A/C open date: 
+Trade references checked out ok. 
+Passed credit check review account 3-12 months
+
+First Review
+Satisfactory account</CreditMemo>
+      <LastInvoiceDate>2004-04-27T00:00:00</LastInvoiceDate>
+      <LastPaymentDate>2004-04-21T00:00:00</LastPaymentDate>
+      <TurnoverMTD>8995.1</TurnoverMTD>
+      <TurnoverYTD>4149.09</TurnoverYTD>
+      <PriorYear>0</PriorYear>
+      <Banks>
+        <Bank>
+          <BankName />
+          <Address1 />
+          <Address2 />
+          <Town />
+          <County />
+          <Postcode />
+          <AccountName />
+          <SortCode />
+          <AccountNumber />
+          <BACSRef />
+          <IBAN />
+          <BICSwift />
+          <RollNumber />
+          <AdditionalRef1 />
+          <AdditionalRef2 />
+          <AdditionalRef3 />
+          <OnlineReceipts>false</OnlineReceipts>
+        </Bank>
+      </Banks>
+      <Attachments />
+      <Memo />
+      <Contacts />
+      <CustomFields />
+      <AnalysisCodes />
+    </Customer>
+  </Customers>
+  <PriceLists>
+    <PriceList>
+      <Name>Public Price List</Name>
+      <Reference>PUBLIC</Reference>
+      <Currency>GBP</Currency>
+      <Type>PriceList</Type>
+      <Prices>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>BOARD001</StockCode>
+          <StoredPrice>19.6</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>BOARD002</StockCode>
+          <StoredPrice>21.56</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>BOOKS001</StockCode>
+          <StoredPrice>7.84</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>BOOKS002</StockCode>
+          <StoredPrice>2.94</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>BOOKS003</StockCode>
+          <StoredPrice>4.41</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>CALC001</StockCode>
+          <StoredPrice>9.8</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>CALC002</StockCode>
+          <StoredPrice>5.88</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>CALC003</StockCode>
+          <StoredPrice>16.66</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>CALC004</StockCode>
+          <StoredPrice>5.88</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>CAS001</StockCode>
+          <StoredPrice>14.700000000000001</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>CAS002</StockCode>
+          <StoredPrice>19.6</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>CAS003</StockCode>
+          <StoredPrice>29.400000000000002</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>CDR001</StockCode>
+          <StoredPrice>150.92000000000002</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>CDR002</StockCode>
+          <StoredPrice>186.20000000000002</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>CDR003</StockCode>
+          <StoredPrice>218.54</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>COR001</StockCode>
+          <StoredPrice>2.45</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>DISK001</StockCode>
+          <StoredPrice>2.94</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>DISK002</StockCode>
+          <StoredPrice>7.84</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>ENV001</StockCode>
+          <StoredPrice>8.82</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>ENV002</StockCode>
+          <StoredPrice>9.31</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>ENV003</StockCode>
+          <StoredPrice>7.3500000000000005</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>ENV004</StockCode>
+          <StoredPrice>8.33</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>FAX001</StockCode>
+          <StoredPrice>176.4</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>FAX002</StockCode>
+          <StoredPrice>392</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>FAX003</StockCode>
+          <StoredPrice>450.8</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>FIL001</StockCode>
+          <StoredPrice>44.1</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>FIL002</StockCode>
+          <StoredPrice>63.7</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>FLIP001</StockCode>
+          <StoredPrice>15.68</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>FLIP002</StockCode>
+          <StoredPrice>15.68</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>HAR001</StockCode>
+          <StoredPrice>49</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>HAR002</StockCode>
+          <StoredPrice>73.5</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>HAR003</StockCode>
+          <StoredPrice>88.2</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>KEY001</StockCode>
+          <StoredPrice>19.6</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>LABELS001</StockCode>
+          <StoredPrice>4.17</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>LABELS002</StockCode>
+          <StoredPrice>4.17</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>LAM001</StockCode>
+          <StoredPrice>73.5</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>LAM002</StockCode>
+          <StoredPrice>11.76</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>MAIL001</StockCode>
+          <StoredPrice>14.700000000000001</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>MEM001</StockCode>
+          <StoredPrice>29.400000000000002</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>MEM002</StockCode>
+          <StoredPrice>56.84</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>MEM003</StockCode>
+          <StoredPrice>98</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>MEM004</StockCode>
+          <StoredPrice>29.400000000000002</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>MEM005</StockCode>
+          <StoredPrice>49</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>MEM006</StockCode>
+          <StoredPrice>78.4</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>MON001</StockCode>
+          <StoredPrice>88.2</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>MON002</StockCode>
+          <StoredPrice>137.20000000000002</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>MON003</StockCode>
+          <StoredPrice>235.20000000000002</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>MOTH001</StockCode>
+          <StoredPrice>49</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>MOTH002</StockCode>
+          <StoredPrice>58.800000000000004</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>MOTH003</StockCode>
+          <StoredPrice>68.600000000000009</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>MOUSE001</StockCode>
+          <StoredPrice>1.47</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>MOUSE002</StockCode>
+          <StoredPrice>1.47</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>MOUSE003</StockCode>
+          <StoredPrice>1.47</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>MOUSE004</StockCode>
+          <StoredPrice>14.700000000000001</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>PAPER001</StockCode>
+          <StoredPrice>2.54</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>PAPER002</StockCode>
+          <StoredPrice>2.84</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>PAPER003</StockCode>
+          <StoredPrice>3.34</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>PAPER004</StockCode>
+          <StoredPrice>4.9</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>PAPER005</StockCode>
+          <StoredPrice>2.41</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>PAPER006</StockCode>
+          <StoredPrice>3.73</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>PAPER007</StockCode>
+          <StoredPrice>3.73</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>PC001</StockCode>
+          <StoredPrice>539</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>PC002</StockCode>
+          <StoredPrice>637</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>PC003</StockCode>
+          <StoredPrice>735</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>PC004</StockCode>
+          <StoredPrice>833</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>PC005</StockCode>
+          <StoredPrice>1176</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>PC006</StockCode>
+          <StoredPrice>1470</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>PEN001</StockCode>
+          <StoredPrice>1.96</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>PEN002</StockCode>
+          <StoredPrice>1.96</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>PEN003</StockCode>
+          <StoredPrice>1.96</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>PEN004</StockCode>
+          <StoredPrice>2.45</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>PEN005</StockCode>
+          <StoredPrice>2.45</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>PEN006</StockCode>
+          <StoredPrice>4.71</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>PRC001</StockCode>
+          <StoredPrice>78.4</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>PRC002</StockCode>
+          <StoredPrice>127.4</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>PRC003</StockCode>
+          <StoredPrice>196</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>PRC004</StockCode>
+          <StoredPrice>294</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>PRC005</StockCode>
+          <StoredPrice>392</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>PRN001</StockCode>
+          <StoredPrice>235.20000000000002</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>PRN002</StockCode>
+          <StoredPrice>1176</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>PRN003</StockCode>
+          <StoredPrice>68.600000000000009</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>PRN004</StockCode>
+          <StoredPrice>176.4</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>PRN005</StockCode>
+          <StoredPrice>186.20000000000002</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>REMEMBER01</StockCode>
+          <StoredPrice>2.94</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>REMEMBER02</StockCode>
+          <StoredPrice>3.43</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>REMEMBER03</StockCode>
+          <StoredPrice>7.84</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>RUB001</StockCode>
+          <StoredPrice>5.88</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>SCI001</StockCode>
+          <StoredPrice>2.94</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>SCN001</StockCode>
+          <StoredPrice>84.28</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>SCN002</StockCode>
+          <StoredPrice>185.22</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>TAPE001</StockCode>
+          <StoredPrice>2.45</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>TAPE002</StockCode>
+          <StoredPrice>2.75</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>TAPE003</StockCode>
+          <StoredPrice>0.64</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>TR001</StockCode>
+          <StoredPrice>9.8</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>TR002</StockCode>
+          <StoredPrice>5.88</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>TR003</StockCode>
+          <StoredPrice>17.64</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>TR004</StockCode>
+          <StoredPrice>14.700000000000001</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>TR005</StockCode>
+          <StoredPrice>13.72</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>TRAY001</StockCode>
+          <StoredPrice>6.86</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>TRAY002</StockCode>
+          <StoredPrice>6.86</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>TRAY003</StockCode>
+          <StoredPrice>6.86</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>VID001</StockCode>
+          <StoredPrice>33.32</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>VID002</StockCode>
+          <StoredPrice>43.12</StoredPrice>
+          <Value>2</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PUBLIC</ExternalReference>
+          <StockCode>VID003</StockCode>
+          <StoredPrice>53.9</StoredPrice>
+          <Value>2</Value>
+        </Price>
+      </Prices>
+    </PriceList>
+    <PriceList>
+      <Name>Trade Price List A</Name>
+      <Reference>TRADEA</Reference>
+      <Currency>GBP</Currency>
+      <Type>PriceList</Type>
+      <Prices>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>BOARD001</StockCode>
+          <StoredPrice>19</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>BOARD002</StockCode>
+          <StoredPrice>20.900000000000002</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>BOOKS001</StockCode>
+          <StoredPrice>7.6000000000000005</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>BOOKS002</StockCode>
+          <StoredPrice>2.85</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>BOOKS003</StockCode>
+          <StoredPrice>4.28</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>CALC001</StockCode>
+          <StoredPrice>9.5</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>CALC002</StockCode>
+          <StoredPrice>5.7</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>CALC003</StockCode>
+          <StoredPrice>16.15</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>CALC004</StockCode>
+          <StoredPrice>5.7</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>CAS001</StockCode>
+          <StoredPrice>14.25</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>CAS002</StockCode>
+          <StoredPrice>19</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>CAS003</StockCode>
+          <StoredPrice>28.5</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>CDR001</StockCode>
+          <StoredPrice>146.3</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>CDR002</StockCode>
+          <StoredPrice>180.5</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>CDR003</StockCode>
+          <StoredPrice>211.85</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>COR001</StockCode>
+          <StoredPrice>2.38</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>DISK001</StockCode>
+          <StoredPrice>2.85</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>DISK002</StockCode>
+          <StoredPrice>7.6000000000000005</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>ENV001</StockCode>
+          <StoredPrice>8.55</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>ENV002</StockCode>
+          <StoredPrice>9.03</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>ENV003</StockCode>
+          <StoredPrice>7.13</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>ENV004</StockCode>
+          <StoredPrice>8.08</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>FAX001</StockCode>
+          <StoredPrice>171</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>FAX002</StockCode>
+          <StoredPrice>380</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>FAX003</StockCode>
+          <StoredPrice>437</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>FIL001</StockCode>
+          <StoredPrice>42.75</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>FIL002</StockCode>
+          <StoredPrice>61.75</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>FLIP001</StockCode>
+          <StoredPrice>15.200000000000001</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>FLIP002</StockCode>
+          <StoredPrice>15.200000000000001</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>HAR001</StockCode>
+          <StoredPrice>47.5</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>HAR002</StockCode>
+          <StoredPrice>71.25</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>HAR003</StockCode>
+          <StoredPrice>85.5</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>KEY001</StockCode>
+          <StoredPrice>19</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>LABELS001</StockCode>
+          <StoredPrice>4.04</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>LABELS002</StockCode>
+          <StoredPrice>4.04</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>LAM001</StockCode>
+          <StoredPrice>71.25</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>LAM002</StockCode>
+          <StoredPrice>11.4</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>MAIL001</StockCode>
+          <StoredPrice>14.25</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>MEM001</StockCode>
+          <StoredPrice>28.5</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>MEM002</StockCode>
+          <StoredPrice>55.1</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>MEM003</StockCode>
+          <StoredPrice>95</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>MEM004</StockCode>
+          <StoredPrice>28.5</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>MEM005</StockCode>
+          <StoredPrice>47.5</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>MEM006</StockCode>
+          <StoredPrice>76</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>MON001</StockCode>
+          <StoredPrice>85.5</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>MON002</StockCode>
+          <StoredPrice>133</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>MON003</StockCode>
+          <StoredPrice>228</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>MOTH001</StockCode>
+          <StoredPrice>47.5</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>MOTH002</StockCode>
+          <StoredPrice>57</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>MOTH003</StockCode>
+          <StoredPrice>66.5</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>MOUSE001</StockCode>
+          <StoredPrice>1.43</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>MOUSE002</StockCode>
+          <StoredPrice>1.43</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>MOUSE003</StockCode>
+          <StoredPrice>1.43</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>MOUSE004</StockCode>
+          <StoredPrice>14.25</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>PAPER001</StockCode>
+          <StoredPrice>2.47</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>PAPER002</StockCode>
+          <StoredPrice>2.75</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>PAPER003</StockCode>
+          <StoredPrice>3.23</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>PAPER004</StockCode>
+          <StoredPrice>4.75</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>PAPER005</StockCode>
+          <StoredPrice>2.33</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>PAPER006</StockCode>
+          <StoredPrice>3.61</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>PAPER007</StockCode>
+          <StoredPrice>3.61</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>PC001</StockCode>
+          <StoredPrice>522.5</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>PC002</StockCode>
+          <StoredPrice>617.5</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>PC003</StockCode>
+          <StoredPrice>712.5</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>PC004</StockCode>
+          <StoredPrice>807.5</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>PC005</StockCode>
+          <StoredPrice>1140</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>PC006</StockCode>
+          <StoredPrice>1425</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>PEN001</StockCode>
+          <StoredPrice>1.9000000000000001</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>PEN002</StockCode>
+          <StoredPrice>1.9000000000000001</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>PEN003</StockCode>
+          <StoredPrice>1.9000000000000001</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>PEN004</StockCode>
+          <StoredPrice>2.38</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>PEN005</StockCode>
+          <StoredPrice>2.38</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>PEN006</StockCode>
+          <StoredPrice>4.5600000000000005</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>PRC001</StockCode>
+          <StoredPrice>76</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>PRC002</StockCode>
+          <StoredPrice>123.5</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>PRC003</StockCode>
+          <StoredPrice>190</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>PRC004</StockCode>
+          <StoredPrice>285</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>PRC005</StockCode>
+          <StoredPrice>380</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>PRN001</StockCode>
+          <StoredPrice>228</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>PRN002</StockCode>
+          <StoredPrice>1140</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>PRN003</StockCode>
+          <StoredPrice>66.5</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>PRN004</StockCode>
+          <StoredPrice>171</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>PRN005</StockCode>
+          <StoredPrice>180.5</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>REMEMBER01</StockCode>
+          <StoredPrice>2.85</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>REMEMBER02</StockCode>
+          <StoredPrice>3.33</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>REMEMBER03</StockCode>
+          <StoredPrice>7.6000000000000005</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>RUB001</StockCode>
+          <StoredPrice>5.7</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>SCI001</StockCode>
+          <StoredPrice>2.85</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>SCN001</StockCode>
+          <StoredPrice>81.7</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>SCN002</StockCode>
+          <StoredPrice>179.55</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>TAPE001</StockCode>
+          <StoredPrice>2.38</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>TAPE002</StockCode>
+          <StoredPrice>2.66</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>TAPE003</StockCode>
+          <StoredPrice>0.62</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>TR001</StockCode>
+          <StoredPrice>9.5</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>TR002</StockCode>
+          <StoredPrice>5.7</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>TR003</StockCode>
+          <StoredPrice>17.1</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>TR004</StockCode>
+          <StoredPrice>14.25</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>TR005</StockCode>
+          <StoredPrice>13.3</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>TRAY001</StockCode>
+          <StoredPrice>6.65</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>TRAY002</StockCode>
+          <StoredPrice>6.65</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>TRAY003</StockCode>
+          <StoredPrice>6.65</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>VID001</StockCode>
+          <StoredPrice>32.3</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>VID002</StockCode>
+          <StoredPrice>41.800000000000004</StoredPrice>
+          <Value>5</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEA</ExternalReference>
+          <StockCode>VID003</StockCode>
+          <StoredPrice>52.25</StoredPrice>
+          <Value>5</Value>
+        </Price>
+      </Prices>
+    </PriceList>
+    <PriceList>
+      <Name>Trade Price List B</Name>
+      <Reference>TRADEB</Reference>
+      <Currency>GBP</Currency>
+      <Type>PriceList</Type>
+      <Prices>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>BOARD001</StockCode>
+          <StoredPrice>18</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>BOARD002</StockCode>
+          <StoredPrice>19.8</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>BOOKS001</StockCode>
+          <StoredPrice>7.2</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>BOOKS002</StockCode>
+          <StoredPrice>2.7</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>BOOKS003</StockCode>
+          <StoredPrice>4.05</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>CALC001</StockCode>
+          <StoredPrice>9</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>CALC002</StockCode>
+          <StoredPrice>5.4</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>CALC003</StockCode>
+          <StoredPrice>15.3</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>CALC004</StockCode>
+          <StoredPrice>5.4</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>CAS001</StockCode>
+          <StoredPrice>13.5</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>CAS002</StockCode>
+          <StoredPrice>18</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>CAS003</StockCode>
+          <StoredPrice>27</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>CDR001</StockCode>
+          <StoredPrice>138.6</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>CDR002</StockCode>
+          <StoredPrice>171</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>CDR003</StockCode>
+          <StoredPrice>200.70000000000002</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>COR001</StockCode>
+          <StoredPrice>2.25</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>DISK001</StockCode>
+          <StoredPrice>2.7</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>DISK002</StockCode>
+          <StoredPrice>7.2</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>ENV001</StockCode>
+          <StoredPrice>8.1</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>ENV002</StockCode>
+          <StoredPrice>8.55</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>ENV003</StockCode>
+          <StoredPrice>6.75</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>ENV004</StockCode>
+          <StoredPrice>7.65</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>FAX001</StockCode>
+          <StoredPrice>162</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>FAX002</StockCode>
+          <StoredPrice>360</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>FAX003</StockCode>
+          <StoredPrice>414</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>FIL001</StockCode>
+          <StoredPrice>40.5</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>FIL002</StockCode>
+          <StoredPrice>58.5</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>FLIP001</StockCode>
+          <StoredPrice>14.4</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>FLIP002</StockCode>
+          <StoredPrice>14.4</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>HAR001</StockCode>
+          <StoredPrice>45</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>HAR002</StockCode>
+          <StoredPrice>67.5</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>HAR003</StockCode>
+          <StoredPrice>81</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>KEY001</StockCode>
+          <StoredPrice>18</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>LABELS001</StockCode>
+          <StoredPrice>3.83</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>LABELS002</StockCode>
+          <StoredPrice>3.83</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>LAM001</StockCode>
+          <StoredPrice>67.5</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>LAM002</StockCode>
+          <StoredPrice>10.8</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>MAIL001</StockCode>
+          <StoredPrice>13.5</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>MEM001</StockCode>
+          <StoredPrice>27</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>MEM002</StockCode>
+          <StoredPrice>52.2</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>MEM003</StockCode>
+          <StoredPrice>90</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>MEM004</StockCode>
+          <StoredPrice>27</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>MEM005</StockCode>
+          <StoredPrice>45</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>MEM006</StockCode>
+          <StoredPrice>72</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>MON001</StockCode>
+          <StoredPrice>81</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>MON002</StockCode>
+          <StoredPrice>126</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>MON003</StockCode>
+          <StoredPrice>216</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>MOTH001</StockCode>
+          <StoredPrice>45</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>MOTH002</StockCode>
+          <StoredPrice>54</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>MOTH003</StockCode>
+          <StoredPrice>63</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>MOUSE001</StockCode>
+          <StoredPrice>1.35</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>MOUSE002</StockCode>
+          <StoredPrice>1.35</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>MOUSE003</StockCode>
+          <StoredPrice>1.35</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>MOUSE004</StockCode>
+          <StoredPrice>13.5</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>PAPER001</StockCode>
+          <StoredPrice>2.34</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>PAPER002</StockCode>
+          <StoredPrice>2.61</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>PAPER003</StockCode>
+          <StoredPrice>3.06</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>PAPER004</StockCode>
+          <StoredPrice>4.5</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>PAPER005</StockCode>
+          <StoredPrice>2.21</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>PAPER006</StockCode>
+          <StoredPrice>3.42</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>PAPER007</StockCode>
+          <StoredPrice>3.42</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>PC001</StockCode>
+          <StoredPrice>495</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>PC002</StockCode>
+          <StoredPrice>585</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>PC003</StockCode>
+          <StoredPrice>675</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>PC004</StockCode>
+          <StoredPrice>765</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>PC005</StockCode>
+          <StoredPrice>1080</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>PC006</StockCode>
+          <StoredPrice>1350</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>PEN001</StockCode>
+          <StoredPrice>1.8</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>PEN002</StockCode>
+          <StoredPrice>1.8</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>PEN003</StockCode>
+          <StoredPrice>1.8</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>PEN004</StockCode>
+          <StoredPrice>2.25</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>PEN005</StockCode>
+          <StoredPrice>2.25</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>PEN006</StockCode>
+          <StoredPrice>4.32</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>PRC001</StockCode>
+          <StoredPrice>72</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>PRC002</StockCode>
+          <StoredPrice>117</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>PRC003</StockCode>
+          <StoredPrice>180</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>PRC004</StockCode>
+          <StoredPrice>270</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>PRC005</StockCode>
+          <StoredPrice>360</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>PRN001</StockCode>
+          <StoredPrice>216</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>PRN002</StockCode>
+          <StoredPrice>1080</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>PRN003</StockCode>
+          <StoredPrice>63</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>PRN004</StockCode>
+          <StoredPrice>162</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>PRN005</StockCode>
+          <StoredPrice>171</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>REMEMBER01</StockCode>
+          <StoredPrice>2.7</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>REMEMBER02</StockCode>
+          <StoredPrice>3.15</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>REMEMBER03</StockCode>
+          <StoredPrice>7.2</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>RUB001</StockCode>
+          <StoredPrice>5.4</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>SCI001</StockCode>
+          <StoredPrice>2.7</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>SCN001</StockCode>
+          <StoredPrice>77.4</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>SCN002</StockCode>
+          <StoredPrice>170.1</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>TAPE001</StockCode>
+          <StoredPrice>2.25</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>TAPE002</StockCode>
+          <StoredPrice>2.52</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>TAPE003</StockCode>
+          <StoredPrice>0.59</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>TR001</StockCode>
+          <StoredPrice>9</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>TR002</StockCode>
+          <StoredPrice>5.4</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>TR003</StockCode>
+          <StoredPrice>16.2</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>TR004</StockCode>
+          <StoredPrice>13.5</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>TR005</StockCode>
+          <StoredPrice>12.6</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>TRAY001</StockCode>
+          <StoredPrice>6.3</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>TRAY002</StockCode>
+          <StoredPrice>6.3</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>TRAY003</StockCode>
+          <StoredPrice>6.3</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>VID001</StockCode>
+          <StoredPrice>30.6</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>VID002</StockCode>
+          <StoredPrice>39.6</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>TRADEB</ExternalReference>
+          <StockCode>VID003</StockCode>
+          <StoredPrice>49.5</StoredPrice>
+          <Value>10</Value>
+        </Price>
+      </Prices>
+    </PriceList>
+    <PriceList>
+      <Name>Customer Prices</Name>
+      <Type>Special</Type>
+      <Prices>
+        <Price>
+          <DiscountType>Fixed</DiscountType>
+          <ExternalReference>A1D001</ExternalReference>
+          <StockCode>BOARD001</StockCode>
+          <StoredPrice>18</StoredPrice>
+          <Value>18</Value>
+        </Price>
+        <Price>
+          <DiscountType>MarkupCost</DiscountType>
+          <ExternalReference>BUS001</ExternalReference>
+          <StockCode>BOARD001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+        </Price>
+        <Price>
+          <DiscountType>Fixed</DiscountType>
+          <ExternalReference>BUS001</ExternalReference>
+          <StockCode>BOOKS001</StockCode>
+          <StoredPrice>7</StoredPrice>
+          <Value>7</Value>
+        </Price>
+        <Price>
+          <DiscountType>Fixed</DiscountType>
+          <ExternalReference>BUS001</ExternalReference>
+          <StockCode>BOOKS003</StockCode>
+          <StoredPrice>4</StoredPrice>
+          <Value>4</Value>
+        </Price>
+        <Price>
+          <DiscountType>Fixed</DiscountType>
+          <ExternalReference>PIC001</ExternalReference>
+          <StockCode>CALC004</StockCode>
+          <StoredPrice>5.5</StoredPrice>
+          <Value>5.5</Value>
+        </Price>
+      </Prices>
+    </PriceList>
+  </PriceLists>
+</Company>

@@ -1,0 +1,36 @@
+
+
+
+[libming]
+
+language = "c"
+
+
+header_paths = [
+    "database/libming/latest/build_asan/src/ming.h",
+    "database/libming/latest/code/mingpp.h",
+]
+
+
+compile_commands_path = "database/libming/latest/build_asan/compile_commands.json"
+
+
+document_paths = ["database/libming/latest/code/README"]
+
+
+output_path = "database/libming/latest/out"
+
+
+driver_build_args = [
+    "database/libming/latest/bin_asan/lib/libming.a",
+    "-lz -fcommon",
+]
+
+
+exclude_paths = []
+
+
+driver_headers = []
+
+consumer_case_paths = ["database/libming/latest/code/test"]
+

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Products>
+    <Product>
+      <Sku>TR002</Sku>
+      <Name>LP200 Laser Printer Toner</Name>
+      <Description>LP200 Laser Printer Toner - WebDescription</Description>
+      <LongDescription>LP200 Laser Printer Toner - WebLongDescription</LongDescription>
+      <ImageUrl />
+      <ThumbnailUrl />
+      <Custom1>Consumables</Custom1>
+      <Custom2>Printer</Custom2>
+      <Custom3>Toner</Custom3>
+      <SalePrice>5.7</SalePrice>
+      <UnitWeight>0</UnitWeight>
+      <QtyInStock>10</QtyInStock>
+      <QtyOnOrder>0</QtyOnOrder>
+      <ReorderQty>0</ReorderQty>
+      <ReorderLvl>0</ReorderLvl>
+      <TaxCode>1</TaxCode>
+      <GroupCode>1</GroupCode>
+      <Department>0</Department>
+      <UnitOfSale>Each</UnitOfSale>
+      <NominalCode>4000</NominalCode>
+      <Publish>false</Publish>
+      <ProductLevel>0</ProductLevel>
+      <SpecialOffer>false</SpecialOffer>
+      <QtyAllocated>0</QtyAllocated>
+      <ImageName />
+      <LastCostPrice>5</LastCostPrice>
+      <QtyLastOrder>0</QtyLastOrder>
+      <AverageCostPrice>5</AverageCostPrice>
+      <RRPPrice xsi:nil="true" />
+      <Attachments />
+      <DateModified xsi:nil="true" />
+      <Dimensions />
+      <ProductBoms />
+      <RelatedProducts />
+      <AlternativeProducts />
+      <SupplierAccountRef />
+      <SupplierDepartment>0</SupplierDepartment>
+      <ProductQtyBreaks />
+      <CommodityCode>789</CommodityCode>
+      <IntrastatCommodityCode>123</IntrastatCommodityCode>
+      <PurchaseNominalCode>4001</PurchaseNominalCode>
+      <SupplierPartNo />
+      <Location>456</Location>
+      <AllowSalesOrder xsi:nil="true" />
+      <Attributes />
+      <UnitsOfMeasure />
+      <UseDescriptionOnDocs>false</UseDescriptionOnDocs>
+      <InactiveDate xsi:nil="true" />
+    </Product>
+  </Products>
+  <Styles />
+  <Inventories />
+  <Customers />
+  <Suppliers />
+  <SalesOrders />
+  <PurchaseOrders />
+  <Invoices />
+  <ProductGroups>
+    <ProductGroup>
+      <Reference>1</Reference>
+      <Name>CONSUMABLES</Name>
+    </ProductGroup>
+  </ProductGroups>
+  <Transactions />
+  <TaxRates />
+  <Currencies />
+  <PriceLists />
+  <StockTransactions />
+  <PaymentAllocations />
+  <AllocationSessions />
+</Company>

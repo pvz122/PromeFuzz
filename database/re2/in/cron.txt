@@ -1,0 +1,6 @@
+00 11, 16 * * * /home/maverick/bin/incremental-backup
+00 – 0th Minute (Top of the hour) 11, 16 – 11 AM and 4 PM * – Every day * – Every month * – Every day of the week
+6. To Schedule a Job for a Within Certain Range of Time (e.g. Only on Weekdays):
+00 09-18 * * * /home/maverick/bin/check-db-status
+00 09-18 * * 1-5 /home/maverick/bin/check-db-status
+00 – 0th Minute (Top of the hour) 09-18 – 9 am, 10 am, 11 am, 12 am, 1 pm, 2 pm, 3 pm, 4 pm, 5 pm, 6 pm * – Every day * – Every month 1-5 -Mon, Tue, Wed, Thu and Fri (Every Weekday)

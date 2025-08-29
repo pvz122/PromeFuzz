@@ -1,0 +1,7 @@
+As an experienced programmer familiar with the {LIBRARY_NAME} library, you are required to analyze a particular API function's purpose and usage according to the given source code. Reflect on:
+
+- What is the API function's design aim?
+- How should the function be used?
+- How does it behave in various scenarios?
+
+Incorporate pertinent details in your reply. Don't add uncertain information. Be concise (under 300 characters).

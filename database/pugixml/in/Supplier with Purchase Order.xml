@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Company xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Suppliers>
+    <Supplier>
+      <Id>123</Id>
+      <CompanyName>Internetware</CompanyName>
+      <AccountReference>INTE001</AccountReference>
+      <SupplierInvoiceAddress>
+        <Title />
+        <Forename>Support</Forename>
+        <Surname>Person</Surname>
+        <Company>Internetware</Company>
+        <Address1>6-8 Charlotte Square</Address1>
+        <Address2>i6 Building</Address2>
+        <Address3 />
+        <Town>Newcastle Upon Tyne</Town>
+        <Postcode>NE1 4XF</Postcode>
+        <County>Tyne and Wear</County>
+        <Country>GB</Country>
+        <Telephone>0845 123 2920</Telephone>
+        <Fax>0845 123 2921</Fax>
+        <Mobile />
+        <Email>support@internetware.co.uk</Email>
+      </SupplierInvoiceAddress>
+      <SupplierDeliveryAddress>
+        <Title />
+        <Forename>Support</Forename>
+        <Surname>Person</Surname>
+        <Company>Internetware</Company>
+        <Address1>6-8 Charlotte Square</Address1>
+        <Address2>i6 Building</Address2>
+        <Address3 />
+        <Town>Newcastle Upon Tyne</Town>
+        <Postcode>NE1 4XF</Postcode>
+        <County>Tyne and Wear</County>
+        <Country>GB</Country>
+        <Telephone>0845 123 2920</Telephone>
+        <Fax>0845 123 2921</Fax>
+        <Mobile />
+        <Email>support@internetware.co.uk</Email>
+      </SupplierDeliveryAddress>
+      <Currency>GBP</Currency>
+      <TermsAgreed>1</TermsAgreed>
+      <AccountStatus>1</AccountStatus>
+    </Supplier>
+  </Suppliers>
+  <PurchaseOrders>
+    <PurchaseOrder>
+      <Id>15</Id>
+      <SupplierId>123</SupplierId>
+      <PurchaseOrderNumber>15</PurchaseOrderNumber>
+      <SupplierOrderNumber>15</SupplierOrderNumber>
+      <Notes1>Purcahse Order</Notes1>
+      <ForeignRate>1</ForeignRate>
+      <Currency>GBP</Currency>
+      <AccountReference>INTE001</AccountReference>
+      <CurrencyUsed>false</CurrencyUsed>
+      <PurchaseOrderDate>2011-01-01T11:11:11</PurchaseOrderDate>
+      <DespatchDate>0001-01-01T00:00:00</DespatchDate>
+      <PurchaseOrderAddress>
+        <Title />
+        <Forename>Support</Forename>
+        <Surname>Person</Surname>
+        <Company>Internetware</Company>
+        <Address1>6-8 Charlotte Square</Address1>
+        <Address2>i6 Building</Address2>
+        <Address3 />
+        <Town>Newcastle Upon Tyne</Town>
+        <Postcode>NE1 4XF</Postcode>
+        <County>Tyne and Wear</County>
+        <Country>GB</Country>
+        <Telephone>0845 123 2920</Telephone>
+        <Fax>0845 123 2921</Fax>
+        <Mobile />
+        <Email>support@internetware.co.uk</Email>
+      </PurchaseOrderAddress>
+      <PurchaseOrderDeliveryAddress>
+        <Title />
+        <Forename>Support</Forename>
+        <Surname>Person</Surname>
+        <Company>Internetware</Company>
+        <Address1>6-8 Charlotte Square</Address1>
+        <Address2>i6 Building</Address2>
+        <Address3 />
+        <Town>Newcastle Upon Tyne</Town>
+        <Postcode>NE1 4XF</Postcode>
+        <County>Tyne and Wear</County>
+        <Country>GB</Country>
+        <Telephone>0845 123 2920</Telephone>
+        <Fax>0845 123 2921</Fax>
+        <Mobile />
+        <Email>support@internetware.co.uk</Email>
+      </PurchaseOrderDeliveryAddress>
+      <PurchaseOrderItems>
+        <Item>
+          <Sku>HV20</Sku>
+          <Name>Canon HV20 High Definition Camcorder</Name>
+          <QtyOrdered>1</QtyOrdered>
+          <UnitPrice>100</UnitPrice>
+          <UnitDiscountAmount>10</UnitDiscountAmount>
+          <TaxRate>20</TaxRate>
+          <TaxCode>1</TaxCode>
+          <NominalCode>4000</NominalCode>
+          <Department>1200</Department>
+          <Type>Stock</Type>
+        </Item>
+        <Item>
+          <Sku>MCM240</Sku>
+          <Name>Philips MCM240/25 MP3 Micro Hi-Fi System</Name>
+          <QtyOrdered>1</QtyOrdered>
+          <UnitPrice>1000</UnitPrice>
+          <TaxRate>20</TaxRate>
+          <TaxCode>1</TaxCode>
+          <NominalCode>4000</NominalCode>
+          <Department>1200</Department>
+          <Type>Stock</Type>
+        </Item>
+      </PurchaseOrderItems>
+      <Carriage>
+        <Sku />
+        <Name>Flat Rate (Best Way)</Name>
+        <QtyOrdered>1</QtyOrdered>
+        <UnitPrice>5</UnitPrice>
+        <TaxRate>20</TaxRate>
+        <TaxCode>1</TaxCode>
+        <NominalCode>4000</NominalCode>
+        <Department>1200</Department>
+        <Type>NonStock</Type>
+      </Carriage>
+      <PurchaseOrderType>ProductInvoice</PurchaseOrderType>
+      <TakenBy>Connect Web Order</TakenBy>
+    </PurchaseOrder>
+  </PurchaseOrders>
+</Company>

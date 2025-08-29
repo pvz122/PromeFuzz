@@ -1,0 +1,25 @@
+[libtiff]
+language = "c"
+header_paths = [
+    "database/libtiff/latest/code/libtiff/tiff.h",
+    "database/libtiff/latest/code/libtiff/tiffio.h",
+    "database/libtiff/latest/code/libtiff/tiffio.hxx",
+]
+compile_commands_path = "database/libtiff/latest/build_asan/compile_commands.json"
+document_paths = [
+    "database/libtiff/latest/code/doc/libtiff.rst",
+    "database/libtiff/latest/code/doc/functions",
+]
+document_has_api_usage = true
+output_path = "database/libtiff/latest/out"
+driver_build_args = [
+    "-Idatabase/libtiff/latest/bin_asan/include",
+    "database/libtiff/latest/bin_asan/lib/libtiff.a",
+    "database/libtiff/latest/bin_asan/lib/libtiffxx.a",
+    "-lz -ljpeg -ljbig -llzma -lzstd",
+]
+source_paths = []
+exclude_paths = []
+driver_headers = []
+consumer_case_paths = ["database/libtiff/latest/code/test"]
+consumer_build_args = ["-Idatabase/libtiff/latest/build_asan/libtiff"]

@@ -1,0 +1,5 @@
+The fuzz driver you wrote triggered an AddressSanitizer error, below is the error message given by the sanitizer:
+```
+{ERROR_MESSAGE}
+```
+Please fix the error and reply ONLY the content of the source code.

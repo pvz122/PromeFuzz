@@ -1,0 +1,1 @@
+Matches all valid IP addresses from 0.0.0.0 to 255.255.255.255

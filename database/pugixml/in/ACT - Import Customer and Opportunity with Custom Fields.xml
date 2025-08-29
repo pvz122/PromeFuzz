@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Company xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Customers>
+    <Customer>
+      <Id>1</Id>
+      <CompanyName>Internetware</CompanyName>
+      <AccountReference>INTE001</AccountReference>
+      <CustomerAddress>
+        <Title />
+        <Forename>Support</Forename>
+        <Surname>Person</Surname>
+        <Company>Internetware</Company>
+        <Address1>i6 Building</Address1>
+        <Address2>Charlotte Square</Address2>
+        <Address3 />
+        <Town>Newcastle upon Tyne</Town>
+        <PostCode>NE1 4XF</PostCode>
+        <County>Tyne and Wear</County>
+        <Country>GB</Country>
+        <Telephone>0845 123 2920</Telephone>
+        <Fax>0845 123 2921</Fax>
+        <Mobile />
+        <Email>support@internetware.co.uk</Email>
+      </CustomerAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Support</Forename>
+        <Surname>Person</Surname>
+        <Company>Internetware</Company>
+        <Address1>i6 Building</Address1>
+        <Address2>Charlotte Square</Address2>
+        <Address3 />
+        <Town>Newcastle upon Tyne</Town>
+        <PostCode>NE1 4XF</PostCode>
+        <County>Tyne and Wear</County>
+        <Country>GB</Country>
+        <Telephone>0845 123 2920</Telephone>
+        <Fax>0845 123 2921</Fax>
+        <Mobile />
+        <Email>support@internetware.co.uk</Email>
+      </CustomerDeliveryAddress>
+      <Currency>GBP</Currency>
+      <TermsAgreed>true</TermsAgreed>
+    </Customer>
+  </Customers>
+  <SalesOrders>
+    <SalesOrder>
+      <Id>1</Id>
+      <CustomerId>1</CustomerId>
+      <CustomerOrderNumber>007</CustomerOrderNumber>
+      <Notes1>This is a Notes 1 field</Notes1>
+      <Notes2 />
+      <Notes3>This is a Notes 3 field</Notes3>
+      <AccountReference>INTE001</AccountReference>
+      <SalesOrderDate>2009-10-02T00:00:00</SalesOrderDate>
+      <DespatchDate>2009-10-08T00:00:00</DespatchDate>
+      <RequestedDeliveryDate>2009-10-10T00:00:00</RequestedDeliveryDate>
+      <PromisedDeliveryDate>2009-10-12T00:00:00</PromisedDeliveryDate>
+      <SalesOrderAddress>
+        <Title />
+        <Forename>Support</Forename>
+        <Surname>Person</Surname>
+        <Company>Internetware</Company>
+        <Address1>i6 Building</Address1>
+        <Address2>Charlotte Square</Address2>
+        <Address3 />
+        <Town>Newcastle upon Tyne</Town>
+        <PostCode>NE1 4XF</PostCode>
+        <County>Tyne and Wear</County>
+        <Country>GB</Country>
+        <Telephone>0845 123 2920</Telephone>
+        <Fax>0845 123 2921</Fax>
+        <Mobile />
+        <Email>support@internetware.co.uk</Email>
+      </SalesOrderAddress>
+      <SalesOrderDeliveryAddress>
+        <Title />
+        <Forename>Support</Forename>
+        <Surname>Person</Surname>
+        <Company>Internetware</Company>
+        <Address1>i6 Building</Address1>
+        <Address2>Charlotte Square</Address2>
+        <Address3 />
+        <Town>Newcastle upon Tyne</Town>
+        <PostCode>NE1 4XF</PostCode>
+        <County>Tyne and Wear</County>
+        <Country>GB</Country>
+        <Telephone>0845 123 2920</Telephone>
+        <Fax>0845 123 2921</Fax>
+        <Mobile />
+        <Email>support@internetware.co.uk</Email>
+      </SalesOrderDeliveryAddress>
+      <SalesOrderItems>
+        <Item>
+          <Sku>TEST001</Sku>
+          <Name>Test Item</Name>
+          <Description>Test Item Desc</Description>
+          <QtyOrdered>1</QtyOrdered>
+          <UnitPrice>10</UnitPrice>
+          <TaxRate>17.5</TaxRate>
+          <TotalNet>10</TotalNet>
+          <TotalTax>1.75</TotalTax>
+          <TaxCode>1</TaxCode>
+        </Item>
+      </SalesOrderItems>
+      <CustomFields>
+        <CustomField>
+          <Name>Opportunity Field 1</Name>
+          <Value>Field 1</Value>
+        </CustomField>
+        <CustomField>
+          <Name>Opportunity Field 2</Name>
+          <Value>Field 2</Value>
+        </CustomField>
+      </CustomFields>
+    </SalesOrder>
+  </SalesOrders>
+  <Invoices />
+  <Products />
+  <PriceLists />
+  <Inventories />
+  <Transactions />
+  <PurchaseOrders />
+</Company>

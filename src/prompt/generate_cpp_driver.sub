@@ -1,0 +1,7 @@
+{INDEX}. `{FUNCTION_NAME}`
+​    {FUNCTION_USAGE}
+​    {HELDBY_CLASS}Its signature is:
+​    ```cpp
+{FUNCTION_SIGNATURE}
+​    ```
+    {EXPLANATION}

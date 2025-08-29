@@ -1,0 +1,5 @@
+The fuzz driver you wrote can not compile, below is the error message given by the compiler:
+```
+{ERROR_MESSAGE}
+```
+Please fix the error and reply ONLY the content of the source code.

@@ -1,0 +1,12 @@
+[cjson]
+language = "c"
+compile_commands_path = "database/cjson/latest/build_asan/compile_commands.json"
+document_paths = ["database/cjson/latest/code/README.md"]
+document_has_api_usage = false
+output_path = "database/cjson/latest/out"
+header_paths = ["database/cjson/latest/code/cJSON.h"]
+driver_build_args = ["database/cjson/latest/bin_asan/lib/libcjson.a"]
+consumer_case_paths = [
+    "database/cjson/latest/code/tests",
+    "database/cjson/latest/code/fuzzing"
+]

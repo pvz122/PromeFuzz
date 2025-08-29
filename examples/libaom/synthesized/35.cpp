@@ -1,0 +1,59 @@
+// This fuzz driver is generated for library libaom, aiming to fuzz the following functions:
+// aom_img_get_metadata at aom_image.c:409:23 in aom_image.h
+// aom_img_add_metadata at aom_image.c:379:5 in aom_image.h
+// aom_img_remove_metadata at aom_image.c:402:6 in aom_image.h
+// aom_img_num_metadata at aom_image.c:419:8 in aom_image.h
+// aom_img_metadata_alloc at aom_image.c:326:17 in aom_image.h
+#include <iostream>
+#include <sstream>
+#include <string>
+#include <vector>
+#include <cstring>
+#include <cstdlib>
+#include <cstdio>
+#include <cstdint>
+#include <cstddef>
+#include <aom/aom.h>
+#include <aom/aom_codec.h>
+#include <aom/aom_decoder.h>
+#include <aom/aom_encoder.h>
+#include <aom/aom_external_partition.h>
+#include <aom/aom_frame_buffer.h>
+#include <aom/aom_image.h>
+#include <aom/aom_integer.h>
+#include <aom/aomcx.h>
+#include <aom/aomdx.h>
+
+extern "C" int LLVMFuzzerTestOneInput_35(const uint8_t *Data, size_t Size) {
+    if (Size < 2) return 0;
+
+    aom_image_t img;
+    memset(&img, 0, sizeof(img));
+    img.fmt = AOM_IMG_FMT_I420;
+    img.w = 64;
+    img.h = 64;
+    img.stride[0] = 64;
+    img.stride[1] = 32;
+    img.stride[2] = 32;
+
+    size_t index = Data[0] % 256;
+    const aom_metadata_t *metadata = aom_img_get_metadata(&img, index);
+
+    uint32_t type = Data[1] % 256;
+    size_t sz = Data[1] % 256;
+    if (sz > Size - 2) sz = Size - 2;
+    aom_metadata_insert_flags_t insert_flag = static_cast<aom_metadata_insert_flags_t>(Data[0] % 3);
+    int add_result = aom_img_add_metadata(&img, type, Data + 2, sz, insert_flag);
+
+    aom_img_remove_metadata(&img);
+
+    size_t num_metadata = aom_img_num_metadata(&img);
+
+    aom_metadata_t *alloc_metadata = aom_img_metadata_alloc(type, Data + 2, sz, insert_flag);
+    if (alloc_metadata) {
+        free(alloc_metadata->payload);
+        free(alloc_metadata);
+    }
+
+    return 0;
+}

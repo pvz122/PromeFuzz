@@ -1,0 +1,23 @@
+#!/bin/bash
+. ../../common.sh $1
+
+echo "start compiling $PWD with $MODE"
+
+rm -rf build_$MODE bin_$MODE
+../../srclink.py code build_$MODE
+pushd build_$MODE
+export INSTALL_PREFIX=$PWD/../bin_$MODE
+export CFLAGS+=" -DSQLITE_MAX_LENGTH=128000000 -DSQLITE_MAX_SQL_LENGTH=128000000 -DSQLITE_MAX_MEMORY=25000000 -DSQLITE_PRINTF_PRECISION_LIMIT=1048576 -DSQLITE_DEBUG=1 -DSQLITE_MAX_PAGE_COUNT=16384 -DSQLITE_ALLOW_URI_AUTHORITY -DSQLITE_ENABLE_API_ARMOR -DSQLITE_ENABLE_COLUMN_METADATA -DSQLITE_ENABLE_NORMALIZE -DSQLITE_ENABLE_PREUPDATE_HOOK -DSQLITE_ENABLE_SNAPSHOT -DSQLITE_ENABLE_STMT_SCANSTATUS -DSQLITE_ENABLE_UNLOCK_NOTIFY "
+
+if [[ $MODE == "asan" ]]; then
+    bear -- make -j$JOBS || exit 1
+else
+    make -j$JOBS || exit 1
+fi
+
+
+make install || exit 1
+
+popd
+
+echo "end compiling $PWD with $MODE"

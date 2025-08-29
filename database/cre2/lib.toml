@@ -1,0 +1,112 @@
+
+[cre2]
+
+language = "c"
+
+compile_commands_path = "database/cre2/latest/build_asan/cre2/compile_commands.json"
+
+
+header_paths = ["database/cre2/latest/code/cre2/src/cre2.h"]
+
+
+document_paths = ["database/cre2/latest/code/cre2/README"]
+
+
+document_has_api_usage = false
+
+
+output_path = "database/cre2/latest/out"
+
+
+driver_build_args = [
+    "-Ldatabase/cre2/latest/bin_asan/cre2/lib",
+    "-lcre2",
+    "-pthread",
+    "-Ldatabase/cre2/latest/bin_asan/re2/lib",
+    "-lre2",
+    "-Ldatabase/cre2/abseil-cpp/bin/lib",
+    "-labsl_log_internal_check_op",
+    "-labsl_leak_check",
+    "-labsl_log_internal_conditions",
+    "-labsl_log_internal_message",
+    "-labsl_examine_stack",
+    "-labsl_log_internal_format",
+    "-labsl_log_internal_nullguard",
+    "-labsl_log_internal_structured_proto",
+    "-labsl_log_internal_proto",
+    "-labsl_log_internal_log_sink_set",
+    "-labsl_log_internal_globals",
+    "-labsl_log_globals",
+    "-labsl_log_sink",
+    "-labsl_strerror",
+    "-labsl_vlog_config_internal",
+    "-labsl_log_internal_fnmatch",
+    "-labsl_flags_internal",
+    "-labsl_flags_marshalling",
+    "-labsl_flags_reflection",
+    "-labsl_flags_private_handle_accessor",
+    "-labsl_flags_commandlineflag",
+    "-labsl_flags_commandlineflag_internal",
+    "-labsl_flags_config",
+    "-labsl_flags_program_name",
+    "-labsl_raw_hash_set",
+    "-labsl_cord",
+    "-labsl_cordz_info",
+    "-labsl_cord_internal",
+    "-labsl_cordz_functions",
+    "-labsl_cordz_handle",
+    "-labsl_crc_cord_state",
+    "-labsl_crc32c",
+    "-labsl_crc_internal",
+    "-labsl_crc_cpu_detect",
+    "-labsl_hashtablez_sampler",
+    "-labsl_exponential_biased",
+    "-labsl_hash",
+    "-labsl_city",
+    "-labsl_low_level_hash",
+    "-labsl_str_format_internal",
+    "-labsl_synchronization",
+    "-labsl_graphcycles_internal",
+    "-labsl_kernel_timeout_internal",
+    "-labsl_stacktrace",
+    "-labsl_symbolize",
+    "-labsl_debugging_internal",
+    "-labsl_demangle_internal",
+    "-labsl_demangle_rust",
+    "-labsl_decode_rust_punycode",
+    "-labsl_utf8_for_code_point",
+    "-labsl_malloc_internal",
+    "-labsl_time",
+    "-labsl_civil_time",
+    "-labsl_strings",
+    "-labsl_strings_internal",
+    "-labsl_string_view",
+    "-labsl_int128",
+    "-labsl_throw_delegate",
+    "-labsl_time_zone",
+    "-labsl_tracing_internal",
+    "-labsl_base",
+    "-lrt",
+    "-labsl_raw_logging_internal",
+    "-labsl_log_severity",
+    "-labsl_spinlock_wait"
+]
+
+
+consumer_case_paths = ["database/cre2/latest/code/cre2/tests"]
+
+
+consumer_build_args = []
+
+
+source_paths = []
+
+
+exclude_paths = []
+
+
+driver_headers = []
+
+
+api_hints_path = ""
+

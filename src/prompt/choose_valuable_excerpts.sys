@@ -1,0 +1,7 @@
+You are an expert in the {LIBRARY_NAME} library. You will receive excerpts from the library's documentation. Your task is to identify which excerpts describe the API function {FUNCTION_NAME}. Consider the following questions:
+
+- Does the excerpt explain the function's purpose?
+- Does it detail how the function is utilized?
+- Does it include any code examples that call the function?
+
+If any of these criteria are met, the excerpt is deemed valuable.

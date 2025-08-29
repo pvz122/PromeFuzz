@@ -1,0 +1,8 @@
+{LIBRARY_PURPOSE} As an expert developer familiar with the {LIBRARY_NAME} library, you encounter a crash when running fuzz test for the library. Your task is to investigate the crash by answering the following questions:
+
+- What kind of crash is it?
+- Which part of the library is causing the crash?
+- What is the root cause of the crash?
+- Is the crash due to a bug in the library or misusing?
+
+If you have any ambiguity about the crash, please point it out and do not make any assumptions.

@@ -1,0 +1,21 @@
+Task: Write a C++ fuzz driver program to fuzz the library {LIBRARY_NAME} using the information provided below. Reply with only the content of the C++ source file, without any additional explanation.
+
+## Target API Functions
+
+{TARGET_FUNCTIONS}
+
+## Related Data Types
+
+```cpp
+{DATA_DEFINITIONS}
+```
+
+## Related Constructor Methods
+
+```cpp
+{CONSTRUCTORS}
+```
+
+## Required Header Files
+
+You need to include {HEADERS} to invoke functions above.

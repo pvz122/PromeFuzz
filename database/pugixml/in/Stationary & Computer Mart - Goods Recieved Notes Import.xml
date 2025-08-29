@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Company>
+	<GoodsNotes>
+		<GoodsNote>
+			<Id>123456</Id>
+			<AccountReference>MCN001</AccountReference>
+			<Type>GoodsReceivedNote</Type>
+			<OrderNumber>38</OrderNumber>
+			<Reference>PROJ006</Reference>
+			<Date>2012-10-03T10:00:00</Date>
+			<Sku>PC005</Sku>
+			<Quantity>1.00</Quantity>
+			<CostPrice>780.41</CostPrice>
+		</GoodsNote>
+	</GoodsNotes>
+</Company>

@@ -1,0 +1,17 @@
+# Information about `{FUNCTION_NAME}`
+
+## Function Signature
+
+```{LANGUAGE_TAG}
+{FUNCTION_SIGNATURES}
+```
+
+## Source Code
+
+```{LANGUAGE_TAG}
+{FUNCTION_SOURCE_CODE}
+```
+
+## Documentation Excerpts
+
+{DOC_EXCERPTS}

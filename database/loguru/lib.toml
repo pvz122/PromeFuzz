@@ -1,0 +1,12 @@
+[loguru]
+language = "c++"
+compile_commands_path = "database/loguru/latest/build_asan/compile_commands.json"
+document_paths = ["database/loguru/latest/code/README.md"]
+document_has_api_usage = true
+output_path = "database/loguru/latest/out"
+header_paths = ["database/loguru/latest/code/loguru.hpp"]
+driver_build_args = ["database/loguru/latest/bin_asan/lib/libloguru.a"]
+consumer_case_paths = [
+    "database/loguru/latest/code/test",
+    "database/loguru/latest/code/loguru_example"
+]

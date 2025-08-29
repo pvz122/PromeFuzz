@@ -1,0 +1,256 @@
+# Configurations for the PromeFuzz
+
+# ======================== Configuration for preprocessor ========================
+
+[preprocessor]
+
+# Run the dummy driver test for api extraction or not.
+# PromeFuzz will generate and build a dummy driver for each api function to test whether the api function is valid or not.
+# Currently, this feature is only fully supported for C libraries, and may not work well for C++ libraries.
+run_dummydriver_test = false
+
+# Whether to dump the calculated API relevance as a CSV file for human readability, which will take a lot of disk space.
+dump_relevance_as_csv = false
+
+# Whether to dump the library call graph and consumer call graph, which are intermidiate results for debugging.
+dump_call_graph = false
+
+# ======================== Configuration for comprehender ========================
+
+[comprehender]
+
+# [MODIFY THIS] The llm used for RAG embedding.
+embedding_llm = "embedding_llm"
+
+# The llm used for the comprehension.
+comprehension_llm = ""
+
+# The number of document chunks to be retrieved in each RAG query.
+retrieve_top_k = 3
+
+# The number of functions to be processed in each batch when comprehending function relevance.
+function_batch_size = 24
+
+
+# ======================== Configuration for generator ========================
+
+[generator]
+
+# The llm used for the generation.
+generation_llm = ""
+
+# Limit the traversal depth for collecting information in info repository.
+collect_depth = 3
+
+# If a function/composite type name has multiple definitions, one can be chosen at random, or all of them can be utilized.
+# When set to true, this option will save LLM tokens, but may also reduce the quality of the generated fuzz driver.
+collect_one_def_in_same_names = true
+
+# The number of functions to be included in the fuzz driver at each generation.
+function_set_size = 6
+
+# The number of api sequences in library consumer cases to be utilized in the generation. Set to -1 to use all, 0 to disable.
+# There may be a large number of library consumer cases, and using all of them may take a lot of tokens.
+use_consumer_case_count = 50
+
+# PromeFuzz will generate several times for each function set, and try to fix each generated fuzz driver for several times,
+# until a usable fuzz driver is generated or the maximum number of rounds is reached.
+# The maximum number of generation rounds for each function set.
+generation_rounds = 2
+
+# The maximum number of sanitization rounds for each fuzz driver.
+sanitization_rounds = 5
+
+# The times threshold for failed generations of a function.
+# If a fuzz driver fails to generate, the `failed_times` for the target API functions
+# will increase by `function_fail_if_driver_fail` times.
+# If a fuzz driver succeeds, but some target API functions are missed,
+# the `failed_times` for the target API functions will increase by `function_fail_if_driver_miss` times.
+# If the `failed_times` for a target API function reaches `function_fail_limit`,
+# the function will be marked as "deprecated" and will not be scheduled again.
+function_fail_limit = 5
+function_fail_if_driver_fail = 1.0
+function_fail_if_driver_miss = 0.5
+
+# If scheduled `stagnation_limit` times, there are still no new functions tested, the generation will be stopped.
+# You will need to restart the generation process to continue. This only works on all-cover mode.
+# Set it to -1 to disable this feature.
+stagnation_limit = -1
+
+# If an API calls another API, the called API is also considered as a target API, indirectly.
+# Each such incidental API call will be counted as `incidental_called_api_occurrence_increment` times of occurrence.
+incidental_called_api_occurrence_increment = 0.0
+
+# Whether to learn API constraints or not when encountering ASan crashes.
+enable_constraint_learning = true
+
+# If the same ASan crash is encountered for `learn_crash_threshold` times, it will be treated as a constraint violation,
+# and PromeFuzz will try to learn the constraint to avoid this crash.
+learn_crash_threshold = 2
+
+# If memory leak happens over `disable_leak_sanitizer_threshold` times, the leak sanitizer will be disabled.
+# Set it to -1 to keep the leak sanitizer always enabled.
+disable_leak_sanitizer_threshold = 3
+
+# Long chat history will consume a lot of tokens, set this to true to consolidate the chat history when sanitizing.
+enable_chat_history_consolidation = true
+
+# Whether to enable the AST-based API coverage check.
+# If set to true, PromeFuzz will run the AST-based postprocess to check whether the generated fuzz driver covers target APIs.
+# If set to false, PromeFuzz will simply use API names matching to check the coverage.
+enable_ast_based_api_coverage_check = true
+
+# Whether to clean up the temporary files during the generation process.
+# If set to false, they will be kept in the "OUTDIR/tmp" directory. This is useful for debugging.
+cleanup_temp = false
+
+# Configurations for the schedule weights when calculating the schedule score.
+[generator.schedule_weights]
+
+# Relevance
+# = (type_relevance * type_relevance_weight + class_scope_relevance * class_scope_relevance_weight \
+# +  call_scope_relevance * call_scope_relevance_weight + semantic_relevance * semantic_relevance_weight) \
+# / (type_relevance_weight + class_scope_relevance_weight + call_scope_relevance_weight + semantic_relevance_weight)
+# The weight for the type relevance in the relevance calculation.
+type_relevance = 2
+
+# The weight for the class scope relevance in the relevance calculation.
+class_scope_relevance = 1
+
+# The weight for the call scope relevance in the relevance calculation.
+call_scope_relevance = 3
+
+# The weight for the semantic relevance in the relevance calculation.
+semantic_relevance = 5
+
+# Schedule score
+# = (coverage * coverage_weight + complexity * complexity_weight + relevance * relevance_weight) \
+# / (coverage_weight + complexity_weight + relevance_weight)
+# The weight for the coverage in the schedule score calculation.
+coverage = 3
+
+# The weight for the API complexity in the schedule score calculation.
+complexity = 0
+
+# The weight for the relevance in the schedule score calculation.
+relevance = 1
+
+
+# ======================== Configuration for crash analyzer ========================
+
+[analyzer]
+
+# The llm used for the crash analysis.
+# This llm will be used in crash analyzer along with the contraint learner in the generator.
+# For analyzing the crash, reasoning models (OpenAI o1, DeepSeek R1, etc.) are recommended.
+analysis_llm = ""
+
+
+# ======================== Configuration for Large Language Models ========================
+
+[llm]
+
+# [MODIFY THIS] The default llm used for the generation, comprehension, and analysis.
+# If the llm is not specified in the corresponding section, the default llm will be used.
+default_llm = "cloud_llm"
+
+# Validate the llm or not. 
+# If set to true, PromeFuzz will validate the llm availability through a "ping" query.
+# For Ollama model, this validation can help the Ollama server to load the model in advance.
+validate_llm = false
+
+# Whether to log each query, including the content and the token usage.
+# The log will be saved in the "log/llm.log" file and printed in the debug mode.
+enable_log = true
+
+# ------------- Configuration for LLM 1 (Cloud LLM) -------------
+
+# [MODIFY THIS] Your custom llm name.
+[llm.cloud_llm]
+
+# The llm type, currently support "ollama", "openai", "ollama-reasoning", "openai-reasoning"
+llm_type = "openai"
+
+# The base url for the openai api.
+base_url = "https://api.openai.com/v1/"
+
+# The api key for the openai api, default using the environment variable "OPENAI_API_KEY".
+api_key = ""
+
+# The model used for the llm query.
+model = "gpt-4o"
+
+# The temperature for the llm query. Recommend to set it lower for generating code.
+temperature = 0.5
+
+# The token limit for each llm query. Set it to -1 for the preset limit from model provider.
+max_tokens = -1
+
+# The timeout seconds for each query.
+timeout = 80
+
+# The maximum retry times for each query.
+retry_times = 3
+
+# ------------- Configuration for LLM 2 (Local LLM) -------------
+
+# [MODIFY THIS] Your custom llm name.
+[llm.local_llm]
+
+# The llm type, currently support "ollama", "openai", "ollama-reasoning", "openai-reasoning"
+llm_type = "ollama-reasoning"
+
+# The ollama server host.
+host = "localhost"
+
+# The ollama server port.
+port = 11434
+
+# The model used for the llm query.
+model = "deepseek-r1:70b"
+
+# The max tokens for the ollama api, be careful about the GPU memory usage.
+# Refer to https://qwen.readthedocs.io/en/latest/benchmark/speed_benchmark.html for more information.
+max_tokens = 6144
+
+# The timeout seconds for each query.
+timeout = 600
+
+# The maximum retry times for each query.
+retry_times = 3
+
+# ------------- Configuration for LLM 3 (Embedding LLM) -------------
+
+# [MODIFY THIS] Your custom llm name.
+[llm.embedding_llm]
+
+# The llm type, currently support "ollama", "openai", "ollama-reasoning", "openai-reasoning"
+llm_type = "ollama"
+
+# The ollama server host.
+host = "localhost"
+
+# The ollama server port.
+port = 11434
+
+# The model used for the llm query.
+model = "nomic-embed-text"
+
+# The max tokens for the ollama api, set to -1 for the preset limit of Olama.
+max_tokens = -1
+
+# The timeout seconds for each query.
+timeout = 30
+
+# The maximum retry times for each query.
+retry_times = 3
+
+# ======================== Configuration for binary path ========================
+
+[bin]
+
+# The path of the preprocessor binary
+preprocessor = "{PROMEFUZZ_PATH}/build/bin/preprocessor"
+
+# The path of the cgprocessor binary
+cgprocessor = "{PROMEFUZZ_PATH}/build/bin/cgprocessor"

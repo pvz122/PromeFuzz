@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <Products />
+   <Styles />
+   <Inventories />
+   <Customers />
+   <Suppliers />
+   <SalesOrders />
+   <PurchaseOrders />
+   <Invoices>
+      <Invoice>
+         <InvoiceNumber>4</InvoiceNumber>
+         <CustomerOrderNumber>456</CustomerOrderNumber>
+         <AccountReference>2INTER00</AccountReference>
+         <OrderNumber />
+         <ForeignRate>1</ForeignRate>
+         <Notes1 />
+         <Notes2 />
+         <Notes3 />
+         <CurrencyUsed>false</CurrencyUsed>
+         <InvoiceDate>2008-11-10T00:00:00</InvoiceDate>
+         <InvoiceAddress>
+            <Title />
+            <Forename>Support</Forename>
+            <Surname>Person</Surname>
+            <Company>Internetware</Company>
+            <Address1>6-8 Charlotte Square</Address1>
+            <Address2>i6 Building</Address2>
+            <Address3 />
+            <Town>Newcastle Upon Tyne</Town>
+            <Postcode>NE1 4XF</Postcode>
+            <County>Tyne and Wear</County>
+            <Country />
+            <Telephone />
+            <Fax />
+            <Mobile />
+            <Email />
+            <Birthdate xsi:nil="true" />
+            <Notes />
+            <TaxCode>1</TaxCode>
+            <CustomFields />
+         </InvoiceAddress>
+         <InvoiceDeliveryAddress>
+            <Company>Internetware</Company>
+            <Address1>6-8 Charlotte Square</Address1>
+            <Address2>i6 Building</Address2>
+            <Address3 />
+            <Town>Newcastle Upon Tyne</Town>
+            <Postcode>NE1 4XF</Postcode>
+            <County>Tyne and Wear</County>
+            <Country />
+            <Telephone />
+            <Fax />
+            <Mobile />
+            <Email />
+            <Birthdate xsi:nil="true" />
+            <Notes />
+            <TaxCode>1</TaxCode>
+            <CustomFields />
+         </InvoiceDeliveryAddress>
+         <InvoiceItems>
+            <Item>
+               <Sku>HV20</Sku>
+               <Name>Canon HV20 High Definition Camcorder (10X Optical Zoom, 2.7</Name>
+               <Description />
+               <Comments></Comments>
+               <UnitOfSale />
+               <QtyOrdered>1</QtyOrdered>
+               <UnitPrice>100</UnitPrice>
+               <UnitDiscountAmount>0</UnitDiscountAmount>
+               <UnitDiscountPercentage>0</UnitDiscountPercentage>
+               <Reference />
+               <TaxRate>17.5</TaxRate>
+               <CustomFields />
+               <TotalNet>90</TotalNet>
+               <TotalTax>15.75</TotalTax>
+               <TaxCode>1</TaxCode>
+               <NominalCode>4000</NominalCode>
+               <Department>0</Department>
+               <Text />
+               <Type>Stock</Type>
+               <QtyAllocated>0</QtyAllocated>
+               <QtyDespatched>0</QtyDespatched>
+            </Item>
+            <Item>
+               <Sku>MCM240</Sku>
+               <Name>Philips MCM240/25 MP3 Micro Hi-Fi System</Name>
+               <Description />
+               <Comments></Comments>
+               <UnitOfSale />
+               <QtyOrdered>1</QtyOrdered>
+               <UnitPrice>1000</UnitPrice>
+               <UnitDiscountAmount>0</UnitDiscountAmount>
+               <UnitDiscountPercentage>0</UnitDiscountPercentage>
+               <Reference />
+               <TaxRate>17.5</TaxRate>
+               <CustomFields />
+               <TotalNet>1000</TotalNet>
+               <TotalTax>175</TotalTax>
+               <TaxCode>1</TaxCode>
+               <NominalCode>4000</NominalCode>
+               <Department>0</Department>
+               <Text />
+               <Type>Stock</Type>
+               <QtyAllocated>0</QtyAllocated>
+               <QtyDespatched>0</QtyDespatched>
+            </Item>
+         </InvoiceItems>
+         <ItemsNet>1090</ItemsNet>
+         <ItemsTax>190.75</ItemsTax>
+         <ItemsTotal>1280.75</ItemsTotal>
+         <Carriage>
+            <QtyOrdered>0</QtyOrdered>
+            <UnitPrice>0</UnitPrice>
+            <UnitDiscountAmount xsi:nil="true" />
+            <UnitDiscountPercentage xsi:nil="true" />
+            <TaxRate>0</TaxRate>
+            <CustomFields />
+            <TotalNet>0</TotalNet>
+            <TotalTax>0</TotalTax>
+            <TaxCode xsi:nil="true" />
+            <Type>Stock</Type>
+            <QtyAllocated xsi:nil="true" />
+            <QtyDespatched xsi:nil="true" />
+         </Carriage>
+         <CustomFields />
+         <InvoiceType>ProductInvoice</InvoiceType>
+         <TakenBy>Connect Web Order</TakenBy>
+         <ConsignmentNo />
+         <Courier>0</Courier>
+         <SettlementDays>30</SettlementDays>
+         <NetValueDiscount>0</NetValueDiscount>
+         <NetValueDiscountPercent>0</NetValueDiscountPercent>
+         <DiscountType>0</DiscountType>
+         <SettlementDiscount>0</SettlementDiscount>
+         <GlobalTaxCode>1</GlobalTaxCode>
+         <GlobalDepartment>0</GlobalDepartment>
+         <PaymentRef>CREDIT CARD</PaymentRef>
+         <PaymentAmount xsi:nil="true" />
+         <BankAccount>1200</BankAccount>
+         <PostedDate xsi:nil="true" />
+         <PostedFlag>false</PostedFlag>
+         <PrintedFlag>false</PrintedFlag>
+         <PaidFlag xsi:nil="true" />
+         <AmountPaid>0</AmountPaid>
+         <TaxNumber />
+      </Invoice>
+   </Invoices>
+   <ProductGroups />
+   <Transactions />
+   <TaxRates />
+   <Currencies />
+   <PriceLists />
+   <StockTransactions />
+   <PaymentAllocations />
+   <AllocationSessions />
+</Company>

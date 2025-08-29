@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<Company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DespatchNotes>
+    <DespatchNote>
+      <Errors />
+      <Id>1</Id>
+      <OrderNumber>31</OrderNumber>
+      <GoodsNotes>
+        <GoodsNote>
+          <Id>210</Id>
+          <AccountReference>BBS001</AccountReference>
+          <Type>GoodsDespatchedNote</Type>
+          <OrderNumber>31</OrderNumber>
+          <Reference />
+          <Date>2013-03-11T14:13:13.6804579+00:00</Date>
+          <Sku>PC003</Sku>
+          <Quantity>4</Quantity>
+          <CostPrice xsi:nil="true" />
+        </GoodsNote>
+        <GoodsNote>
+          <Id>211</Id>
+          <AccountReference>BBS001</AccountReference>
+          <Type>GoodsDespatchedNote</Type>
+          <OrderNumber>31</OrderNumber>
+          <Reference />
+          <Date>2013-03-11T14:13:13.7214602+00:00</Date>
+          <Sku>MEM005</Sku>
+          <Quantity>5</Quantity>
+          <CostPrice xsi:nil="true" />
+        </GoodsNote>
+        <GoodsNote>
+          <Id>212</Id>
+          <AccountReference>BBS001</AccountReference>
+          <Type>GoodsDespatchedNote</Type>
+          <OrderNumber>31</OrderNumber>
+          <Reference />
+          <Date>2013-03-11T14:13:13.7614625+00:00</Date>
+          <Sku>PAPER002</Sku>
+          <Quantity>120</Quantity>
+          <CostPrice xsi:nil="true" />
+        </GoodsNote>
+        <GoodsNote>
+          <Id>213</Id>
+          <AccountReference>BBS001</AccountReference>
+          <Type>GoodsDespatchedNote</Type>
+          <OrderNumber>31</OrderNumber>
+          <Reference />
+          <Date>2013-03-11T14:13:13.787464+00:00</Date>
+          <Sku>PRN003</Sku>
+          <Quantity>2</Quantity>
+          <CostPrice xsi:nil="true" />
+        </GoodsNote>
+        <GoodsNote>
+          <Id>214</Id>
+          <AccountReference>BBS001</AccountReference>
+          <Type>GoodsDespatchedNote</Type>
+          <OrderNumber>31</OrderNumber>
+          <Reference />
+          <Date>2013-03-11T14:13:14.0174771+00:00</Date>
+          <Sku>RUB001</Sku>
+          <Quantity>2</Quantity>
+          <CostPrice xsi:nil="true" />
+        </GoodsNote>
+        <GoodsNote>
+          <Id>215</Id>
+          <AccountReference>BBS001</AccountReference>
+          <Type>GoodsDespatchedNote</Type>
+          <OrderNumber>31</OrderNumber>
+          <Reference />
+          <Date>2013-03-11T14:13:14.1764862+00:00</Date>
+          <Sku>TR005</Sku>
+          <Quantity>9</Quantity>
+          <CostPrice xsi:nil="true" />
+        </GoodsNote>
+      </GoodsNotes>
+    </DespatchNote>
+  </DespatchNotes>
+</Company>

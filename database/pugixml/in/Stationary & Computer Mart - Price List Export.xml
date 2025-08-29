@@ -1,0 +1,3479 @@
+<?xml version="1.0"?>
+<Company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Products />
+  <Styles />
+  <Inventories />
+  <Customers />
+  <Suppliers />
+  <SalesOrders />
+  <PurchaseOrders />
+  <Invoices />
+  <ProductGroups />
+  <Transactions />
+  <TaxRates />
+  <Currencies />
+  <PriceLists>
+    <PriceList AllRecords="false">
+      <Name>Public Price List</Name>
+      <Reference>PUBLIC</Reference>
+      <Currency>GBP</Currency>
+      <Type>PriceList</Type>
+      <Prices>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  BOARD001</ExternalReference>
+          <StockCode>BOARD001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  BOARD002</ExternalReference>
+          <StockCode>BOARD002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  BOOKS001</ExternalReference>
+          <StockCode>BOOKS001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  BOOKS002</ExternalReference>
+          <StockCode>BOOKS002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  BOOKS003</ExternalReference>
+          <StockCode>BOOKS003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  CALC001</ExternalReference>
+          <StockCode>CALC001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  CALC002</ExternalReference>
+          <StockCode>CALC002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  CALC003</ExternalReference>
+          <StockCode>CALC003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  CALC004</ExternalReference>
+          <StockCode>CALC004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  CAS001</ExternalReference>
+          <StockCode>CAS001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  CAS002</ExternalReference>
+          <StockCode>CAS002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  CAS003</ExternalReference>
+          <StockCode>CAS003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  CDR001</ExternalReference>
+          <StockCode>CDR001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  CDR002</ExternalReference>
+          <StockCode>CDR002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  CDR003</ExternalReference>
+          <StockCode>CDR003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  COR001</ExternalReference>
+          <StockCode>COR001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  DISK001</ExternalReference>
+          <StockCode>DISK001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  DISK002</ExternalReference>
+          <StockCode>DISK002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  ENV001</ExternalReference>
+          <StockCode>ENV001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  ENV002</ExternalReference>
+          <StockCode>ENV002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  ENV003</ExternalReference>
+          <StockCode>ENV003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  ENV004</ExternalReference>
+          <StockCode>ENV004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  FAX001</ExternalReference>
+          <StockCode>FAX001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  FAX002</ExternalReference>
+          <StockCode>FAX002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  FAX003</ExternalReference>
+          <StockCode>FAX003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  FIL001</ExternalReference>
+          <StockCode>FIL001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  FIL002</ExternalReference>
+          <StockCode>FIL002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  FLIP001</ExternalReference>
+          <StockCode>FLIP001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  FLIP002</ExternalReference>
+          <StockCode>FLIP002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  HAR001</ExternalReference>
+          <StockCode>HAR001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  HAR002</ExternalReference>
+          <StockCode>HAR002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  HAR003</ExternalReference>
+          <StockCode>HAR003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  KEY001</ExternalReference>
+          <StockCode>KEY001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  LABELS001</ExternalReference>
+          <StockCode>LABELS001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  LABELS002</ExternalReference>
+          <StockCode>LABELS002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  LAM001</ExternalReference>
+          <StockCode>LAM001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  LAM002</ExternalReference>
+          <StockCode>LAM002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  MAIL001</ExternalReference>
+          <StockCode>MAIL001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  MEM001</ExternalReference>
+          <StockCode>MEM001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  MEM002</ExternalReference>
+          <StockCode>MEM002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  MEM003</ExternalReference>
+          <StockCode>MEM003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  MEM004</ExternalReference>
+          <StockCode>MEM004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  MEM005</ExternalReference>
+          <StockCode>MEM005</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  MEM006</ExternalReference>
+          <StockCode>MEM006</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  MON001</ExternalReference>
+          <StockCode>MON001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  MON002</ExternalReference>
+          <StockCode>MON002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  MON003</ExternalReference>
+          <StockCode>MON003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  MOTH001</ExternalReference>
+          <StockCode>MOTH001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  MOTH002</ExternalReference>
+          <StockCode>MOTH002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  MOTH003</ExternalReference>
+          <StockCode>MOTH003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  MOUSE001</ExternalReference>
+          <StockCode>MOUSE001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  MOUSE002</ExternalReference>
+          <StockCode>MOUSE002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  MOUSE003</ExternalReference>
+          <StockCode>MOUSE003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  MOUSE004</ExternalReference>
+          <StockCode>MOUSE004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  PAPER001</ExternalReference>
+          <StockCode>PAPER001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  PAPER002</ExternalReference>
+          <StockCode>PAPER002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  PAPER003</ExternalReference>
+          <StockCode>PAPER003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  PAPER004</ExternalReference>
+          <StockCode>PAPER004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  PAPER005</ExternalReference>
+          <StockCode>PAPER005</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  PAPER006</ExternalReference>
+          <StockCode>PAPER006</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  PAPER007</ExternalReference>
+          <StockCode>PAPER007</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  PC001</ExternalReference>
+          <StockCode>PC001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  PC002</ExternalReference>
+          <StockCode>PC002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  PC003</ExternalReference>
+          <StockCode>PC003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  PC004</ExternalReference>
+          <StockCode>PC004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  PC005</ExternalReference>
+          <StockCode>PC005</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  PC006</ExternalReference>
+          <StockCode>PC006</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  PEN001</ExternalReference>
+          <StockCode>PEN001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  PEN002</ExternalReference>
+          <StockCode>PEN002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  PEN003</ExternalReference>
+          <StockCode>PEN003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  PEN004</ExternalReference>
+          <StockCode>PEN004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  PEN005</ExternalReference>
+          <StockCode>PEN005</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  PEN006</ExternalReference>
+          <StockCode>PEN006</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  PRC001</ExternalReference>
+          <StockCode>PRC001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  PRC002</ExternalReference>
+          <StockCode>PRC002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  PRC003</ExternalReference>
+          <StockCode>PRC003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  PRC004</ExternalReference>
+          <StockCode>PRC004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  PRC005</ExternalReference>
+          <StockCode>PRC005</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  PRN001</ExternalReference>
+          <StockCode>PRN001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  PRN002</ExternalReference>
+          <StockCode>PRN002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  PRN003</ExternalReference>
+          <StockCode>PRN003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  PRN004</ExternalReference>
+          <StockCode>PRN004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  PRN005</ExternalReference>
+          <StockCode>PRN005</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  REMEMBER01</ExternalReference>
+          <StockCode>REMEMBER01</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  REMEMBER02</ExternalReference>
+          <StockCode>REMEMBER02</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  REMEMBER03</ExternalReference>
+          <StockCode>REMEMBER03</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  RUB001</ExternalReference>
+          <StockCode>RUB001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  SCI001</ExternalReference>
+          <StockCode>SCI001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  SCN001</ExternalReference>
+          <StockCode>SCN001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  SCN002</ExternalReference>
+          <StockCode>SCN002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  TAPE001</ExternalReference>
+          <StockCode>TAPE001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  TAPE002</ExternalReference>
+          <StockCode>TAPE002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  TAPE003</ExternalReference>
+          <StockCode>TAPE003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  TR001</ExternalReference>
+          <StockCode>TR001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  TR002</ExternalReference>
+          <StockCode>TR002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  TR003</ExternalReference>
+          <StockCode>TR003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  TR004</ExternalReference>
+          <StockCode>TR004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  TR005</ExternalReference>
+          <StockCode>TR005</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  TRAY001</ExternalReference>
+          <StockCode>TRAY001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  TRAY002</ExternalReference>
+          <StockCode>TRAY002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  TRAY003</ExternalReference>
+          <StockCode>TRAY003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  VID001</ExternalReference>
+          <StockCode>VID001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  VID002</ExternalReference>
+          <StockCode>VID002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PPUBLIC  VID003</ExternalReference>
+          <StockCode>VID003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>2</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+      </Prices>
+    </PriceList>
+    <PriceList AllRecords="false">
+      <Name>Trade Price List A</Name>
+      <Reference>TRADEA</Reference>
+      <Currency>GBP</Currency>
+      <Type>PriceList</Type>
+      <Prices>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  BOARD001</ExternalReference>
+          <StockCode>BOARD001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  BOARD002</ExternalReference>
+          <StockCode>BOARD002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  BOOKS001</ExternalReference>
+          <StockCode>BOOKS001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  BOOKS002</ExternalReference>
+          <StockCode>BOOKS002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  BOOKS003</ExternalReference>
+          <StockCode>BOOKS003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  CALC001</ExternalReference>
+          <StockCode>CALC001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  CALC002</ExternalReference>
+          <StockCode>CALC002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  CALC003</ExternalReference>
+          <StockCode>CALC003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  CALC004</ExternalReference>
+          <StockCode>CALC004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  CAS001</ExternalReference>
+          <StockCode>CAS001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  CAS002</ExternalReference>
+          <StockCode>CAS002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  CAS003</ExternalReference>
+          <StockCode>CAS003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  CDR001</ExternalReference>
+          <StockCode>CDR001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  CDR002</ExternalReference>
+          <StockCode>CDR002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  CDR003</ExternalReference>
+          <StockCode>CDR003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  COR001</ExternalReference>
+          <StockCode>COR001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  DISK001</ExternalReference>
+          <StockCode>DISK001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  DISK002</ExternalReference>
+          <StockCode>DISK002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  ENV001</ExternalReference>
+          <StockCode>ENV001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  ENV002</ExternalReference>
+          <StockCode>ENV002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  ENV003</ExternalReference>
+          <StockCode>ENV003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  ENV004</ExternalReference>
+          <StockCode>ENV004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  FAX001</ExternalReference>
+          <StockCode>FAX001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  FAX002</ExternalReference>
+          <StockCode>FAX002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  FAX003</ExternalReference>
+          <StockCode>FAX003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  FIL001</ExternalReference>
+          <StockCode>FIL001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  FIL002</ExternalReference>
+          <StockCode>FIL002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  FLIP001</ExternalReference>
+          <StockCode>FLIP001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  FLIP002</ExternalReference>
+          <StockCode>FLIP002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  HAR001</ExternalReference>
+          <StockCode>HAR001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  HAR002</ExternalReference>
+          <StockCode>HAR002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  HAR003</ExternalReference>
+          <StockCode>HAR003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  KEY001</ExternalReference>
+          <StockCode>KEY001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  LABELS001</ExternalReference>
+          <StockCode>LABELS001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  LABELS002</ExternalReference>
+          <StockCode>LABELS002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  LAM001</ExternalReference>
+          <StockCode>LAM001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  LAM002</ExternalReference>
+          <StockCode>LAM002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  MAIL001</ExternalReference>
+          <StockCode>MAIL001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  MEM001</ExternalReference>
+          <StockCode>MEM001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  MEM002</ExternalReference>
+          <StockCode>MEM002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  MEM003</ExternalReference>
+          <StockCode>MEM003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  MEM004</ExternalReference>
+          <StockCode>MEM004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  MEM005</ExternalReference>
+          <StockCode>MEM005</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  MEM006</ExternalReference>
+          <StockCode>MEM006</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  MON001</ExternalReference>
+          <StockCode>MON001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  MON002</ExternalReference>
+          <StockCode>MON002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  MON003</ExternalReference>
+          <StockCode>MON003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  MOTH001</ExternalReference>
+          <StockCode>MOTH001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  MOTH002</ExternalReference>
+          <StockCode>MOTH002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  MOTH003</ExternalReference>
+          <StockCode>MOTH003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  MOUSE001</ExternalReference>
+          <StockCode>MOUSE001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  MOUSE002</ExternalReference>
+          <StockCode>MOUSE002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  MOUSE003</ExternalReference>
+          <StockCode>MOUSE003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  MOUSE004</ExternalReference>
+          <StockCode>MOUSE004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  PAPER001</ExternalReference>
+          <StockCode>PAPER001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  PAPER002</ExternalReference>
+          <StockCode>PAPER002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  PAPER003</ExternalReference>
+          <StockCode>PAPER003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  PAPER004</ExternalReference>
+          <StockCode>PAPER004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  PAPER005</ExternalReference>
+          <StockCode>PAPER005</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  PAPER006</ExternalReference>
+          <StockCode>PAPER006</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  PAPER007</ExternalReference>
+          <StockCode>PAPER007</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  PC001</ExternalReference>
+          <StockCode>PC001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  PC002</ExternalReference>
+          <StockCode>PC002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  PC003</ExternalReference>
+          <StockCode>PC003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  PC004</ExternalReference>
+          <StockCode>PC004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  PC005</ExternalReference>
+          <StockCode>PC005</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  PC006</ExternalReference>
+          <StockCode>PC006</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  PEN001</ExternalReference>
+          <StockCode>PEN001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  PEN002</ExternalReference>
+          <StockCode>PEN002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  PEN003</ExternalReference>
+          <StockCode>PEN003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  PEN004</ExternalReference>
+          <StockCode>PEN004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  PEN005</ExternalReference>
+          <StockCode>PEN005</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  PEN006</ExternalReference>
+          <StockCode>PEN006</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  PRC001</ExternalReference>
+          <StockCode>PRC001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  PRC002</ExternalReference>
+          <StockCode>PRC002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  PRC003</ExternalReference>
+          <StockCode>PRC003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  PRC004</ExternalReference>
+          <StockCode>PRC004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  PRC005</ExternalReference>
+          <StockCode>PRC005</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  PRN001</ExternalReference>
+          <StockCode>PRN001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  PRN002</ExternalReference>
+          <StockCode>PRN002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  PRN003</ExternalReference>
+          <StockCode>PRN003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  PRN004</ExternalReference>
+          <StockCode>PRN004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  PRN005</ExternalReference>
+          <StockCode>PRN005</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  REMEMBER01</ExternalReference>
+          <StockCode>REMEMBER01</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  REMEMBER02</ExternalReference>
+          <StockCode>REMEMBER02</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  REMEMBER03</ExternalReference>
+          <StockCode>REMEMBER03</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  RUB001</ExternalReference>
+          <StockCode>RUB001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  SCI001</ExternalReference>
+          <StockCode>SCI001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  SCN001</ExternalReference>
+          <StockCode>SCN001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  SCN002</ExternalReference>
+          <StockCode>SCN002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  TAPE001</ExternalReference>
+          <StockCode>TAPE001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  TAPE002</ExternalReference>
+          <StockCode>TAPE002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  TAPE003</ExternalReference>
+          <StockCode>TAPE003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  TR001</ExternalReference>
+          <StockCode>TR001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  TR002</ExternalReference>
+          <StockCode>TR002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  TR003</ExternalReference>
+          <StockCode>TR003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  TR004</ExternalReference>
+          <StockCode>TR004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  TR005</ExternalReference>
+          <StockCode>TR005</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  TRAY001</ExternalReference>
+          <StockCode>TRAY001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  TRAY002</ExternalReference>
+          <StockCode>TRAY002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  TRAY003</ExternalReference>
+          <StockCode>TRAY003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  VID001</ExternalReference>
+          <StockCode>VID001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  VID002</ExternalReference>
+          <StockCode>VID002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEA  VID003</ExternalReference>
+          <StockCode>VID003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>5</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+      </Prices>
+    </PriceList>
+    <PriceList AllRecords="false">
+      <Name>Trade Price List B</Name>
+      <Reference>TRADEB</Reference>
+      <Currency>GBP</Currency>
+      <Type>PriceList</Type>
+      <Prices>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  BOARD001</ExternalReference>
+          <StockCode>BOARD001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  BOARD002</ExternalReference>
+          <StockCode>BOARD002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  BOOKS001</ExternalReference>
+          <StockCode>BOOKS001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  BOOKS002</ExternalReference>
+          <StockCode>BOOKS002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  BOOKS003</ExternalReference>
+          <StockCode>BOOKS003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  CALC001</ExternalReference>
+          <StockCode>CALC001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  CALC002</ExternalReference>
+          <StockCode>CALC002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  CALC003</ExternalReference>
+          <StockCode>CALC003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  CALC004</ExternalReference>
+          <StockCode>CALC004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  CAS001</ExternalReference>
+          <StockCode>CAS001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  CAS002</ExternalReference>
+          <StockCode>CAS002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  CAS003</ExternalReference>
+          <StockCode>CAS003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  CDR001</ExternalReference>
+          <StockCode>CDR001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  CDR002</ExternalReference>
+          <StockCode>CDR002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  CDR003</ExternalReference>
+          <StockCode>CDR003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  COR001</ExternalReference>
+          <StockCode>COR001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  DISK001</ExternalReference>
+          <StockCode>DISK001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  DISK002</ExternalReference>
+          <StockCode>DISK002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  ENV001</ExternalReference>
+          <StockCode>ENV001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  ENV002</ExternalReference>
+          <StockCode>ENV002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  ENV003</ExternalReference>
+          <StockCode>ENV003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  ENV004</ExternalReference>
+          <StockCode>ENV004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  FAX001</ExternalReference>
+          <StockCode>FAX001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  FAX002</ExternalReference>
+          <StockCode>FAX002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  FAX003</ExternalReference>
+          <StockCode>FAX003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  FIL001</ExternalReference>
+          <StockCode>FIL001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  FIL002</ExternalReference>
+          <StockCode>FIL002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  FLIP001</ExternalReference>
+          <StockCode>FLIP001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  FLIP002</ExternalReference>
+          <StockCode>FLIP002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  HAR001</ExternalReference>
+          <StockCode>HAR001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  HAR002</ExternalReference>
+          <StockCode>HAR002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  HAR003</ExternalReference>
+          <StockCode>HAR003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  KEY001</ExternalReference>
+          <StockCode>KEY001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  LABELS001</ExternalReference>
+          <StockCode>LABELS001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  LABELS002</ExternalReference>
+          <StockCode>LABELS002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  LAM001</ExternalReference>
+          <StockCode>LAM001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  LAM002</ExternalReference>
+          <StockCode>LAM002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  MAIL001</ExternalReference>
+          <StockCode>MAIL001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  MEM001</ExternalReference>
+          <StockCode>MEM001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  MEM002</ExternalReference>
+          <StockCode>MEM002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  MEM003</ExternalReference>
+          <StockCode>MEM003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  MEM004</ExternalReference>
+          <StockCode>MEM004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  MEM005</ExternalReference>
+          <StockCode>MEM005</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  MEM006</ExternalReference>
+          <StockCode>MEM006</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  MON001</ExternalReference>
+          <StockCode>MON001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  MON002</ExternalReference>
+          <StockCode>MON002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  MON003</ExternalReference>
+          <StockCode>MON003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  MOTH001</ExternalReference>
+          <StockCode>MOTH001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  MOTH002</ExternalReference>
+          <StockCode>MOTH002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  MOTH003</ExternalReference>
+          <StockCode>MOTH003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  MOUSE001</ExternalReference>
+          <StockCode>MOUSE001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  MOUSE002</ExternalReference>
+          <StockCode>MOUSE002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  MOUSE003</ExternalReference>
+          <StockCode>MOUSE003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  MOUSE004</ExternalReference>
+          <StockCode>MOUSE004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  PAPER001</ExternalReference>
+          <StockCode>PAPER001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  PAPER002</ExternalReference>
+          <StockCode>PAPER002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  PAPER003</ExternalReference>
+          <StockCode>PAPER003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  PAPER004</ExternalReference>
+          <StockCode>PAPER004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  PAPER005</ExternalReference>
+          <StockCode>PAPER005</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  PAPER006</ExternalReference>
+          <StockCode>PAPER006</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  PAPER007</ExternalReference>
+          <StockCode>PAPER007</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  PC001</ExternalReference>
+          <StockCode>PC001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  PC002</ExternalReference>
+          <StockCode>PC002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  PC003</ExternalReference>
+          <StockCode>PC003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  PC004</ExternalReference>
+          <StockCode>PC004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  PC005</ExternalReference>
+          <StockCode>PC005</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  PC006</ExternalReference>
+          <StockCode>PC006</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  PEN001</ExternalReference>
+          <StockCode>PEN001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  PEN002</ExternalReference>
+          <StockCode>PEN002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  PEN003</ExternalReference>
+          <StockCode>PEN003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  PEN004</ExternalReference>
+          <StockCode>PEN004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  PEN005</ExternalReference>
+          <StockCode>PEN005</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  PEN006</ExternalReference>
+          <StockCode>PEN006</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  PRC001</ExternalReference>
+          <StockCode>PRC001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  PRC002</ExternalReference>
+          <StockCode>PRC002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  PRC003</ExternalReference>
+          <StockCode>PRC003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  PRC004</ExternalReference>
+          <StockCode>PRC004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  PRC005</ExternalReference>
+          <StockCode>PRC005</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  PRN001</ExternalReference>
+          <StockCode>PRN001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  PRN002</ExternalReference>
+          <StockCode>PRN002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  PRN003</ExternalReference>
+          <StockCode>PRN003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  PRN004</ExternalReference>
+          <StockCode>PRN004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  PRN005</ExternalReference>
+          <StockCode>PRN005</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  REMEMBER01</ExternalReference>
+          <StockCode>REMEMBER01</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  REMEMBER02</ExternalReference>
+          <StockCode>REMEMBER02</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  REMEMBER03</ExternalReference>
+          <StockCode>REMEMBER03</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  RUB001</ExternalReference>
+          <StockCode>RUB001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  SCI001</ExternalReference>
+          <StockCode>SCI001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  SCN001</ExternalReference>
+          <StockCode>SCN001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  SCN002</ExternalReference>
+          <StockCode>SCN002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  TAPE001</ExternalReference>
+          <StockCode>TAPE001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  TAPE002</ExternalReference>
+          <StockCode>TAPE002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  TAPE003</ExternalReference>
+          <StockCode>TAPE003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  TR001</ExternalReference>
+          <StockCode>TR001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  TR002</ExternalReference>
+          <StockCode>TR002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  TR003</ExternalReference>
+          <StockCode>TR003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  TR004</ExternalReference>
+          <StockCode>TR004</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  TR005</ExternalReference>
+          <StockCode>TR005</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  TRAY001</ExternalReference>
+          <StockCode>TRAY001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  TRAY002</ExternalReference>
+          <StockCode>TRAY002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  TRAY003</ExternalReference>
+          <StockCode>TRAY003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  VID001</ExternalReference>
+          <StockCode>VID001</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  VID002</ExternalReference>
+          <StockCode>VID002</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+        <Price Action="Upsert">
+          <DiscountType>DecreasePercent</DiscountType>
+          <ExternalReference>PTRADEB  VID003</ExternalReference>
+          <StockCode>VID003</StockCode>
+          <StoredPrice>0</StoredPrice>
+          <Value>10</Value>
+          <BaseQty xsi:nil="true" />
+          <QtyBreak xsi:nil="true" />
+          <DiscountAmountValue xsi:nil="true" />
+          <DiscountPercentValue xsi:nil="true" />
+        </Price>
+      </Prices>
+    </PriceList>
+  </PriceLists>
+  <StockTransactions />
+  <PaymentAllocations />
+  <AllocationSessions />
+  <Statements />
+  <GoodsNotes />
+  <DespatchNotes />
+</Company>

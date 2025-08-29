@@ -1,0 +1,13 @@
+diff --git a/absl/container/internal/raw_hash_set.h b/absl/container/internal/raw_hash_set.h
+index d8429d65..056b76b0 100644
+--- a/absl/container/internal/raw_hash_set.h
++++ b/absl/container/internal/raw_hash_set.h
+@@ -234,7 +234,7 @@ namespace container_internal {
+ // the control bytes and the slots. When iterators are dereferenced, we assert
+ // that the container has not been mutated in a way that could cause iterator
+ // invalidation since the iterator was initialized.
+-#define ABSL_SWISSTABLE_ENABLE_GENERATIONS
++// #define ABSL_SWISSTABLE_ENABLE_GENERATIONS
+ #endif
+ 
+ #ifdef ABSL_SWISSTABLE_ASSERT

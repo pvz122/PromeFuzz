@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Transactions>
+    <Transaction>
+      <UniqueId>12944</UniqueId><!--Sage 200 id-->
+      <TransactionType>SalesInvoice</TransactionType><!--Sage 200 transaction type-->
+      <AccountReference>ONBOARD</AccountReference><!--Sage 200 sales ledger account that the transaction is for-->
+      <TransactionDate>2012-03-19T00:00:00</TransactionDate><!--The date that the transaction is for-->
+      <Reference>DXB_000003206C</Reference><!--Sage 200 reference field-->
+      <Details /><!--Sage 200 narrative field-->
+      <NetAmount>1093.23</NetAmount><!--The net amount for this transaction-->
+      <TaxAmount>0</TaxAmount><!--The tax amount for this transaction-->
+      <OutstandingAmount>1093.23</OutstandingAmount><!--The amount unallocated-->
+      <TransactionNumber>1</TransactionNumber><!--Sage 200 URN-->
+    </Transaction>
+  </Transactions>
+</Company>

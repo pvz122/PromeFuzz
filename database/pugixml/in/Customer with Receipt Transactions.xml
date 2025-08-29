@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Company><Customers>
+    <Customer>
+      <Id>123</Id>
+      <CompanyName>Internetware</CompanyName>
+      <AccountReference>INTE001</AccountReference>
+      <CustomerInvoiceAddress>
+        <Title />
+        <Forename>Support</Forename>
+        <Surname>Person</Surname>
+        <Company>Internetware</Company>
+        <Address1>6-8 Charlotte Square</Address1>
+        <Address2>i6 Building</Address2>
+        <Address3 />
+        <Town>Newcastle Upon Tyne</Town>
+        <Postcode>NE1 4XF</Postcode>
+        <County>Tyne and Wear</County>
+        <Country>GB</Country>
+        <Telephone>0845 123 2920</Telephone>
+        <Fax>0845 123 2921</Fax>
+        <Mobile />
+        <Email>support@internetware.co.uk</Email>
+      </CustomerInvoiceAddress>
+      <CustomerDeliveryAddress>
+        <Title />
+        <Forename>Support</Forename>
+        <Surname>Person</Surname>
+        <Company>Internetware</Company>
+        <Address1>6-8 Charlotte Square</Address1>
+        <Address2>i6 Building</Address2>
+        <Address3 />
+        <Town>Newcastle Upon Tyne</Town>
+        <Postcode>NE1 4XF</Postcode>
+        <County>Tyne and Wear</County>
+        <Country>GB</Country>
+        <Telephone>0845 123 2920</Telephone>
+        <Fax>0845 123 2921</Fax>
+        <Mobile />
+        <Email>support@internetware.co.uk</Email>
+      </CustomerDeliveryAddress>
+      <Currency>GBP</Currency>
+      <TermsAgreed>1</TermsAgreed>
+      <AccountStatus>1</AccountStatus>
+    </Customer>
+  </Customers>
+  <Transactions>
+    <Transaction>
+      <Id>239</Id>
+      <CustomerId>123</CustomerId>
+      <TransactionType>SalesInvoice</TransactionType>
+      <AccountReference>INTE001</AccountReference>
+      <TransactionDate>2011-01-01T11:11:11</TransactionDate>
+      <NominalCode>4000</NominalCode>
+      <Reference>239</Reference>
+      <PaymentReference></PaymentReference>
+      <Details>Yellow bouncy castle</Details>
+      <NetAmount>100</NetAmount>
+      <TaxRate>20</TaxRate>
+      <TaxCode>1</TaxCode>
+      <TaxAmount>20</TaxAmount>
+    </Transaction>
+    <Transaction>
+      <Id>239</Id>
+      <CustomerId>123</CustomerId>
+      <TransactionType>SalesInvoice</TransactionType>
+      <AccountReference>INTE001</AccountReference>
+      <TransactionDate>2011-01-01T11:11:11</TransactionDate>
+      <NominalCode>4000</NominalCode>
+      <Reference>239</Reference>
+      <PaymentReference></PaymentReference>
+      <Details>Yellow bouncy castle</Details>
+      <NetAmount>100</NetAmount>
+      <TaxRate>20</TaxRate>
+      <TaxCode>1</TaxCode>
+      <TaxAmount>20</TaxAmount>
+    </Transaction>
+    <Transaction>
+      <Id>97</Id>
+      <CustomerId>123</CustomerId>
+      <TransactionType>SalesReceipt</TransactionType>
+      <AccountReference>INTE001</AccountReference>
+      <TransactionDate>2011-01-01T11:11:11</TransactionDate>
+      <NominalCode>1200</NominalCode>
+      <Reference>239</Reference>
+      <PaymentReference></PaymentReference>
+      <Details>Yellow bouncy castle</Details>
+      <NetAmount>235.00</NetAmount>
+      <TaxRate>0</TaxRate>
+      <TaxCode>9</TaxCode>
+      <TaxAmount>0</TaxAmount>
+    </Transaction>
+  </Transactions>
+</Company>

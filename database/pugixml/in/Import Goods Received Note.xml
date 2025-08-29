@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Products />
+  <Styles />
+  <Inventories />
+  <Customers />
+  <Suppliers />
+  <SalesOrders />
+  <PurchaseOrders />
+  <Invoices />
+  <ProductGroups />
+  <Transactions />
+  <TaxRates />
+  <Currencies />
+  <PriceLists />
+  <StockTransactions />
+  <PaymentAllocations />
+  <AllocationSessions />
+  <Statements />
+  <GoodsNotes>
+    <GoodsNote>
+      <Id>INTERNAL_ZYNK_ID</Id><!--internal id used by Zynk-->
+      <AccountReference>SAGE200_SUPPLIER_AC</AccountReference><!--Sage 200 Supplier account code-->
+      <Type>GoodsReceivedNote</Type><!--Type of goods note - Always GoodsReceivedNote for purchase orders-->
+      <OrderNumber>SAGE200_PURCHASE_ORDER_NO</OrderNumber><!--Sage 200 Purchase Order Document No with items to receive-->
+      <Reference>SAGE_200_REFERENCE</Reference><!--Reference to display on the created Goods Received Note (Reference)-->
+      <Date>2013-09-17T00:00:00+01:00</Date><!--Date to display on the created Goods Received Note-->
+      <Sku>IR/STANDARD-FITTINGS</Sku><!--Sage 200 Product Code of the item to receive-->
+      <Quantity>1</Quantity><!--Number of items to receive - can be less or equal to total on order but will fail otherwise-->
+    </GoodsNote>
+  </GoodsNotes>
+  <DespatchNotes />
+</Company>

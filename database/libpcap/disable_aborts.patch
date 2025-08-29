@@ -1,0 +1,74 @@
+diff --git a/bpf_filter.c b/bpf_filter.c
+index 1a8ae8c8..f91497e9 100644
+--- a/bpf_filter.c
++++ b/bpf_filter.c
+@@ -109,7 +109,7 @@ pcapint_filter_with_aux_data(const struct bpf_insn *pc, const u_char *p,
+ 		switch (pc->code) {
+ 
+ 		default:
+-			abort();
++			return 0;
+ 		case BPF_RET|BPF_K:
+ 			return (u_int)pc->k;
+ 
+diff --git a/optimize.c b/optimize.c
+index ad2fdb31..041fe8e1 100644
+--- a/optimize.c
++++ b/optimize.c
+@@ -538,7 +538,7 @@ atomuse(struct stmt *s)
+ 	case BPF_MISC:
+ 		return BPF_MISCOP(c) == BPF_TXA ? X_ATOM : A_ATOM;
+ 	}
+-	abort();
++	return -1;
+ 	/* NOTREACHED */
+ }
+ 
+@@ -608,7 +608,7 @@ compute_local_ud(struct block *b)
+ 					use |= ATOMMASK(atom);
+ 			}
+ 			else
+-				abort();
++				return;
+ 		}
+ 		atom = atomdef(&s->s);
+ 		if (atom >= 0) {
+@@ -634,7 +634,7 @@ compute_local_ud(struct block *b)
+ 					use |= ATOMMASK(atom);
+ 			}
+ 			else
+-				abort();
++				return;
+ 		}
+ 	}
+ 
+@@ -825,7 +825,7 @@ fold_op(opt_state_t *opt_state, struct stmt *s, bpf_u_int32 v0, bpf_u_int32 v1)
+ 		break;
+ 
+ 	default:
+-		abort();
++		return;
+ 	}
+ 	s->k = a;
+ 	s->code = BPF_LD|BPF_IMM;
+@@ -1127,7 +1127,7 @@ opt_peep(opt_state_t *opt_state, struct block *b)
+ 			break;
+ 
+ 		default:
+-			abort();
++			return;
+ 		}
+ 		if (JF(b) != JT(b)) {
+ 			opt_state->done = 0;
+diff --git a/pcap/namedb.h b/pcap/namedb.h
+index 7c0322b9..66665c3c 100644
+--- a/pcap/namedb.h
++++ b/pcap/namedb.h
+@@ -37,6 +37,7 @@
+ #include <stdio.h>		/* FILE */
+ 
+ #include <pcap/funcattrs.h>
++#include <pcap/bpf.h>
+ 
+ #ifdef __cplusplus
+ extern "C" {

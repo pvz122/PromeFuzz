@@ -1,0 +1,40 @@
+
+[libpcap]
+
+language = "c"
+
+compile_commands_path = "database/libpcap/latest/build_asan/compile_commands.json"
+
+
+header_paths = ["database/libpcap/latest/code/pcap"]
+
+
+document_paths = ["database/libpcap/latest/build_asan/mandoc.txt"]
+
+
+document_has_api_usage = true
+
+
+output_path = "database/libpcap/latest/out"
+
+
+driver_build_args = ["database/libpcap/latest/build_asan/libpcap.a", "-Idatabase/libpcap/latest/code", "-ldbus-1"]
+
+
+consumer_case_paths = ["database/libpcap/latest/code/testprogs"]
+
+
+consumer_build_args = ["-Idatabase/libpcap/latest/code"]
+
+
+source_paths = []
+
+
+exclude_paths = []
+
+
+driver_headers = []
+
+
+api_hints_path = ""
+

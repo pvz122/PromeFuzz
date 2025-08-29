@@ -1,0 +1,119 @@
+# Configuration file for libraries.
+
+
+# ======================== Configuration for library 1 ========================
+
+# [MODIFY THIS] The name of the library.
+[a_c_library]
+
+# [MODIFY THIS] The language of the library. The possible values are "c" and "c++".
+language = "c"
+
+# [MODIFY THIS] The path of "compile_commands.json" which records the compilation database of the library.
+# You can generate the "compile_commands.json" using Bear or CMake with the -DCMAKE_EXPORT_COMPILE_COMMANDS=ON flag.
+compile_commands_path = "path/to/compile_commands.json"
+
+# [MODIFY THIS] The header paths of library. A header path is a directory or a file where the API functions are declared.
+header_paths = ["path/to/library/include", "path/to/library/include/api.h"]
+
+# [MODIFY THIS] The path of the documentation file of the library. It can be:
+# 1. A documentation file like README.md.
+# 2. A directory containing documentation files. PromeFuzz will read all files with .md/.txt/.html/.htm/.pdf/.adoc/.rst extension or named "README"/"USAGE".
+# 3. A website URL. PromeFuzz will download the website and extract the text content.
+document_paths = ["path/to/README.md", "path/to/docs", "https://example.com"]
+
+# [MODIFY THIS] Whether the document has API usage. If true, PromeFuzz will try to comprehend the API usage from the document.
+document_has_api_usage = false
+
+# [MODIFY THIS] The output path for PromeFuzz to store the results.
+output_path = "path/to/output"
+
+# [MODIFY THIS] The compile arguments while building the fuzz driver. The fuzz driver will be built using command like:
+# clang path/to/fuzz/driver.c -o path/to/output -fsanitize=fuzzer,address,undefined -Ipath/to/headers [configured build args]
+# This option usually includes the path to the library binary (.so/.a file). It is strongly recommended that you build the library
+# with -g flag to include debug information in the binary, on which PromeFuzz Sanitizer and ConstraintLearner rely to analyze the source code.
+driver_build_args = ["path/to/liblibrary.so"]
+
+# The consumer case source paths of the library, e.g., the test cases or examples using the library.
+# These cases will be used to infer the API relationships.
+consumer_case_paths = []
+
+# The build arguments while building the consumer cases. Normally the needed headers will be included and this option is not necessary.
+consumer_build_args = []
+
+# The extra source paths of library. A source path can be a directory or a file.
+# PromeFuzz will analyze the source code in the compilation database specified by compile_commands_path.
+# If you want to include extra source files, you can specify them here.
+source_paths = []
+
+# The paths you want to exclude from the library. This works for source paths, header paths and document paths.
+exclude_paths = []
+
+# The extra headers which should be included by the fuzz driver.
+# Fuzz driver will include the headers configured in the driver_headers along with those in header_paths.
+driver_headers = []
+
+# The json file path storing extra API usage hints, which will be directly provided to the LLM during generation.
+# The format of the json file should be: {"function_name": "function_usage", ...}
+api_hints_path = ""
+
+
+# ======================== Configuration for library 2 ========================
+
+# [MODIFY THIS] The name of the library.
+[a_cpp_library]
+
+# [MODIFY THIS] The language of the library. The possible values are "c" and "c++".
+language = "c++"
+
+# [MODIFY THIS] The header paths of library. A header path is a directory or a file where the API functions are declared.
+header_paths = ["path/to/library/include", "path/to/library/include/api.hpp"]
+
+# [MODIFY THIS] The path of "compile_commands.json" which records the compilation database of the library.
+# You can generate the "compile_commands.json" using Bear or CMake with the -DCMAKE_EXPORT_COMPILE_COMMANDS=ON flag.
+compile_commands_path = "path/to/compile_commands.json"
+
+# [MODIFY THIS] The path of the documentation file of the library. It can be:
+# 1. A documentation file like README.md.
+# 2. A directory containing documentation files. PromeFuzz will read all files with .md/.txt/.html/.htm/.pdf/.adoc/.rst extension or named "README"/"USAGE".
+# 3. A website URL. PromeFuzz will download the website and extract the text content.
+document_paths = ["path/to/README.md", "path/to/docs", "https://example.com"]
+
+# [MODIFY THIS] Whether the document has API usage. If true, PromeFuzz will try to comprehend the API usage from the document.
+document_has_api_usage = false
+
+# [MODIFY THIS] The output path for PromeFuzz to store the results.
+output_path = "path/to/output"
+
+# [MODIFY THIS] The compile arguments while building the fuzz driver. The fuzz driver will be built using command like:
+# clang++ path/to/fuzz/driver.cpp -o path/to/output -fsanitize=fuzzer,address,undefined -Ipath/to/headers [configured build args]
+# This option usually includes the path to the library binary (.so/.a file). It is strongly recommended that you build the library
+# with -g flag to include debug information in the binary, on which PromeFuzz Sanitizer and ConstraintLearner rely to analyze the source code.
+driver_build_args = ["path/to/liblibrary.so"]
+
+# The consumer case source paths of the library, e.g., the test cases or examples using the library.
+# These cases will be used to infer the API relationships.
+consumer_case_paths = []
+
+# The build arguments while building the consumer cases. Normally the needed headers will be included and this option is not necessary.
+consumer_build_args = []
+
+# The extra source paths of library. A source path can be a directory or a file.
+# PromeFuzz will analyze the source code in the compilation database specified by compile_commands_path.
+# If you want to include extra source files, you can specify them here.
+source_paths = []
+
+# The paths you want to exclude from the library. This works for source paths, header paths and document paths.
+exclude_paths = []
+
+# The extra headers which should be included by the fuzz driver.
+# Fuzz driver will include the headers configured in the driver_headers along with those in header_paths.
+driver_headers = []
+
+# The json file path storing API ban list. All APIs in the ban list will be excluded from generation.
+# The format of the json file should be: `["function_location", ...]`.
+api_ban_list_path = ""
+
+# The json file path storing extra API usage hints, which will be directly provided to the LLM during generation.
+# The format of the json file should be: `{"function_name": "function_usage", ...}`. For universal hints, add `"ALL": "universal_usage"`.
+api_hints_path = ""

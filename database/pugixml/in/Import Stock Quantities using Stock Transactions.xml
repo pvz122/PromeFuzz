@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Company>
+  <StockTransactions>
+    <StockTransaction>
+      <StockTransactionType>AdjustmentIn</StockTransactionType>
+      <!-- Valid types are "Invalid", "AdjustmentIn", "AdjustmentOut", "GoodsIn",
+                                      "GoodsOut", "MovementIn", "MovementOut", "GoodsReturned", "DamagesIn",
+                                      "DamagesOut", "WriteOff" -->
+      <Id>1</Id>
+      <StockCode>GREENFORK</StockCode>
+      <StockTransactionDate>2017-01-01T11:11:11</StockTransactionDate>
+      <Reference>Extra Stock</Reference>
+      <Details>Adding Extra Stock</Details>
+      <Qty>10</Qty>
+      <CostPrice>1</CostPrice>
+      <SalesPrice>0</SalesPrice>
+      <StockTransactionNumber>1</StockTransactionNumber>
+    </StockTransaction>
+  </StockTransactions>
+</Company>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Inventories>
+    <Inventory>
+      <UniqueId>6688</UniqueId><!--Sage 200 id-->
+      <Sku>PROD001</Sku><!--Sage 200 product code, should be used as identifier for products-->
+      <Barcode /><!--Sage 200 barcode, optional identifier for products-->
+      <Locations>
+        <Location>
+          <UniqueId>1006</UniqueId><!--Sage 200 id-->
+          <Name>WAREHOUS</Name><!--Sage 200 warehouse name, should be used as identifier for warehouse-->
+          <QtyInStock>0</QtyInStock><!--Sage 200 quantity in stock, to get free stock value you should less the QtyAllocated value from the QtyInStock value-->
+          <QtyOnOrder>36</QtyOnOrder><!--Sage 200 quantity on order, indicates the quantity of stock on purchase orders-->
+          <QtyAllocated>0</QtyAllocated><!--Sage 200 quantity allocated, indicates the quantity of stock allocated to existing orders-->
+          <AllowSalesTrading>true</AllowSalesTrading><!--if the warehouse is marked as sales trading only-->
+          <Bins><!--bin information-->
+            <Bin>
+              <UniqueId>6694</UniqueId><!--Sage 200 id, not needed-->
+              <Name>Unspecified</Name><!--Sage 200 bin name-->
+              <QtyInStock>0</QtyInStock><!--Sage 200 quantity in stock in bin-->
+              <QtyAllocated>0</QtyAllocated><!--Sage 200 quantity allocated from bin-->
+            </Bin>
+          </Bins>
+        </Location>
+      </Locations>
+    </Inventory>
+  </Inventories>
+</Company>

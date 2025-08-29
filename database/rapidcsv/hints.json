@@ -1,0 +1,3 @@
+{
+    "ALL": "This library will throw exceptions in case of errors, make sure to use `catch (...)` to catch them when invoking API functions."
+}

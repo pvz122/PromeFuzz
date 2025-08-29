@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Company>
+  <Transactions>
+    <Transaction>
+      <!-- Website transaction id -->
+      <Id>240</Id>
+      <!-- Website customer id -->
+      <CustomerId>1001</CustomerId>
+      <!-- type -->
+      <TransactionType>SalesReceiptOnAccount</TransactionType>
+      <!-- Sage account ref -->
+      <AccountReference>ABC001</AccountReference>
+      <!-- Date payment made -->
+      <TransactionDate>2018-01-01T11:11:11</TransactionDate>
+      <!-- Bank code in Sage -->
+      <NominalCode>1200</NominalCode>
+      <!-- Reference -->
+      <Reference>INV#456</Reference>
+      <!-- Not used -->
+      <PaymentReference></PaymentReference>
+      <!-- Description -->
+      <Details>Payment on Account via website</Details>
+      <!-- Total of payment - should be full gross amount -->
+      <NetAmount>120</NetAmount>
+      <!-- No tax rate as was accounted for on the invoice -->
+      <TaxRate>0.0</TaxRate>
+      <!-- T9 as outside scope of VAT -->
+      <TaxCode>9</TaxCode>
+      <!-- No tax value as was accounted for on the invoice -->
+      <TaxAmount>0.0</TaxAmount>
+    </Transaction>
+  </Transactions>
+</Company>

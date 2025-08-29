@@ -1,0 +1,6 @@
+{INDEX}. `{FUNCTION_NAME}`
+​    {FUNCTION_USAGE}
+​    Its signature is:
+​    ```c
+{FUNCTION_SIGNATURE}
+​    ```

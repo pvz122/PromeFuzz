@@ -1,0 +1,11 @@
+The target function is `{TARGET_FUNCTION_NAME}`. {TARGET_FUNCTION_PURPOSE} Its signature is as follows:
+
+```{LANGUAGE_TAG}
+{TARGET_FUNCTION_SIGNATURE}
+```
+
+The list of candidate functions from the library is:
+
+{CANDIDATE_FUNCTIONS}
+
+Please list the index number of any relevant functions from the candidate list, each on a new line, without any explanation. If there are no relevant functions, please enter '0'.

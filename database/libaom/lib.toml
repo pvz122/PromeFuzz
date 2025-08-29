@@ -1,0 +1,41 @@
+[libaom]
+language = "c"
+compile_commands_path = "database/libaom/latest/build_asan/compile_commands.json"
+document_paths = ["database/libaom/latest/code/README.md"]
+document_has_api_usage = false
+output_path = "database/libaom/latest/out"
+header_paths = [
+    "database/libaom/latest/code/aom/aom_codec.h",
+    "database/libaom/latest/code/aom/aom_decoder.h",
+    "database/libaom/latest/code/aom/aom_encoder.h",
+    "database/libaom/latest/code/aom/aom_external_partition.h",
+    "database/libaom/latest/code/aom/aom_frame_buffer.h",
+    "database/libaom/latest/code/aom/aom_image.h",
+    "database/libaom/latest/code/aom/aom_integer.h",
+    "database/libaom/latest/code/aom/aom.h",
+    "database/libaom/latest/code/aom/aomcx.h",
+    "database/libaom/latest/code/aom/aomdx.h",
+]
+driver_build_args = [
+    "database/libaom/latest/bin_asan/lib/libaom.a",
+    "-Idatabase/libaom/latest/code",
+    "-Idatabase/libaom/latest/code/aom",
+]
+consumer_case_paths = [
+    "database/libaom/latest/code/test",
+    "database/libaom/latest/code/examples",
+    "database/libaom/latest/code/apps",
+]
+api_ban_list_path = "database/libaom/api_ban_list.json"
+driver_headers = [
+    "database/libaom/latest/code/aom/aomdx.h",
+    "database/libaom/latest/code/aom/aomcx.h",
+    "database/libaom/latest/code/aom/aom_integer.h",
+    "database/libaom/latest/code/aom/aom_frame_buffer.h",
+    "database/libaom/latest/code/aom/aom_decoder.h",
+    "database/libaom/latest/code/aom/aom.h",
+    "database/libaom/latest/code/aom/aom_external_partition.h",
+    "database/libaom/latest/code/aom/aom_image.h",
+    "database/libaom/latest/code/aom/aom_encoder.h",
+    "database/libaom/latest/code/aom/aom_codec.h",
+]

@@ -1,0 +1,16 @@
+[curl]
+language = "c"
+compile_commands_path = "database/curl/latest/build_asan/compile_commands.json"
+document_paths = [
+    "database/curl/latest/code/README.md",
+    "database/curl/latest/code/docs/libcurl",
+]
+document_has_api_usage = true
+output_path = "database/curl/latest/out"
+header_paths = ["database/curl/latest/code/include/curl"]
+driver_build_args = [
+    "database/curl/latest/bin_asan/lib/libcurl.a",
+    "-Idatabase/curl/latest/code/include",
+    "-lpsl -lzstd -lz -lcrypto -lssl",
+]
+consumer_case_paths = ["database/curl/latest/code/tests/unit"]

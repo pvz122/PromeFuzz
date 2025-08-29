@@ -1,0 +1,40 @@
+# ======================== Configuration for tinygltf ========================
+
+
+[tinygltf]
+
+language = "c++"
+
+compile_commands_path = "database/tinygltf/latest/build_asan/compile_commands.json"
+
+
+header_paths = ["database/tinygltf/latest/code/tiny_gltf.h"]
+
+
+document_paths = ["database/tinygltf/latest/code/README.md"]
+
+
+document_has_api_usage = false
+
+
+output_path = "database/tinygltf/latest/out"
+
+
+driver_build_args = ["database/tinygltf/latest/build_asan/libtinygltf.a"]
+
+
+source_paths = []
+
+
+exclude_paths = []
+
+
+driver_headers = []
+
+
+api_hints_path = ""
+
+consumer_case_paths = [
+    "database/tinygltf/latest/code/tests",
+    "database/tinygltf/latest/code/examples"
+]
