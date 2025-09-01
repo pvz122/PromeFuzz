@@ -317,6 +317,7 @@ With your `lib.toml` configuration ready, execute:
 ```
 
 > 💡 **Parallel Processing**: The comprehension tasks are highly parallelizable. You can increase `--pool-size` to speed up processing, depending on your available LLM API rate limits and system resources.
+
 > 🔔 **LLM Selection**: The comprehension tasks can consume a significant number of tokens, so opting for a cost-effective LLM at this stage is recommended.
 
 ##### Output Artifacts
@@ -424,3 +425,16 @@ Each report is named after:
 - `TP-{crash_type}@{crash_location}`: This is possibly a true positive (TP) vulnerability.
 - `FP-{crash_type}@{crash_location}`: This is likely a false positive (FP) due to API misuse.
 - `UN-{crash_type}@{crash_location}`: This is an unclassified crash that requires further investigation.
+
+## 📚 Cite
+
+If you use PromeFuzz in your research, please cite our ACM CCS 2025 paper:
+
+```BibTeX
+@inproceedings{liu2025promefuzz,
+  title={PromeFuzz: A Knowledge-Driven Approach to Fuzzing Harness Generation with Large Language Models},
+  author={Liu, Yuwei and Deng, Junquan and Jia, Xiangkun and Wang, Yanhao and Wang, Minghua and Huang, Lin and Tao, Wei and Su, Purui},
+  booktitle={Proceedings of the 2025 on ACM SIGSAC Conference on Computer and Communications Security},
+  year={2025}
+}
+```

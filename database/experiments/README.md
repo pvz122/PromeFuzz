@@ -12,8 +12,9 @@ All experiments are configured using the default settings specified in `config.t
 
 The generation stop condition is set to the default `ALL-COVER` mode. That is, the generation process will continue until all API functions are invoked at least once or fail.
 
-Each fuzzing experiment is conducted using **AFL++** for **24 hours**, repeated **10 times** to ensure statistical reliability. Branch coverage is measured using **GCov**.  
-*Note*: For `rapidcsv`, a single-header library, coverage is instead measured using **Clang Coverage** due to compilation constraints.
+Each fuzzing experiment is conducted using **AFL++** for **24 hours**, repeated **10 times** to ensure statistical reliability. Branch coverage is measured using **GCov**.
+
+> **Note**: For `rapidcsv`, a single-header library, coverage is instead measured using **Clang Coverage** due to compilation constraints.
 
 We provide a suite of scripts to help you reproduce our experiments efficiently. Follow the instructions in the subsequent sections to set up the environment and run the experiments.
 
@@ -36,7 +37,7 @@ This will:
 
 ### 2. **Generate and Build Fuzzing Harnesses**
 
-We provide pre-generated fuzzing harnesses in the [`examples` directory](../../examples/README.md), which we recommend using. This avoids the need to re-generate harnesses from scratch.
+We provide pre-generated fuzzing harnesses in the [examples directory](../../examples/README.md), which we recommend using. This avoids the need to re-generate harnesses from scratch.
 
 To compile the provided example harnesses, run:
 
