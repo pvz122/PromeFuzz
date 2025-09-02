@@ -87,7 +87,7 @@ def comprehend(
         info_repo = InfoRepository.load(preprocess_path / "info.pkl")
     except Exception as e:
         logger.critical(
-            f"Failed to load libray preprocessing results, please run preprocessor first: {e}"
+            f"Failed to load library preprocessing results, please run preprocessor first: {e}"
         )
         traceback.print_exc()
         sys.exit(1)

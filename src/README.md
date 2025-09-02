@@ -6,6 +6,7 @@ This directory contains the core source code of **PromeFuzz**, structured into m
 |------------------------|-------|
 | `preprocessor/`        | Extracts structural code metadata from target library source code. |
 | `comprehender/`        | Extracts documentation and code to build a structured knowledge base. Uses the comprehension LLM to interpret API semantics. |
+| `configer/`            | Set the configuration file of PromeFuzz. |
 | `generator/`           | Generates fuzz harnesses based on the knowledge base. Ensures correctness and coverage. |
 | `analyzer/`            | Analyzes crash logs during fuzzing. Filters duplicates, triages crashes, and identifies root causes. |
 | `stats/`               | Collects and reports statistics on the generation process. |
