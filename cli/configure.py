@@ -43,12 +43,12 @@ def config_path_option(exists=False):
 
 
 @click.group(help="Manage PromeFuzz configuration files.")
-def config():
+def configure():
     """Configuration management commands."""
     pass
 
 
-@config.command(help="Initialize empty configuration file with basic structure.")
+@configure.command(help="Initialize empty configuration file with basic structure.")
 @config_path_option()
 @click.option("--force", is_flag=True, help="Overwrite existing configuration file")
 @click.option("--quiet", is_flag=True, help="Skip next steps suggestions")
@@ -84,7 +84,7 @@ def init(config_path: Path, force: bool, quiet: bool):
             sys.exit(1)
 
 
-@config.group(help="Manage LLM configurations.")
+@configure.group(help="Manage LLM configurations.")
 def llm():
     """LLM configuration management commands."""
     pass
@@ -554,7 +554,7 @@ def remove(config_path: Path, name: str, force: bool):
 
 
 # Add the llm subcommand to the main config group
-config.add_command(llm)
+configure.add_command(llm)
 
 
 # =============================================================================
@@ -850,7 +850,7 @@ def validate(config_path):
 # =============================================================================
 
 
-@config.command(help="Interactive setup wizard to configure PromeFuzz from scratch.")
+@configure.command(help="Interactive setup wizard to configure PromeFuzz from scratch.")
 @config_path_option()
 @click.option("--force", is_flag=True, help="Overwrite existing configuration")
 @click.option("--skip-validation", is_flag=True, help="Skip final validation step")
@@ -975,5 +975,5 @@ def setup(config_path: Path, force: bool, skip_validation: bool):
 # =============================================================================
 # Command Registration
 # =============================================================================
-config.add_command(assign)
-config.add_command(validate)
+configure.add_command(assign)
+configure.add_command(validate)
