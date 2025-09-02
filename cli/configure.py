@@ -7,7 +7,7 @@ import sys
 from pathlib import Path
 import click
 from loguru import logger
-from src.configer import (
+from src.configurer import (
     load_config_file,
     save_config_file,
     get_llm_instances,
@@ -17,7 +17,7 @@ from src.configer import (
     set_module_llm,
     validate_llm_exists,
 )
-from src.configer.constants import (
+from src.configurer.constants import (
     get_display_mapping,
     VALIDATION_MODULES,
     MODULE_DESCRIPTIONS,
@@ -76,9 +76,9 @@ def init(config_path: Path, force: bool, quiet: bool):
             if not quiet:
                 click.echo("Next steps:")
                 click.echo(
-                    f"  1. Add LLM configurations: ./PromeFuzz.py config llm add <name>"
+                    f"  1. Add LLM configurations: ./PromeFuzz.py configure llm add <name>"
                 )
-                click.echo(f"  2. View current config: ./PromeFuzz.py config llm list")
+                click.echo(f"  2. View current config: ./PromeFuzz.py configure llm list")
         except Exception as e:
             logger.error(f"Failed to initialize {config_path}: {e}")
             sys.exit(1)
@@ -190,7 +190,7 @@ def set(config_path: Path, name: str, **kwargs):
     """Set LLM configuration parameters.
 
     Examples:
-        ./PromeFuzz.py config llm set mycloud --model gpt-4o --temperature 0.3
+        ./PromeFuzz.py configure llm set mycloud --model gpt-4o --temperature 0.3
     """
     config_data = load_config_file(config_path)
 
@@ -261,7 +261,7 @@ def add(config_path: Path, name: str, quiet: bool):
     """Add a new LLM configuration interactively.
 
     Examples:
-        ./PromeFuzz.py config llm add myopenai
+        ./PromeFuzz.py configure llm add myopenai
     """
     # Load and validate configuration
     config_data = load_config_file(config_path)
@@ -461,9 +461,9 @@ def add(config_path: Path, name: str, quiet: bool):
 
             if not quiet:
                 click.echo("Next steps:")
-                click.echo(f"  - View: ./PromeFuzz.py config llm show {name}")
+                click.echo(f"  - View: ./PromeFuzz.py configure llm show {name}")
                 click.echo(f"  - Test: ./PromeFuzz.py test -T LittleChat {name}")
-                click.echo(f"  - List all: ./PromeFuzz.py config llm list")
+                click.echo(f"  - List all: ./PromeFuzz.py configure llm list")
         else:
             sys.exit(1)
     else:
@@ -478,8 +478,8 @@ def remove(config_path: Path, name: str, force: bool):
     """Remove an LLM configuration.
 
     Examples:
-        ./PromeFuzz.py config llm remove old-llm
-        ./PromeFuzz.py config llm remove test-llm --force
+        ./PromeFuzz.py configure llm remove old-llm
+        ./PromeFuzz.py configure llm remove test-llm --force
     """
     # Load current configuration
     config_data = load_config_file(config_path)
@@ -542,7 +542,7 @@ def remove(config_path: Path, name: str, force: bool):
     if is_default:
         llm_config["default_llm"] = ""
         logger.warning(
-            "Default LLM has been cleared. Set a new default with: ./PromeFuzz.py config assign default <name>"
+            "Default LLM has been cleared. Set a new default with: ./PromeFuzz.py configure assign default <name>"
         )
 
     if save_config_file(config_path, config_data):
@@ -578,7 +578,7 @@ def default(ctx, llm_name: str):
     """Set the default LLM.
 
     Examples:
-        ./PromeFuzz.py config assign default mycloud
+        ./PromeFuzz.py configure assign default mycloud
     """
     config_path = ctx.obj["config_path"]
     config_data = load_config_file(config_path)
@@ -607,7 +607,7 @@ def list(ctx):
     """List current LLM assignments to modules.
 
     Examples:
-        ./PromeFuzz.py config assign list
+        ./PromeFuzz.py configure assign list
     """
     config_path = ctx.obj["config_path"]
     # Load and validate configuration
@@ -653,7 +653,7 @@ def create_module_assignment_command(module_name: str):
         f"""Set LLM for {module_name} module.
 
         Examples:
-            ./PromeFuzz.py config assign {module_name} mycloud
+            ./PromeFuzz.py configure assign {module_name} mycloud
         """
         set_module_llm(ctx.obj["config_path"], module_name, llm_name)
 
@@ -661,7 +661,7 @@ def create_module_assignment_command(module_name: str):
     module_command.__doc__ = f"""Set LLM for {module_name} module.
 
     Examples:
-        ./PromeFuzz.py config assign {module_name} mycloud
+        ./PromeFuzz.py configure assign {module_name} mycloud
     """
     return module_command
 
@@ -681,7 +681,7 @@ def options():
     """Show all available assignment options for modules.
 
     Examples:
-        ./PromeFuzz.py config assign options
+        ./PromeFuzz.py configure assign options
     """
     click.echo("Available assignments:")
     click.echo()
@@ -692,8 +692,8 @@ def options():
     click.echo()
 
     click.echo("Usage examples:")
-    click.echo("  ./PromeFuzz.py config assign default mycloud")
-    click.echo("  ./PromeFuzz.py config assign generator local_llm")
+    click.echo("  ./PromeFuzz.py configure assign default mycloud")
+    click.echo("  ./PromeFuzz.py configure assign generator local_llm")
 
 
 # =============================================================================
@@ -713,7 +713,7 @@ def validate(config_path):
     - Module assignments are complete
 
     Examples:
-        ./PromeFuzz.py config validate
+        ./PromeFuzz.py configure validate
     """
     click.echo(f"Validating configuration: {click.style(str(config_path), fg='cyan')}")
     click.echo()
@@ -829,17 +829,17 @@ def validate(config_path):
         click.echo("Suggestions:")
 
         if not default_llm or default_llm not in llm_instances:
-            click.echo("  - Add an LLM: ./PromeFuzz.py config llm add <name>")
+            click.echo("  - Add an LLM: ./PromeFuzz.py configure llm add <name>")
             click.echo(
-                "  - Set default LLM: ./PromeFuzz.py config assign default <llm_name>"
+                "  - Set default LLM: ./PromeFuzz.py configure assign default <llm_name>"
             )
 
         if unassigned_modules:
             click.echo(
-                "  - Assign LLMs to modules: ./PromeFuzz.py config assign <module> <llm_name>"
+                "  - Assign LLMs to modules: ./PromeFuzz.py configure assign <module> <llm_name>"
             )
 
-        click.echo("  - View assignment options: ./PromeFuzz.py config assign options")
+        click.echo("  - View assignment options: ./PromeFuzz.py configure assign options")
 
     if issues:
         sys.exit(1)
@@ -864,8 +864,8 @@ def setup(config_path: Path, force: bool, skip_validation: bool):
     4. Validate the final configuration
 
     Examples:
-        ./PromeFuzz.py config setup
-        ./PromeFuzz.py config setup --config-path my-config.toml --force
+        ./PromeFuzz.py configure setup
+        ./PromeFuzz.py configure setup --config-path my-config.toml --force
     """
     click.echo(
         f"{click.style('PromeFuzz Configuration Setup Wizard', fg='green', bold=True)}"
@@ -890,7 +890,7 @@ def setup(config_path: Path, force: bool, skip_validation: bool):
     click.echo(f"{click.style('Add LLM Configurations', fg='yellow', bold=True)}")
     click.echo("-" * 36)
     click.echo(
-        "Typically we need at least two LLM configurations, one for reasoning and one for embedding."
+        "Typically we need at least two LLM configurations, one generative model and one embedding model."
     )
 
     llms_added = []
@@ -969,7 +969,7 @@ def setup(config_path: Path, force: bool, skip_validation: bool):
     click.echo("=" * 16)
     click.echo("Your PromeFuzz configuration is ready!")
     if not skip_validation:
-        click.echo(f"  - Re-validate: ./PromeFuzz.py config validate")
+        click.echo(f"  - Re-validate: ./PromeFuzz.py configure validate")
 
 
 # =============================================================================

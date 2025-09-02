@@ -97,7 +97,7 @@ If you prefer a native installation, follow these steps:
 
 PromeFuzz is controlled via the command-line script `PromeFuzz.py`, which supports the following subcommands:
 
-- `config`: Set the configure for PromeFuzz.
+- `configure`: Set the configuration for PromeFuzz.
 - `preprocess`: Preprocess the library to extract code metadata knowledge.
 - `comprehend`: Comprehend the library using LLM to extract documentation knowledge.
 - `generate`: Generate fuzzing harnesses using the extracted knowledge.
@@ -121,22 +121,24 @@ PromeFuzz relies on two configuration files:
 - `config.toml` — Controls the global behavior of the framework (e.g., LLM settings, analysis parameters).  
 - `libraries.toml` — Defines metadata for the target libraries (e.g., header paths, build args).
 
-To get started:
+We recommend using the built-in interactive configuration wizard to set up PromeFuzz. It guides you through essential settings and ensures all required fields are properly filled.
 
-Use the interactive CLI to create a working configuration. Have your API keys or local LLM endpoints ready—PromeFuzz typically requires **two models**: **one for reasoning** and **one for embedding**. The wizard will generate a `config.toml`. For detailed field meanings, see the comments in [`config.template.toml`](./config.template.toml)
+To launch the wizard:
 
 ```bash
-# Recommended: guided setup that writes config.toml
-$ python ./PromeFuzz.py config setup
+./PromeFuzz.py configure setup
 ```
 
-Afterwards, you can modify the configuration using the `config` command or manually.
+During setup, you’ll need access to two types of LLMs:
 
-**Alternative (manual) setup**
+- **Generative Model** (e.g., `gpt-5`, `qwen-3`) Used for harness generation, library comprehension, and crash analysis. We recommend:
+  - A **standard model** for harness generation.
+  - A **lightweight model** for efficient library comprehension.
+  - A **reasoning model** for crash analysis.
 
-You may copy the template and edit it by hand. If you choose this path, ensure **every** option marked `[MODIFY THIS]` is present and correctly set. This approach is for advanced users and is not recommended for first-time setup.
+- **Embedding Model** (e.g., `mxbai-embed-large`) Enables semantic retrieval from documentation and source code.
 
-> 👉 The [template file](./config.template.toml) includes detailed comments explaining each option. Be sure to update all fields marked with `[MODIFY THIS]`.
+> 👉 Alternatively, copy `config.template.toml` to `config.toml` and edit it directly. The [template file](./config.template.toml) includes detailed comments explaining each option. Be sure to update all fields marked with `[MODIFY THIS]`.
 
 ##### Example: Using GPT-5 and Ollama Embeddings
 

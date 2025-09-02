@@ -18,7 +18,7 @@ from src import vars as global_vars
 
 SUBCOMMANDS = (
     # add commands here.
-    "config",
+    "configure",
     "preprocess",
     "comprehend",
     "generate",
@@ -75,25 +75,19 @@ def load_config(config_path: Path, library_path: Path):
     :param config_path: The path to the PromeFuzz config file.
     :param library_path: The path to the library config file.
     """
+    if click.get_current_context().invoked_subcommand == "configure":
+        global_vars.config = {}
+        global_vars.config_template = {}
+        global_vars.libraries = {}
+        return
+
     try:
         if not config_path.exists():
-            command = click.get_current_context().invoked_subcommand
-            is_config_init_command = (
-                command == "config"
-                and len(sys.argv) >= 3
-                and any(arg in ["init", "setup"] for arg in sys.argv[2:])
+            logger.error(f"Configuration file not found: {config_path}")
+            logger.info(
+                "Run './PromeFuzz.py configure init/setup' to create a configuration file"
             )
-            if is_config_init_command:
-                global_vars.config = {}
-                global_vars.config_template = {}
-                global_vars.libraries = {}
-                return
-            else:
-                logger.error(f"Configuration file not found: {config_path}")
-                logger.info(
-                    "Run './PromeFuzz.py config init/setup' to create a configuration file"
-                )
-                sys.exit(1)
+            sys.exit(1)
         if not library_path.exists():
             logger.error(f"Library configuration file not found: {library_path}")
             sys.exit(1)

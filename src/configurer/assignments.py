@@ -20,7 +20,7 @@ def set_module_llm(config_path: Path, module: str, llm_name: str) -> None:
     # Check if config file exists
     if not config_path.exists():
         logger.error(f"Configuration file not found: {config_path}")
-        logger.info("Run './PromeFuzz.py config init' to create a configuration file")
+        logger.info("Run './PromeFuzz.py configure init' to create a configuration file")
         sys.exit(1)
 
     # Load current configuration

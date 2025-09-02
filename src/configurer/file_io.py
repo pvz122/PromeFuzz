@@ -16,21 +16,16 @@ from loguru import logger
 def load_config_file(config_path: Path) -> Dict[str, Any]:
     """Load and parse a TOML configuration file.
 
-    Args:
-        config_path: Path to the configuration file
-
-    Returns:
-        Dict[str, Any]: Configuration data
-
-    Raises:
-        SystemExit: If configuration file cannot be loaded
+    :param config_path: Path to the configuration file
+    :return: Dict[str, Any]: Configuration data
+    :raises SystemExit: If configuration file cannot be loaded
     """
     try:
         with open(config_path, "rb") as f:
             return tomllib.load(f)
     except FileNotFoundError:
         logger.error(f"Configuration file not found: {config_path}")
-        logger.info("Run './PromeFuzz.py config init' to create a configuration file")
+        logger.info("Run './PromeFuzz.py configure init' to create a configuration file")
         sys.exit(1)
     except tomllib.TOMLDecodeError as e:
         logger.error(f"Invalid TOML syntax in {config_path}: {e}")

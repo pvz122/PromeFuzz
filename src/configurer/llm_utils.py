@@ -23,12 +23,9 @@ def get_llm_instances(llm_config: Dict[str, Any]) -> Dict[str, Dict[str, Any]]:
 def validate_llm_exists(llm_config: Dict[str, Any], llm_name: str) -> None:
     """Validate that an LLM configuration exists and is valid.
 
-    Args:
-        llm_config: The LLM configuration dictionary
-        llm_name: Name of the LLM to validate
-
-    Raises:
-        SystemExit: If LLM doesn't exist or is invalid
+    :param llm_config: The LLM configuration dictionary
+    :param llm_name: Name of the LLM to validate
+    :raises SystemExit: If LLM doesn't exist or is invalid
     """
     if llm_name not in llm_config or not isinstance(llm_config[llm_name], dict):
         llm_instances = get_llm_instances(llm_config)
