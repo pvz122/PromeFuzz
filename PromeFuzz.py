@@ -18,6 +18,7 @@ from src import vars as global_vars
 
 SUBCOMMANDS = (
     # add commands here.
+    "config",
     "preprocess",
     "comprehend",
     "generate",
@@ -35,6 +36,21 @@ def setup_subcommands():
         module = importlib.import_module(f"cli.{cmd}")
         method = getattr(module, cmd)
         butler.add_command(method)
+
+
+def get_command_from_argv():
+    """
+    Extract the actual command name from sys.argv, handling Click options properly.
+    Returns the command name or None if not found.
+    """
+    if len(sys.argv) <= 1:
+        return None
+
+    # Skip global options and find the actual command
+    for arg in sys.argv[1:]:
+        if not arg.startswith("-") and arg in SUBCOMMANDS:
+            return arg
+    return None
 
 
 def setup_logger(debug: bool):
@@ -75,6 +91,28 @@ def load_config(config_path: Path, library_path: Path):
     :param library_path: The path to the library config file.
     """
     try:
+        if not config_path.exists():
+            command = get_command_from_argv()
+            is_config_init_command = (
+                command == "config"
+                and len(sys.argv) >= 3
+                and any(arg in ["init", "setup"] for arg in sys.argv[2:])
+            )
+            if is_config_init_command:
+                global_vars.config = {}
+                global_vars.config_template = {}
+                global_vars.libraries = {}
+                return
+            else:
+                logger.error(f"Configuration file not found: {config_path}")
+                logger.info(
+                    "Run './PromeFuzz.py config init/setup' to create a configuration file"
+                )
+                sys.exit(1)
+        if not library_path.exists():
+            logger.error(f"Library configuration file not found: {library_path}")
+            sys.exit(1)
+
         global_vars.config = tomllib.loads(config_path.read_text())
         global_vars.config_template = tomllib.loads(
             (Path(__file__).resolve().parent / "config.template.toml").read_text()
@@ -111,7 +149,7 @@ def load_config(config_path: Path, library_path: Path):
     "--config",
     "config",
     help="Specify the config file.",
-    type=click.Path(exists=True, dir_okay=False, path_type=Path),
+    type=click.Path(dir_okay=False, path_type=Path),
     default=str(Path(__file__).resolve().parent / "config.toml"),
     show_default=True,
 )
@@ -120,7 +158,7 @@ def load_config(config_path: Path, library_path: Path):
     "--lib-config",
     "lib_config",
     help="Specify the library config file.",
-    type=click.Path(exists=True, dir_okay=False, path_type=Path),
+    type=click.Path(dir_okay=False, path_type=Path),
     default=str(Path(__file__).resolve().parent / "libraries.toml"),
     show_default=True,
 )

@@ -97,6 +97,7 @@ If you prefer a native installation, follow these steps:
 
 PromeFuzz is controlled via the command-line script `PromeFuzz.py`, which supports the following subcommands:
 
+- `config`: Set the configure for PromeFuzz.
 - `preprocess`: Preprocess the library to extract code metadata knowledge.
 - `comprehend`: Comprehend the library using LLM to extract documentation knowledge.
 - `generate`: Generate fuzzing harnesses using the extracted knowledge.
@@ -122,12 +123,18 @@ PromeFuzz relies on two configuration files:
 
 To get started:
 
-1. Copy the template configuration:
-   ```bash
-   cp config.template.toml config.toml
-   ```
+Use the interactive CLI to create a working configuration. Have your API keys or local LLM endpoints ready—PromeFuzz typically requires **two models**: **one for reasoning** and **one for embedding**. The wizard will generate a `config.toml`. For detailed field meanings, see the comments in [`config.template.toml`](./config.template.toml)
 
-2. Edit `config.toml` to match your environment and requirements.
+```bash
+# Recommended: guided setup that writes config.toml
+$ python ./PromeFuzz.py config setup
+```
+
+Afterwards, you can modify the configuration using the `config` command or manually.
+
+**Alternative (manual) setup**
+
+You may copy the template and edit it by hand. If you choose this path, ensure **every** option marked `[MODIFY THIS]` is present and correctly set. This approach is for advanced users and is not recommended for first-time setup.
 
 > 👉 The [template file](./config.template.toml) includes detailed comments explaining each option. Be sure to update all fields marked with `[MODIFY THIS]`.
 
