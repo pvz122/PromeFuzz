@@ -38,21 +38,6 @@ def setup_subcommands():
         butler.add_command(method)
 
 
-def get_command_from_argv():
-    """
-    Extract the actual command name from sys.argv, handling Click options properly.
-    Returns the command name or None if not found.
-    """
-    if len(sys.argv) <= 1:
-        return None
-
-    # Skip global options and find the actual command
-    for arg in sys.argv[1:]:
-        if not arg.startswith("-") and arg in SUBCOMMANDS:
-            return arg
-    return None
-
-
 def setup_logger(debug: bool):
     """
     Setup logging level.
@@ -92,7 +77,7 @@ def load_config(config_path: Path, library_path: Path):
     """
     try:
         if not config_path.exists():
-            command = get_command_from_argv()
+            command = click.get_current_context().invoked_subcommand
             is_config_init_command = (
                 command == "config"
                 and len(sys.argv) >= 3
