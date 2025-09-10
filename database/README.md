@@ -51,4 +51,4 @@ The `utils` directory contains some useful utilities for running the fuzz tests 
 
 ## Reproducing Experiments
 
-We also provide click-to-run scripts to easily reproduce experiments in our paper. These scripts are located in the `experiments` directory. Check [README.md](experiments/README.md) for more details.
+We also provide click-to-run scripts to easily reproduce experiments in [our paper](../paper/ccs25-full.pdf). These scripts are located in the `experiments` directory. Check [README.md](experiments/README.md) for more details.

@@ -15,7 +15,9 @@
 
 PromeFuzz outperforms existing approaches—including [Google OSS-Fuzz-Gen](https://github.com/google/oss-fuzz-gen), [PromptFuzz](https://github.com/FuzzAnything/PromptFuzz) and [CKGFuzzer](https://github.com/security-pride/CKGFuzzer)—in both branch coverage and vulnerability discovery.
 
-For more details, see our research [paper](TOBEADDED) at ACM CCS 2025.
+For more details, see our [preprinted paper](paper/ccs25-full.pdf), accepted at ACM CCS 2025.
+
+> *PromeFuzz* draws its name from Prometheus, the Greek god of forethought, reflecting the tool’s knowledge-driven approach to harness generation and vulnerability discovery.
 
 ## ✨ Highlights
 
