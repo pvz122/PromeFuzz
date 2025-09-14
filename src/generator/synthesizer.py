@@ -334,10 +334,11 @@ def gen_additional_script(primary_build_script_path: Path):
             out_path = Path(old_compile_args[i + 1])
             out_path = out_path.parent / f"aflpp_{out_path.name}"
             aflpp_compile_args.append(
-                f"-o {str(out_path).replace("_asan", "_aflpp")} $AFLPP_LIB_PATH"
+                f"-o {str(out_path).replace("_asan", "_aflpp")}"
             )
         elif compile_cmd.startswith("-fsanitize=fuzzer"):
             out_arg_flag = False
+            aflpp_compile_args.append("-fsanitize=fuzzer")
         elif out_arg_flag:
             pass
         else:
@@ -392,9 +393,6 @@ def gen_additional_script(primary_build_script_path: Path):
         echo "Please install AFL++ and set AFLPP_PATH" && exit 1
     fi
     AFLPP_PATH=$(dirname "$AFL_CLANG_FAST_PATH")
-    AFLPP_LIB_PATH=$(dirname "$AFLPP_PATH")/lib/afl/libAFLDriver.a
-else
-    AFLPP_LIB_PATH=$AFLPP_LIB_PATH
 fi
 """,
         cd_cmd=cd_cmd,
