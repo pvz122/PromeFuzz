@@ -157,8 +157,6 @@ Due to the inherent stochasticity of fuzzing, the specific vulnerabilities disco
 
 ## RQ3: Ablation Study
 
-## RQ3: Ablation Study
-
 In **RQ3**, we perform an ablation study to evaluate the contribution of key components in PromeFuzz. This includes:  
 - **Component ablation**: Assessing the impact of each module on fuzzing effectiveness. (Table 5)
 - **Weight ablation**: Analyzing how different weight settings in the scheduler’s scoring function influence performance. (Table 6)
