@@ -325,6 +325,10 @@ class Scheduler:
                 if (
                     self.statistics.function_failed_times[func]
                     > self.FUNCTION_FAIL_THRESHOLD
+                ) and (
+                    # Because of the parallelism, another thread may have recorded the function as tested
+                    self.statistics.function_tested[func]
+                    is False
                 ):
                     logger.warning(
                         f"Function {func.name} has failed to generate more than {self.FUNCTION_FAIL_THRESHOLD} times, deprecated."

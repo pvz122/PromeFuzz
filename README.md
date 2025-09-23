@@ -17,7 +17,7 @@ PromeFuzz outperforms existing approaches—including [Google OSS-Fuzz-Gen](http
 
 For more details, see our [preprinted paper](paper/ccs25-full.pdf), accepted at ACM CCS 2025.
 
-> *PromeFuzz* draws its name from Prometheus, the Greek god of forethought, reflecting the tool’s knowledge-driven approach to harness generation and vulnerability discovery.
+> *PromeFuzz* draws its name from the Greek god Prometheus, meaning forethought.
 
 ## ✨ Highlights
 
