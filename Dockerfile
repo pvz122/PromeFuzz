@@ -5,6 +5,7 @@ FROM ubuntu:24.04
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && \
     apt-get -y install git vim wget build-essential cmake bear tmux libomp-dev \
+    autoconf libtool automake \
     python3.12 python3.12-dev python3-setuptools python3-pip \
     clang llvm libclang-dev clang-format
 
