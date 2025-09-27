@@ -5,7 +5,7 @@ document_paths = [
     "database/lcms/latest/code/README.md",
     # "database/lcms/latest/code/doc",
 ]
-document_has_api_usage = true
+document_has_api_usage = false
 output_path = "database/lcms/latest/out"
 header_paths = ["database/lcms/latest/code/include"]
 driver_build_args = ["database/lcms/latest/bin_asan/lib/liblcms2.a"]
