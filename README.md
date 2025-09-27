@@ -53,7 +53,7 @@ The recommended way to set up PromeFuzz is using Docker for a consistent and iso
    We allocate additional shared memory (`shm`) to improve performance during file processing:
 
    ```bash
-   docker run -itd --shm-size=16g --name promefuzz promefuzz:latest
+   docker run -itd --shm-size=16g --name promefuzz promefuzz:latest /bin/bash
    ```
 
 4. **Access the container**  
@@ -62,6 +62,8 @@ The recommended way to set up PromeFuzz is using Docker for a consistent and iso
    ```bash
    docker exec -it promefuzz /bin/bash
    ```
+
+> To stop the container, use `docker stop promefuzz`. To completely remove the container, use `docker rm promefuzz`.
 
 ### 🛠️ Manual Setup
 
