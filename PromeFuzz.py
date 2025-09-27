@@ -12,7 +12,6 @@ from pathlib import Path
 from loguru import logger
 import datetime
 import tqdm
-import sys
 
 from src import vars as global_vars
 
@@ -75,6 +74,11 @@ def load_config(config_path: Path, library_path: Path):
     :param config_path: The path to the PromeFuzz config file.
     :param library_path: The path to the library config file.
     """
+    help_flags = {"--help"}
+    if any(arg in help_flags for arg in sys.argv[1:]):
+        logger.debug("Help flag detected; skipping configuration loading.")
+        return
+
     if click.get_current_context().invoked_subcommand == "configure":
         global_vars.config = {}
         global_vars.config_template = {}
