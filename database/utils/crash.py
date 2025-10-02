@@ -173,7 +173,7 @@ def get_fuzz_cmd_from_config(target_config: dict) -> str:
     """
     return " ".join(
         [
-            "ASAN_OPTIONS='symbolize=1:detect_odr_violation=0:allocator_may_return_null=1'",
+            "ASAN_OPTIONS='symbolize=1:detect_odr_violation=0:allocator_may_return_null=1:allow_user_poisoning=0'",
             str(Path(target_config["bin_asan"]).resolve()),
             target_config["cmd"],
         ]

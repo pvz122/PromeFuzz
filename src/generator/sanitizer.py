@@ -27,7 +27,7 @@ class DriverRunAttempt:
     CLEANUP = False
 
     # AddressSanitizer options
-    ASAN_OPTIONS = ["allocator_may_return_null=1"]
+    ASAN_OPTIONS = ["allocator_may_return_null=1", "allow_user_poisoning=0"]
     # Whether the ASan options are set
     asan_options_set = False
 
