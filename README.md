@@ -1,11 +1,17 @@
+<picture>
+   <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAn8B9pVY9QAAAABJRU5ErkJggg==" alt="" style="opacity:0;"/>
+   <img src="https://www.acm.org/binaries/content/gallery/acm/publications/artifact-review-v1_1-badges/results_reproduced_v1_1.png" alt="Reproduced" style="float:right; margin-left:0.5rem; width:5em;"/>
+   <img src="https://www.acm.org/binaries/content/gallery/acm/publications/artifact-review-v1_1-badges/artifacts_evaluated_functional_v1_1.png" alt="Functional" style="float:right; margin-left:0.5rem; width:5em;"/>
+   <img src="https://www.acm.org/binaries/content/gallery/acm/publications/artifact-review-v1_1-badges/artifacts_available_v1_1.png" alt="Available" style="float:right; margin-left:0.5rem; width:5em;"/>
+</picture>
 <br />
-<p align="center">
-<img src="img/logo.png" alt="Logo" width="156" height="156">
+<picture>
+   <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAn8B9pVY9QAAAABJRU5ErkJggg==" alt="" style="opacity:0;"/>
+   <img src="img/logo.png" alt="Logo" width="150em" style="display:block; margin:3em auto 0 auto; clear:both;">
+</picture>
 <h2 align="center" style="font-weight: 600">PromeFuzz</h2>
 <p align="center">A Knowledge-Driven Approach to Fuzzing Harness Generation with Large Language Models</p>
-<br />
-<br />
-</p>
+<br /><br />
 
 ![workflow](img/workflow.svg)
 
