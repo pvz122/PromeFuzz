@@ -1,10 +1,9 @@
 #!/bin/bash
 
-# COMMIT_ID="7903db4"
+COMMIT_ID="$1"
 REPO_URL="https://github.com/sqlite/sqlite.git"
-TARGET_DIR="$COMMIT_ID"
 
-git clone --depth 1 "$REPO_URL" code
+git clone "$REPO_URL" code
 if [ $? -ne 0 ]; then
     echo "Failed to clone repository. Exiting."
     exit 1

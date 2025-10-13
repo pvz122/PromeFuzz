@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DEPS="groff flex bison libdbus-1-dev"
+DEPS="groff flex bison libdbus-1-dev bsdextrautils"
 if [ "$EUID" -eq 0 ]; then
     apt install $DEPS
 else

@@ -12,7 +12,7 @@ libraries = {
     "curl": "4c50998",
     "lcms": "04ace9c",
     "libjpeg-turbo": "36ac5b84",
-    "sqlite3": "7903db4",
+    "sqlite3": "557974e",
     "libaom": "99fcd81",
     "libpcap": "2559282",
     "libvpx": "9514ab6",

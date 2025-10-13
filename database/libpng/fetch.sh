@@ -3,7 +3,7 @@
 COMMIT_ID="$1"
 REPO_URL="https://github.com/pnggroup/libpng.git"
 
-git clone --depth 1 "$REPO_URL" code
+git clone "$REPO_URL" code
 if [ $? -ne 0 ]; then
     echo "Failed to clone repository. Exiting."
     exit 1
