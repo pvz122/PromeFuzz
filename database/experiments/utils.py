@@ -33,6 +33,9 @@ libraries = {
 }
 list_libraries = [lib for lib in libraries.keys()]
 
+aflpp_args = {
+    "zlib": "-t 1000"
+}
 
 def get_aflpp() -> Path:
     """

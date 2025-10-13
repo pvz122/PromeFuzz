@@ -12,7 +12,7 @@ import subprocess
 import click
 from typing import Optional
 
-from utils import get_aflpp, list_libraries
+from utils import get_aflpp, list_libraries, aflpp_args
 
 
 # Global configuration
@@ -35,6 +35,7 @@ bin_gcov = "./{lib_name}/latest/out/fuzz_driver/gcov_synthesized_driver"
 build_gcov = "./{lib_name}/latest/build_gcov"
 out_base_path = "./{lib_name}/latest/fuzz"
 in_path = "./{lib_name}/in"
+aflpp_args = "{aflpp_args}"
 cmd = "@@"
 """
 
@@ -128,6 +129,7 @@ def _generate_fuzz_config(
             lib_name=lib_name,
             timeout=timeout_hours,
             fuzzer=DEFAULT_FUZZER,
+            aflpp_args=aflpp_args.get(lib_name, ""),
             identification=identification,
         )
 
