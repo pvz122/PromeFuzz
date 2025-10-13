@@ -8,8 +8,8 @@ if [ -z "$AFLPP_PATH" ]; then
 fi
 cd /promefuzz
 # aflpp
-AFL_LLVM_USE_TRACE_PC=1 AFL_USE_ASAN=1 $AFLPP_PATH/afl-clang-fast *.c -o /promefuzz/database/libvpx/latest/out/fuzz_driver/aflpp_synthesized_driver -fsanitize=fuzzer -g -I/promefuzz/database/libvpx/latest/code/vpx database/libvpx/latest/bin_aflpp/lib/libvpx.a -Idatabase/libvpx/latest/code
+AFL_LLVM_USE_TRACE_PC=1 AFL_USE_ASAN=1 $AFLPP_PATH/afl-clang-fast /promefuzz/database/libvpx/latest/out/fuzz_driver/synthesized/*.c -o /promefuzz/database/libvpx/latest/out/fuzz_driver/aflpp_synthesized_driver -fsanitize=fuzzer -g -I/promefuzz/database/libvpx/latest/code/vpx database/libvpx/latest/bin_aflpp/lib/libvpx.a -Idatabase/libvpx/latest/code
 # gcov
-clang *.c -o /promefuzz/database/libvpx/latest/out/fuzz_driver/gcov_synthesized_driver --coverage -fsanitize=fuzzer -g -I/promefuzz/database/libvpx/latest/code/vpx database/libvpx/latest/bin_gcov/lib/libvpx.a -Idatabase/libvpx/latest/code
+clang /promefuzz/database/libvpx/latest/out/fuzz_driver/synthesized/*.c -o /promefuzz/database/libvpx/latest/out/fuzz_driver/gcov_synthesized_driver --coverage -fsanitize=fuzzer -g -I/promefuzz/database/libvpx/latest/code/vpx database/libvpx/latest/bin_gcov/lib/libvpx.a -Idatabase/libvpx/latest/code
 # cov
-clang *.c -o /promefuzz/database/libvpx/latest/out/fuzz_driver/cov_synthesized_driver -fprofile-instr-generate -fcoverage-mapping -fsanitize=fuzzer -g -I/promefuzz/database/libvpx/latest/code/vpx database/libvpx/latest/bin_cov/lib/libvpx.a -Idatabase/libvpx/latest/code
+clang /promefuzz/database/libvpx/latest/out/fuzz_driver/synthesized/*.c -o /promefuzz/database/libvpx/latest/out/fuzz_driver/cov_synthesized_driver -fprofile-instr-generate -fcoverage-mapping -fsanitize=fuzzer -g -I/promefuzz/database/libvpx/latest/code/vpx database/libvpx/latest/bin_cov/lib/libvpx.a -Idatabase/libvpx/latest/code
