@@ -70,7 +70,7 @@ def _install_dependencies(path_library: Path, lib_name: str) -> bool:
     if dep_script.exists():
         try:
             logger.info(f"Installing dependencies for {lib_name}...")
-            subprocess.run(["bash", str(dep_script)], check=True)
+            subprocess.run(["bash", str(dep_script)], check=True, cwd=path_library)
             logger.info(f"Dependencies installed for {lib_name}")
         except subprocess.CalledProcessError as e:
             logger.error(f"Failed to install dependencies for {lib_name}: {e}")
