@@ -11,7 +11,7 @@ As illustrated in the Evaluation section of [our paper](/paper/ccs25-full.pdf), 
 | curl          | 4c50998  | C                 |
 | lcms          | 04ace9c  | C                 |
 | libjpeg-turbo | 36ac5b84 | C                 |
-| sqlite3       | 7903db4  | C                 |
+| sqlite3       | 557974e  | C                 |
 | libaom        | 99fcd81  | C                 |
 | libpcap       | 2559282  | C                 |
 | libvpx        | 9514ab6  | C                 |
