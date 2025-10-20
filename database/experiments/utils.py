@@ -29,12 +29,13 @@ libraries = {
     "tinygltf": "a5e653e",
     "exiv2": "04e1ea3",
     "loguru": "4adaa18",
-    "rapidcsv": "083851d"
+    "rapidcsv": "083851d",
 }
 list_libraries = [lib for lib in libraries.keys()]
 
 aflpp_args = {
-    "zlib": "-t 1000"
+    "zlib": "-t 1000",
+    "sqlite3": "-x /promefuzz/database/sqlite3/sql.dict"
 }
 
 def get_aflpp() -> Path:
