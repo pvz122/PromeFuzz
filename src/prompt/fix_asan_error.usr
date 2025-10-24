@@ -2,4 +2,4 @@ The fuzz driver you wrote triggered an AddressSanitizer error, below is the erro
 ```
 {ERROR_MESSAGE}
 ```
-Please fix the error and reply ONLY the content of the source code.
+Please fix the error and reply ONLY the content of the source code enclosed in triple backticks (```).
