@@ -150,32 +150,44 @@ During setup, you’ll need access to two types of LLMs:
 
 > 👉 Alternatively, copy `config.template.toml` to `config.toml` and edit it directly. The [template file](./config.template.toml) includes detailed comments explaining each option. Be sure to update all fields marked with `[MODIFY THIS]`.
 
-##### Example: Using GPT-5 and Ollama Embeddings
+##### Example: Using DeepSeek-V3.2-Exp and Ollama Embeddings
 
-If you'd like to use **OpenAI's GPT-5** as the primary LLM and **`mxbai-embed-large`** (via Ollama) for embeddings, configure `config.toml` as follows:
+If you'd like to use **DeepSeek-V3.2-Exp** as the primary LLM and **`mxbai-embed-large`** (via Ollama) for embeddings, configure `config.toml` as follows:
 
 ```toml
 [comprehender]
 # [MODIFY THIS] The llm used for RAG embedding.
 embedding_llm = "mxbai"
 
+[analyzer]
+analysis_llm = "deepseek-reasoner"
+
 [llm]
 # [MODIFY THIS] The default llm used for the generation, comprehension, and analysis.
 # If the llm is not specified in the corresponding section, the default llm will be used.
-default_llm = "gpt-5"
+default_llm = "deepseek-chat"
 
 # [MODIFY THIS] Your custom llm name.
-[llm.gpt-5]
+[llm.deepseek-chat]
 # The llm type, currently support "ollama", "openai", "ollama-reasoning", "openai-reasoning"
 llm_type = "openai"
 # The base url for the openai api.
-base_url = "https://api.openai.com/v1/  "
+base_url = "https://api.deepseek.com/v1"
 # The api key for the openai api, default using the environment variable "OPENAI_API_KEY".
 api_key = ""
 # The model used for the llm query.
-model = "gpt-5"
+model = "deepseek-chat"
 # The temperature for the llm query. Recommend to set it lower for generating code.
 temperature = 0.5
+
+[llm.deepseek-reasoner]
+llm_type = "openai-reasoning"
+base_url = "https://api.deepseek.com/v1"
+api_key = ""
+model = "deepseek-reasoner"
+temperature = 0.5
+max_tokens = -1
+query_timeout = 2000
 
 # [MODIFY THIS] Your custom llm name.
 [llm.mxbai]
