@@ -103,7 +103,9 @@ If you prefer a native installation, follow these steps:
 
 ## ⚙️ Using PromeFuzz
 
-> 👉 This section describes the usage of PromeFuzz. If your goal is simply to reproduce our experiments, we recommend using the ready-to-run scripts located in the `database/experiments` directory. For detailed instructions, refer to [`database/experiments/README.md`](database/experiments/README.md).
+> 👉 **Tip:** This section describes the usage of PromeFuzz. If your goal is simply to reproduce our experiments, we recommend using the ready-to-run scripts located in the `database/experiments` directory. For detailed instructions, refer to [`database/experiments/README.md`](database/experiments/README.md).
+
+> 🔔 **Note:** We recommend using the `DEBUG` mode if you run into any problems. To do so, prepend `-D` before the subcommand and append `--pool-size 1` at the end, like `./PromeFuzz.py -D [subcommand] --pool-size 1`. This is extremely helpful when setting up PromeFuzz with new libraries. And feel free to open an issue if you need further assistance.
 
 PromeFuzz is controlled via the command-line script `PromeFuzz.py`, which supports the following subcommands:
 
