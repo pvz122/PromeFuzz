@@ -77,7 +77,7 @@ class QueryLogger:
         # temporary dict to calculate the elapsed time
         self.query_start_time: dict[int, float] = {}
 
-        # whether to log the query, controled by the LLM client
+        # whether to log the query, controlled by the LLM client
         self.enable_log = True
 
         # register the start and exit functions
@@ -779,7 +779,11 @@ class LLMChat:
         messages = self._history + [{"role": "user", "content": prompt}]
         # query the LLM
         if isinstance(self.client, ReasoningLLMClient):
-            response, reasoning = self.client.query_with_messages(messages)
+            result = self.client.query_with_messages(messages)
+            if result is None:
+                response, reasoning = "", ""
+            else:
+                response, reasoning = result[0], result[1]
         else:
             response = self.client.query_with_messages(messages)
             reasoning = ""
