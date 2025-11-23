@@ -464,10 +464,19 @@ Each report is named after:
 If you use PromeFuzz in your research, please cite our ACM CCS 2025 paper:
 
 ```BibTeX
-@inproceedings{liu2025promefuzz,
-  title={PromeFuzz: A Knowledge-Driven Approach to Fuzzing Harness Generation with Large Language Models},
-  author={Liu, Yuwei and Deng, Junquan and Jia, Xiangkun and Wang, Yanhao and Wang, Minghua and Huang, Lin and Tao, Wei and Su, Purui},
-  booktitle={Proceedings of the 2025 on ACM SIGSAC Conference on Computer and Communications Security},
-  year={2025}
+@inproceedings{promefuzz-ccs25,
+   author = {Liu, Yuwei and Deng, Junquan and Jia, Xiangkun and Wang, Yanhao and Wang, Minghua and Huang, Lin and Wei, Tao and Su, Purui},
+   title = {PromeFuzz: A Knowledge-Driven Approach to Fuzzing Harness Generation with Large Language Models},
+   year = {2025},
+   isbn = {9798400715259},
+   publisher = {Association for Computing Machinery},
+   address = {New York, NY, USA},
+   url = {https://doi.org/10.1145/3719027.3765222},
+   doi = {10.1145/3719027.3765222},
+   booktitle = {Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security}, 
+   pages = {1559–1573}, 
+   numpages = {15}, 
+   keywords = {api-level fuzzing, fuzzing, fuzzing harness generation, large language model}, location = {Taipei, Taiwan}, 
+   series = {CCS '25} 
 }
 ```
