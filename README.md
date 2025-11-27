@@ -404,20 +404,19 @@ The script generates a directory `synthesized/` containing the merged fuzzing ha
 
 - `build_cov_synthesized_driver.sh`: Builds with **Clang Coverage**.
 
-Once built, you can start the fuzzing campaign in your preferred way. For example, with LibFuzzer:
-
-```bash
-./build_synthesized_driver.sh
-./synthesized_driver -jobs=4 -workers=4 ../../../in/
-```
-
-Or with AFL++:
+Once built, you can start the fuzzing campaign in your preferred way. For example, with AFL++:
 
 ```bash
 ./build_aflpp_synthesized_driver.sh
 # initial seeds are at database/pugixml/in/
 afl-fuzz -i ../../../in/ -o fuzz/ -- ./aflpp_synthesized_driver @@
 ```
+
+> 🔔 **Note**:
+In our experiments, all generated fuzzing harnesses are merged into a single harness and fuzzed using AFL++. 
+However, user feedback indicates that this approach is to some extent incompatible with libFuzzer and results in poor code coverage. 
+Therefore, we strongly advise against using libFuzzer for fuzzing campaigns. 
+If you must use it, please run each harness separately instead of relying on the merged harness.
 
 > 🛠️ **Automation Tip**: We provide utility scripts for orchestrating fuzzing, coverage collection, and crash reproducing. See [`database/utils/README.md`](database/utils/README.md) for details.
 

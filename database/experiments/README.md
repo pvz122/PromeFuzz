@@ -91,6 +91,13 @@ This script compiles the example fuzzing drivers and outputs to `database/pugixm
 
 ### 3. **Run Fuzzing Experiments**
 
+> **🔔 Note:**
+By default, all generated fuzzing harnesses are merged into a single harness and fuzzed using AFL++. 
+However, user feedback indicates that this approach is incompatible with libFuzzer and results in poor code coverage. 
+Therefore, we strongly advise against using libFuzzer for fuzzing campaigns. 
+If you must use libFuzzer, please run each harness separately instead of relying on the merged harness.
+
+
 Use `run_fuzz.py` to launch the fuzzing experiments with the compiled fuzzing harnesses:
 
 ```bash
