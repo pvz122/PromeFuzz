@@ -42,7 +42,8 @@ The generation stop condition is set to the default `ALL-COVER` mode. That is, t
 
 Each fuzzing experiment is conducted using **AFL++** for **24 hours**, repeated **10 times** to ensure statistical reliability. Branch coverage is measured using **GCov**.
 
-> **Note**: For `rapidcsv`, a single-header library, coverage is instead measured using **Clang Coverage** due to compilation constraints.
+> [!NOTE]
+> For `rapidcsv`, a single-header library, coverage is instead measured using **Clang Coverage** due to compilation constraints.
 
 ## RQ1: Generating Fuzzing Harnesses
 
@@ -83,20 +84,13 @@ To compile the provided example harnesses, run:
 
 This script compiles the example fuzzing drivers and outputs to `database/pugixml/latest/out/fuzz_driver`.
 
-> **Optional: Generate Harnesses from Scratch**  
-> If you wish to generate the fuzzing harnesses yourself, use the `generate_and_build_drivers.py` script instead:
-> ```bash
-> ./generate_and_build_drivers.py one pugixml
-> ```
+**Optional: Generate Harnesses from Scratch**  
+If you wish to generate the fuzzing harnesses yourself, use the `generate_and_build_drivers.py` script instead:
+```bash
+./generate_and_build_drivers.py one pugixml
+```
 
 ### 3. **Run Fuzzing Experiments**
-
-> **🔔 Note:**
-By default, all generated fuzzing harnesses are merged into a single harness and fuzzed using AFL++. 
-However, user feedback indicates that this approach is incompatible with libFuzzer and results in poor code coverage. 
-Therefore, we strongly advise against using libFuzzer for fuzzing campaigns. 
-If you must use libFuzzer, please run each harness separately instead of relying on the merged harness.
-
 
 Use `run_fuzz.py` to launch the fuzzing experiments with the compiled fuzzing harnesses:
 
@@ -111,8 +105,8 @@ To monitor the progress, attach to the `tmux` sessions with:
 ```bash
 tmux a
 ```
-
-> **Tip**: You can run `run_fuzz.py` multiple times to launch additional AFL++ instances for repeated trials.
+> [!TIP]
+> You can run `run_fuzz.py` multiple times to launch additional AFL++ instances for repeated trials.
 
 ### 4. **Collect Coverage Data**
 
@@ -146,7 +140,7 @@ In total, **PromeFuzz identified 25 previously unknown vulnerabilities** across 
 | [Issue 1719](https://github.com/liblouis/liblouis/issues/1719)    | liblouis | Heap Buffer Overflow       | Fixed     |
 | [Issue 1720](https://github.com/liblouis/liblouis/issues/1720)    | liblouis | Heap Buffer Overflow       | Fixed     |
 | [Issue 1721](https://github.com/liblouis/liblouis/issues/1721)    | liblouis | Heap Buffer Overflow       | Fixed     |
-| GHSA-jvjf-3q72-j9qg                                               | liblouis | Infinite Loop              | Confirmed |
+| GHSA-jvjf-3q72-j9qg [^1]                                               | liblouis | Infinite Loop              | Confirmed |
 | GHSA-w9jg-ggx9-3wwm                                               | liblouis | Heap Buffer Overflow       | Confirmed |
 | GHSA-3j86-vjp4-w63h                                               | liblouis | Heap Buffer Overflow       | Confirmed |
 | [Issue 669](https://gitlab.com/libtiff/libtiff/-/issues/669)      | libtiff  | Reachable Assertion        | Fixed     |
@@ -158,7 +152,7 @@ In total, **PromeFuzz identified 25 previously unknown vulnerabilities** across 
 | [Issue 187](https://github.com/d99kris/rapidcsv/issues/187)       | rapidcsv | Out-of-bounds Write        | Fixed     |
 | [Issue 188](https://github.com/d99kris/rapidcsv/issues/188)       | rapidcsv | Out-of-bounds Read         | Fixed     |
 
-> Vulnerability IDs starting with `GHSA-` are unpublished GitHub security advisories.
+[^1]: Vulnerability IDs starting with `GHSA-` are unpublished GitHub security advisories.
 
 Due to the inherent stochasticity of fuzzing, the specific vulnerabilities discovered may vary across different runs. To support analysis and reproducibility, we provide the `crash.py` script in the [utils directory](../utils/README.md) to help you collect, deduplicate, and analyze crashes from your own fuzzing experiments (as outlined in RQ1). Besides, we have provided several crash analysis examples in the [examples directory](/examples/README.md) for your reference.
 

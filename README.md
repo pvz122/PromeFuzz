@@ -69,6 +69,7 @@ The recommended way to set up PromeFuzz is using Docker for a consistent and iso
    docker exec -it promefuzz /bin/bash
    ```
 
+> [!TIP]
 > To stop the container, use `docker stop promefuzz`. To completely remove the container, use `docker rm promefuzz`.
 
 ### 🛠️ Manual Setup
@@ -103,9 +104,11 @@ If you prefer a native installation, follow these steps:
 
 ## ⚙️ Using PromeFuzz
 
-> 👉 **Tip:** This section describes the usage of PromeFuzz. If your goal is simply to reproduce our experiments, we recommend using the ready-to-run scripts located in the `database/experiments` directory. For detailed instructions, refer to [`database/experiments/README.md`](database/experiments/README.md).
+> [!TIP]
+> This section describes the usage of PromeFuzz. If your goal is simply to reproduce our experiments, we recommend using the ready-to-run scripts located in the `database/experiments` directory. For detailed instructions, refer to [`database/experiments/README.md`](database/experiments/README.md).
 
-> 🔔 **Note:** We recommend using the `DEBUG` mode if you run into any problems. To do so, prepend `-D` before the subcommand and append `--pool-size 1` at the end, like `./PromeFuzz.py -D [subcommand] --pool-size 1`. This is extremely helpful when setting up PromeFuzz with new libraries. And feel free to open an issue if you need further assistance.
+> [!NOTE]
+> We recommend using the `DEBUG` mode if you run into any problems. To do so, prepend `-D` before the subcommand and append `--pool-size 1` at the end, like `./PromeFuzz.py -D [subcommand] --pool-size 1`. This is extremely helpful when setting up PromeFuzz with new libraries. And feel free to open an issue if you need further assistance.
 
 PromeFuzz is controlled via the command-line script `PromeFuzz.py`, which supports the following subcommands:
 
@@ -150,7 +153,8 @@ During setup, you’ll need access to two types of LLMs:
 
 - **Embedding Model** (e.g., `mxbai-embed-large`) Enables semantic retrieval from documentation and source code.
 
-> 👉 Alternatively, copy `config.template.toml` to `config.toml` and edit it directly. The [template file](./config.template.toml) includes detailed comments explaining each option. Be sure to update all fields marked with `[MODIFY THIS]`.
+> [!TIP]
+> Alternatively, copy `config.template.toml` to `config.toml` and edit it directly. The [template file](./config.template.toml) includes detailed comments explaining each option. Be sure to update all fields marked with `[MODIFY THIS]`.
 
 ##### Example: Using DeepSeek-V3.2-Exp and Ollama Embeddings
 
@@ -222,7 +226,7 @@ cd latest
 ./build.sh normal && ./build.sh asan  # Build normal + ASan instrumented versions
 ```
 
-> ✅ This generates a `compile_commands.json` file in the `build_asan` directory, which PromeFuzz uses for code analysis.
+This generates a `compile_commands.json` file in the `build_asan` directory, which PromeFuzz uses for code analysis.
 
 #### For Custom Libraries (Not in Dataset)
 
@@ -236,7 +240,7 @@ cmake ..
 bear -- make
 ```
 
-> ✅ This generates `compile_commands.json` in `library/pugixml/build`.
+This generates `compile_commands.json` in `library/pugixml/build`.
 
 ### 3. **Configure the Library**
 
@@ -349,9 +353,11 @@ With your `lib.toml` configuration ready, execute:
 ./PromeFuzz.py -F database/pugixml/latest/lib.toml comprehend --pool-size 50
 ```
 
-> 💡 **Parallel Processing**: The comprehension tasks are highly parallelizable. You can increase `--pool-size` to speed up processing, depending on your available LLM API rate limits and system resources.
+> [!TIP]
+> **Parallel Processing**: The comprehension tasks are highly parallelizable. You can increase `--pool-size` to speed up processing, depending on your available LLM API rate limits and system resources.
 
-> 🔔 **LLM Selection**: The comprehension tasks can consume a significant number of tokens, so opting for a cost-effective LLM at this stage is recommended.
+> [!NOTE]
+> **LLM Selection**: The comprehension tasks can consume a significant number of tokens, so opting for a cost-effective LLM at this stage is recommended.
 
 ##### Output Artifacts
 
@@ -373,9 +379,11 @@ With your `lib.toml` configuration ready, execute:
 ./PromeFuzz.py -F database/pugixml/latest/lib.toml generate
 ```
 
-> 🔔 **Parallel Processing**: While parallelization is supported, it is recommended to keep `--pool-size` ≤ 10. As the generation process benefits from runtime feedback, so excessive parallelism may reduce effectiveness.
+> [!TIP]
+> **Parallel Processing**: While parallelization is supported, it is recommended to keep `--pool-size` ≤ 10. As the generation process benefits from runtime feedback, so excessive parallelism may reduce effectiveness.
 
-> 💡 **Resumable Execution**: PromeFuzz automatically saves its internal state to `database/pugixml/latest/out/generator/state.pkl`. If the process is interrupted, simply re-running the command will resume generation from the last saved state. To discard previous progress and regenerate from scratch, use `--clear-state`.
+> [!TIP]
+> **Resumable Execution**: PromeFuzz automatically saves its internal state to `database/pugixml/latest/out/generator/state.pkl`. If the process is interrupted, simply re-running the command will resume generation from the last saved state. To discard previous progress and regenerate from scratch, use `--clear-state`.
 
 ##### Output Artifacts
 
@@ -412,13 +420,14 @@ Once built, you can start the fuzzing campaign in your preferred way. For exampl
 afl-fuzz -i ../../../in/ -o fuzz/ -- ./aflpp_synthesized_driver @@
 ```
 
-> 🔔 **Note**:
-In our experiments, all generated fuzzing harnesses are merged into a single harness and fuzzed using AFL++. 
+> [!CAUTION]
+> In our experiments, all generated fuzzing harnesses are merged into a single harness and fuzzed using AFL++. 
 However, user feedback indicates that this approach is to some extent incompatible with libFuzzer and results in poor code coverage. 
 Therefore, we strongly advise against using libFuzzer for fuzzing campaigns. 
 If you must use it, please run each harness separately instead of relying on the merged harness.
 
-> 🛠️ **Automation Tip**: We provide utility scripts for orchestrating fuzzing, coverage collection, and crash reproducing. See [`database/utils/README.md`](database/utils/README.md) for details.
+> [!TIP]
+> **Automation**: We provide utility scripts for orchestrating fuzzing, coverage collection, and crash reproducing. See [`database/utils/README.md`](database/utils/README.md) for details.
 
 ### 8. **Collect Statistics**
 
