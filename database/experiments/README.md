@@ -110,10 +110,10 @@ tmux a
 
 ### 4. **Collect Coverage Data**
 
-Use `run_gcov.py` to collect code coverage data from the fuzzing experiments. This script processes the generated fuzzing artifacts and computes coverage over time:
+Use `collect_coverage.py` to collect code coverage data from the fuzzing experiments. This script processes the generated fuzzing artifacts and computes coverage over time:
 
 ```bash
-./run_gcov.py one pugixml
+./collect_coverage.py one pugixml
 ```
 
 The script generates a coverage report directory at `database/pugixml/latest/gcov`, containing **per-hour JSON files** that record **line and branch coverage** throughout the 24-hour fuzzing period, and a **summary CSV file** that aggregates the coverage data across all runs.
