@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the following paper."
+
+title: "PromeFuzz: A Knowledge-Driven Approach to Fuzzing Harness Generation with Large Language Models"
+
+authors:
+  - given-names: "Yuwei"
+    family-names: "Liu"
+  - given-names: "Junquan"
+    family-names: "Deng"
+  - given-names: "Xiangkun"
+    family-names: "Jia"
+  - given-names: "Yanhao"
+    family-names: "Wang"
+  - given-names: "Minghua"
+    family-names: "Wang"
+  - given-names: "Lin"
+    family-names: "Huang"
+  - given-names: "Tao"
+    family-names: "Wei"
+  - given-names: "Purui"
+    family-names: "Su"
+
+preferred-citation:
+  type: conference-paper
+
+  title: "PromeFuzz: A Knowledge-Driven Approach to Fuzzing Harness Generation with Large Language Models"
+
+  authors:
+    - given-names: "Yuwei"
+      family-names: "Liu"
+    - given-names: "Junquan"
+      family-names: "Deng"
+    - given-names: "Xiangkun"
+      family-names: "Jia"
+    - given-names: "Yanhao"
+      family-names: "Wang"
+    - given-names: "Minghua"
+      family-names: "Wang"
+    - given-names: "Lin"
+      family-names: "Huang"
+    - given-names: "Tao"
+      family-names: "Wei"
+    - given-names: "Purui"
+      family-names: "Su"
+
+  year: 2025
+
+  collection-title: "Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security"
+
+  start: 1559
+  end: 1573
+
+  doi: "10.1145/3719027.3765222"
+
+  publisher:
+    name: "Association for Computing Machinery"
